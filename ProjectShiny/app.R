@@ -7,8 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
-packages = c('DT', 'tmap','clock','leaflet','mapview','DT', 'ggiraph', 'plotly', 'shiny', 'tidyverse', 'dplyr','tibbletime', 'lubridate', 'rgdal', 'readr', 'sf', 'raster','igraph','tidygraph', 'ggraph','visNetwork','mapview','forcats')
-
+packages = c('ggstatsplot','clock','leaflet','mapview','DT', 'ggiraph', 'plotly', 'shiny', 'tidyverse', 'dplyr','tibbletime', 'lubridate', 'rgdal', 'readr','gapminder','igraph','tidygraph', 'ggraph','visNetwork','mapview','forcats')
 for(p in packages){
     if(!require(p, character.only = T)){    
         install.packages(p)  
@@ -16,46 +15,33 @@ for(p in packages){
     library(p, character.only = T)
 }
 
-gps <- read_csv("gps.csv")
 
-gps$Timestamp <-  date_time_parse(gps$Timestamp,
-                                  zone = "",
-                                  format = "%m/%d/%Y %H:%M")
-gps$Day  = get_day(gps$Timestamp)
-gps$Hour = get_hour(gps$Timestamp)
-gps$id<- as_factor(gps$CarID)
+GasTech <- read_csv("Final.csv")
+GasTech$Date <- date_time_parse(GasTech$Date,
+                                 zone = "",
+                                 format = "%m/%d/%Y")
+GasTech$CarID <- as_factor(GasTech$CarID)
+glimpse(GasTech)
 
-bgmap <- raster("MC2-tourist_modified.tif")
-tmap_mode("plot")
-tm_shape(bgmap) +
-    tm_raster(bgmap,
-              legend.show = FALSE)
+GasTech_df = data.frame(GasTech)
 
-tm_shape(bgmap) +
-    tm_rgb(bgmap, r = 1,g = 2,b = 3,
-           alpha = NA,
-           saturation = 1,
-           interpolate = TRUE,
-           max.value = 255)
+df <- GasTech_df %>% 
+      group_by(Employment_Type, Category, Weekday.Weekend) %>% 
+      summarise(total_spent = sum(Price))
 
-Abila_st <- st_read(dsn = "Geospatial",
-                    layer = "Abila")
+ggbetweenstats(
+  data = GasTech_df,
+  x = Employment_Type,
+  y = Price,
+  title = "Distribution of CC spend across locations"
+)
 
-gps_sf <- st_as_sf(gps, 
-                   coords = c("long", "lat"),
-                   crs= 4326)
-gps_path <- gps_sf %>%
-    group_by(CarID) %>%
-    summarize(m = mean(Timestamp), 
-              do_union=FALSE) %>%
-    st_cast("LINESTRING")
-
-p = npts(gps_path, by_feature = TRUE)
-gps_path2 <- cbind(gps_path, p)
-df_gps_path2 = data.frame(gps_path2)
-
-GasTech <- read_csv("C:/joannalianyz/draft/Final.csv")
-
+ggbetweenstats(
+  data = GasTech_df,
+  x = Category,
+  y = Price,
+  title = "Distribution of CC spend across locations"
+)
 
 # Define UI for application
 
@@ -63,61 +49,61 @@ ui <- fluidPage(
     titlePanel("GPS & credit card data of GASTech employees"),    
     sidebarLayout(        
         sidebarPanel(            
-            radioButtons("EmpName", " Employee Name:",
-                        c("Nils Calixto",
-                          "Lars Azada",
-                          "Felix Balas",
-                          "Ingrid Barranco",
-                          "Isak Baza",
-                          "Linnea Bergen",
-                          "Elsa Orilla",
-                          "Lucas Alcazar",
-                          "Gustav Cazar",
-                          "Ada Campo-Corrente",
-                          "Axel Calzas",
-                          "Hideki Cocinaro",
-                          "Inga Ferro",
-                          "Lidelse Dedos",
-                          "Loreto Bodrogi",
-                          "Isia Vann",
-                          "Sven Flecha",
-                          "Birgitta Frente",
-                          "Vira Frente",
-                          "Stenig Fusil",
-                          "Hennie Osvaldo",
-                          "Adra Nubarron",
-                          "Varja Lagos",
-                          "Minke Mies",
-                          "Kanon Herrero",
-                          "Marin Onda",
-                          "Kare Orilla",
-                          "Isande Borrasca",
-                          "Bertrand Ovan",
-                          "Felix Resumir",
-                          "Sten Sanjorge Jr.",
-                          "Orhan Strum",
-                          "Brand Tempestad",
-                          "Edvard Vann",
-                          "Willem Vasco-Pais"),
-            selected = "Edvard Vann"),
-                        ),
-        mainPanel(width = 12,
-                  DT::dataTableOutput("mytable")
+            selectInput(inputId = "variable",
+                        label = "Employee Type:",
+                        choices = unique(GasTech$Employment_Type),
+                        selected = "Security"),
+            selectInput(inputId = "variable2",
+                        label = "Category:",
+                        choices = unique(GasTech$Category),
+                        selected = "Food"),
+            selectInput(inputId = "variable3",
+                        label = "Weekday/Weekend:",
+                        choices = unique(GasTech$`Weekday/Weekend`),
+                        selected = "Weekday"),
+            selectInput(inputId = "variable4",
+                        label="Confidence Level:",
+                        choices=c("90%"=0.1,
+                                  "95%"=0.05,
+                                  "99%"=0.01,
+                                  "99.9%"=0.001),
+                        selected = "90%"),
+            checkboxInput(inputId = "show_data",
+                          label = "Show data table",
+                          value = TRUE)
+        ),
+        mainPanel(plotOutput("distPlot"),
+                  DT::dataTableOutput(outputId = "cctable")
         )
     )
 )
 
 
-server <- function(input, output){
-    observe({
-        x <- input$inRadioButtons
-    output$mytable = DT::renderDataTable(Final,
-                                         filter = "top",
-                                         options = list(
-                                             pageLength = 10)
-    )
-    })
+server <- function(input, output) {
+        output$distPlot <- renderPlotly({
+          ggbetweenstats(
+            data = GasTech_df,
+            x = Employment_T,
+            y = Price,
+            title = "Distribution of CC spend across locations"
+          )
+          
+          ggbetweenstats(
+            data = GasTech_df,
+            x = Category,
+            y = Price,
+            title = "Distribution of CC spend across locations"
+          )
+})
+        output$cctable <- DT::renderDataTable({
+            if(input$show_data){
+                DT::datatable(data = GasTech %>% select(1:10),
+                              options= list(pageLength = 10),
+                              rownames = FALSE)    
+            }
+        })
 }
 
 # Run the application 
+
 shinyApp(ui = ui, server = server)

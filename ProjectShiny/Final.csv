@@ -1,1055 +1,1055 @@
-CarID,Name,Date,Time,Day of Week,location,price,last4ccnum
-34,Edvard Vann,06-01-2014,07:28,Monday,Brew've Been Served,11.34,4795
-12,Hideki Cocinaro,06-01-2014,07:34,Monday,Hallowed Grounds,52.22,7108
-20,Stenig Fusil,06-01-2014,07:35,Monday,Brew've Been Served,8.33,6816
-18,Birgitta Frente,06-01-2014,07:36,Monday,Hallowed Grounds,16.72,9617
-17,Sven Flecha,06-01-2014,07:37,Monday,Brew've Been Served,4.24,7384
-6,Linnea Bergen,06-01-2014,07:42,Monday,Coffee Cameleon,28.73,7253
-33,Brand Tempestad,06-01-2014,07:43,Monday,Brew've Been Served,16.9,9683
-27,Kare Orilla,06-01-2014,07:48,Monday,Hallowed Grounds,10.66,3492
-29,Bertrand Ovan,06-01-2014,07:49,Monday,Coffee Cameleon,8.39,5921
-21,Hennie Osvaldo,06-01-2014,07:52,Monday,Brew've Been Served,32.83,9405
-25,Kanon Herrero,06-01-2014,07:54,Monday,Coffee Cameleon,11.86,2142
-8,Lucas Alcazar,06-01-2014,07:54,Monday,Hallowed Grounds,16.88,7889
-23,Varja Lagos,06-01-2014,07:55,Monday,Brew've Been Served,3.67,3484
-1,Nils Calixto,06-01-2014,07:55,Monday,Hallowed Grounds,8.05,9551
-13,Inga Ferro,06-01-2014,07:59,Monday,Brew've Been Served,8.88,7819
-14,Lidelse Dedos,06-01-2014,08:01,Monday,Hallowed Grounds,10.07,1874
-24,Minke Mies,06-01-2014,08:06,Monday,Brew've Been Served,15.58,4434
-15,Loreto Bodrogi,06-01-2014,08:06,Monday,Brew've Been Served,18.24,3853
-30,Felix Resumir,06-01-2014,08:07,Monday,Brew've Been Served,5.66,6901
-22,Adra Nubarron,06-01-2014,08:16,Monday,Brew've Been Served,14.97,1286
-19,Vira Frente,06-01-2014,12:00,Monday,Bean There Done That,4.27,6895
-10,Ada Campo-Corrente,06-01-2014,12:00,Monday,Brewed Awakenings,4.35,8332
-11,Axel Calzas,06-01-2014,12:00,Monday,Bean There Done That,5.24,1321
-4,Ingrid Barranco,06-01-2014,12:00,Monday,Brewed Awakenings,5.72,7688
-9,Gustav Cazar,06-01-2014,12:00,Monday,Bean There Done That,8.54,1877
-2,Lars Azada,06-01-2014,12:00,Monday,Bean There Done That,10.28,1415
-5,Isak Baza,06-01-2014,12:00,Monday,Jack's Magical Beans,11.03,6899
-3,Felix Balas,06-01-2014,12:00,Monday,Bean There Done That,16.09,9635
-7,Elsa Orilla,06-01-2014,12:00,Monday,Brewed Awakenings,16.89,2540
-35,Willem Vasco-Pais,06-01-2014,12:00,Monday,Jack's Magical Beans,18.1,2463
-28,Isande Borrasca,06-01-2014,12:00,Monday,Jack's Magical Beans,18.59,9241
-32,Orhan Strum,06-01-2014,12:00,Monday,Jack's Magical Beans,27.84,8156
-10,Ada Campo-Corrente,06-01-2014,12:56,Monday,Katerina's Cafe,13.68,8332
-32,Orhan Strum,06-01-2014,12:57,Monday,Hippokampos,9.16,8156
-6,Linnea Bergen,06-01-2014,13:19,Monday,Gelatogalore,12.74,7253
-23,Varja Lagos,06-01-2014,13:19,Monday,Kalami Kafenion,70.1,3484
-1,Nils Calixto,06-01-2014,13:21,Monday,Hippokampos,28.23,9551
-7,Elsa Orilla,06-01-2014,13:22,Monday,Ouzeri Elian,38.9,2540
-34,Edvard Vann,06-01-2014,13:23,Monday,Hippokampos,13.26,4795
-2,Lars Azada,06-01-2014,13:24,Monday,Guy's Gyros,15.44,1415
-4,Ingrid Barranco,06-01-2014,13:27,Monday,Abila Zacharo,30.08,7688
-22,Adra Nubarron,06-01-2014,13:27,Monday,Abila Zacharo,50.14,1286
-17,Sven Flecha,06-01-2014,13:30,Monday,Guy's Gyros,16.92,7384
-16,Isia Vann,06-01-2014,13:35,Monday,Abila Zacharo,92.05,7354
-20,Stenig Fusil,06-01-2014,13:37,Monday,Ouzeri Elian,20.56,6816
-26,Marin Onda,06-01-2014,13:39,Monday,Guy's Gyros,11.22,1310
-8,Lucas Alcazar,06-01-2014,13:41,Monday,Gelatogalore,22.64,7889
-19,Vira Frente,06-01-2014,13:42,Monday,Ouzeri Elian,20.4,6895
-5,Isak Baza,06-01-2014,13:46,Monday,Katerina's Cafe,18.56,6899
-3,Felix Balas,06-01-2014,13:46,Monday,Guy's Gyros,30.82,9635
-35,Willem Vasco-Pais,06-01-2014,13:46,Monday,Guy's Gyros,99.67,2463
-11,Axel Calzas,06-01-2014,13:47,Monday,Kalami Kafenion,22.13,1321
-29,Bertrand Ovan,06-01-2014,13:48,Monday,Ouzeri Elian,30.87,5921
-14,Lidelse Dedos,06-01-2014,13:50,Monday,Katerina's Cafe,13.59,1874
-18,Birgitta Frente,06-01-2014,13:50,Monday,Katerina's Cafe,32.64,9617
-24,Minke Mies,06-01-2014,13:52,Monday,Kalami Kafenion,22.31,4434
-27,Kare Orilla,06-01-2014,13:52,Monday,Gelatogalore,36.33,3492
-25,Kanon Herrero,06-01-2014,13:53,Monday,Katerina's Cafe,36.95,2142
-21,Hennie Osvaldo,06-01-2014,13:54,Monday,Abila Zacharo,23.15,9405
-9,Gustav Cazar,06-01-2014,13:57,Monday,Hippokampos,8.64,1877
-15,Loreto Bodrogi,06-01-2014,13:59,Monday,Katerina's Cafe,39.41,3853
-13,Inga Ferro,06-01-2014,14:00,Monday,Gelatogalore,23.41,7819
-12,Hideki Cocinaro,06-01-2014,14:05,Monday,Abila Zacharo,78.11,7108
-30,Felix Resumir,06-01-2014,14:17,Monday,Katerina's Cafe,19.65,6901
-23,Varja Lagos,06-01-2014,17:28,Monday,U-Pump,59.51,3484
-17,Sven Flecha,06-01-2014,19:18,Monday,Guy's Gyros,39.29,7384
-28,Isande Borrasca,06-01-2014,19:50,Monday,Frydos Autosupply n' More,273.87,9241
-6,Linnea Bergen,06-01-2014,20:07,Monday,Katerina's Cafe,23.63,7253
-14,Lidelse Dedos,06-01-2014,20:08,Monday,Katerina's Cafe,12.32,1874
-30,Felix Resumir,06-01-2014,20:09,Monday,Guy's Gyros,11.94,6901
-23,Varja Lagos,06-01-2014,20:13,Monday,Guy's Gyros,22.57,3484
-20,Stenig Fusil,06-01-2014,20:15,Monday,Guy's Gyros,117.82,6816
-11,Axel Calzas,06-01-2014,20:20,Monday,Hippokampos,35.34,1321
-13,Inga Ferro,06-01-2014,20:24,Monday,Guy's Gyros,28.94,7819
-1,Nils Calixto,06-01-2014,20:26,Monday,Albert's Fine Clothing,276.9,9551
-12,Hideki Cocinaro,06-01-2014,20:28,Monday,Guy's Gyros,95.29,7108
-21,Hennie Osvaldo,06-01-2014,20:29,Monday,Katerina's Cafe,17.92,9405
-19,Vira Frente,06-01-2014,20:29,Monday,Hippokampos,85.5,6895
-29,Bertrand Ovan,06-01-2014,20:33,Monday,Katerina's Cafe,15.52,5921
-9,Gustav Cazar,06-01-2014,20:36,Monday,Hippokampos,26.8,1877
-2,Lars Azada,06-01-2014,20:46,Monday,Hippokampos,21.33,1415
-16,Isia Vann,06-01-2014,20:49,Monday,Shoppers' Delight,293.67,7354
-4,Ingrid Barranco,06-01-2014,20:52,Monday,Hippokampos,17.27,7688
-27,Kare Orilla,06-01-2014,20:59,Monday,Katerina's Cafe,26.1,3492
-18,Birgitta Frente,06-01-2014,21:03,Monday,Katerina's Cafe,10.72,9617
-24,Minke Mies,06-01-2014,21:03,Monday,Albert's Fine Clothing,121.76,4434
-32,Orhan Strum,06-01-2014,21:11,Monday,Hippokampos,28.14,8156
-25,Kanon Herrero,06-01-2014,21:23,Monday,Frydos Autosupply n' More,197.32,2142
-26,Marin Onda,06-01-2014,21:32,Monday,Frydos Autosupply n' More,314.98,1310
-10,Ada Campo-Corrente,06-01-2014,21:52,Monday,Hippokampos,20.61,8332
-17,Sven Flecha,07-01-2014,07:27,Tuesday,Brew've Been Served,5.08,7384
-34,Edvard Vann,07-01-2014,07:33,Tuesday,Brew've Been Served,7.09,4795
-8,Lucas Alcazar,07-01-2014,07:35,Tuesday,Hallowed Grounds,14.05,7889
-14,Lidelse Dedos,07-01-2014,07:41,Tuesday,Hallowed Grounds,19.59,1874
-20,Stenig Fusil,07-01-2014,07:45,Tuesday,Brew've Been Served,19.6,6816
-29,Bertrand Ovan,07-01-2014,07:46,Tuesday,Coffee Cameleon,9.1,5921
-1,Nils Calixto,07-01-2014,07:46,Tuesday,Hallowed Grounds,84.44,9551
-26,Marin Onda,07-01-2014,07:47,Tuesday,Hallowed Grounds,7.88,1310
-12,Hideki Cocinaro,07-01-2014,07:48,Tuesday,Hallowed Grounds,18.97,7108
-6,Linnea Bergen,07-01-2014,07:49,Tuesday,Coffee Cameleon,27.66,7253
-27,Kare Orilla,07-01-2014,07:50,Tuesday,Hallowed Grounds,9.61,3492
-24,Minke Mies,07-01-2014,07:52,Tuesday,Brew've Been Served,3,4434
-22,Adra Nubarron,07-01-2014,07:54,Tuesday,Brew've Been Served,11.92,1286
-23,Varja Lagos,07-01-2014,07:55,Tuesday,Brew've Been Served,69.06,3484
-33,Brand Tempestad,07-01-2014,07:56,Tuesday,Brew've Been Served,98.53,9683
-25,Kanon Herrero,07-01-2014,08:00,Tuesday,Coffee Cameleon,11.55,2142
-18,Birgitta Frente,07-01-2014,08:01,Tuesday,Hallowed Grounds,9.92,9617
-21,Hennie Osvaldo,07-01-2014,08:02,Tuesday,Brew've Been Served,14.49,9405
-13,Inga Ferro,07-01-2014,08:06,Tuesday,Brew've Been Served,3.03,7819
-30,Felix Resumir,07-01-2014,08:18,Tuesday,Brew've Been Served,47.74,6901
-10,Ada Campo-Corrente,07-01-2014,12:00,Tuesday,Brewed Awakenings,6.72,8332
-11,Axel Calzas,07-01-2014,12:00,Tuesday,Bean There Done That,8.03,1321
-4,Ingrid Barranco,07-01-2014,12:00,Tuesday,Brewed Awakenings,12.17,7688
-28,Isande Borrasca,07-01-2014,12:00,Tuesday,Jack's Magical Beans,18.77,9241
-32,Orhan Strum,07-01-2014,12:00,Tuesday,Jack's Magical Beans,19.61,8156
-5,Isak Baza,07-01-2014,12:00,Tuesday,Jack's Magical Beans,23.68,6899
-19,Vira Frente,07-01-2014,12:00,Tuesday,Bean There Done That,46.25,6895
-2,Lars Azada,07-01-2014,12:00,Tuesday,Bean There Done That,51.25,1415
-9,Gustav Cazar,07-01-2014,12:00,Tuesday,Bean There Done That,53.89,1877
-15,Loreto Bodrogi,07-01-2014,12:00,Tuesday,Brewed Awakenings,64.84,3853
-35,Willem Vasco-Pais,07-01-2014,12:00,Tuesday,Jack's Magical Beans,69.84,2463
-7,Elsa Orilla,07-01-2014,12:00,Tuesday,Brewed Awakenings,71.59,2540
-32,Orhan Strum,07-01-2014,13:13,Tuesday,Guy's Gyros,29.57,8156
-2,Lars Azada,07-01-2014,13:20,Tuesday,Abila Zacharo,13.52,1415
-10,Ada Campo-Corrente,07-01-2014,13:20,Tuesday,Gelatogalore,35.06,8332
-16,Isia Vann,07-01-2014,13:20,Tuesday,Guy's Gyros,38.56,7354
-22,Adra Nubarron,07-01-2014,13:24,Tuesday,Kalami Kafenion,45.05,1286
-5,Isak Baza,07-01-2014,13:25,Tuesday,Abila Zacharo,82.25,6899
-25,Kanon Herrero,07-01-2014,13:29,Tuesday,Ouzeri Elian,29.1,2142
-26,Marin Onda,07-01-2014,13:30,Tuesday,Gelatogalore,51.64,1310
-20,Stenig Fusil,07-01-2014,13:33,Tuesday,Guy's Gyros,11.31,6816
-34,Edvard Vann,07-01-2014,13:33,Tuesday,Kalami Kafenion,18.06,4795
-8,Lucas Alcazar,07-01-2014,13:33,Tuesday,Katerina's Cafe,22.27,7889
-6,Linnea Bergen,07-01-2014,13:33,Tuesday,Gelatogalore,34.04,7253
-4,Ingrid Barranco,07-01-2014,13:33,Tuesday,Abila Zacharo,52.72,7688
-19,Vira Frente,07-01-2014,13:34,Tuesday,Ouzeri Elian,64.84,6895
-35,Willem Vasco-Pais,07-01-2014,13:35,Tuesday,Gelatogalore,8.98,2463
-1,Nils Calixto,07-01-2014,13:37,Tuesday,Gelatogalore,21.52,9551
-21,Hennie Osvaldo,07-01-2014,13:39,Tuesday,Gelatogalore,17.21,9405
-33,Brand Tempestad,07-01-2014,13:41,Tuesday,Abila Zacharo,17.81,9683
-23,Varja Lagos,07-01-2014,13:41,Tuesday,Katerina's Cafe,51.41,3484
-9,Gustav Cazar,07-01-2014,13:45,Tuesday,Kalami Kafenion,22.83,1877
-3,Felix Balas,07-01-2014,13:46,Tuesday,Guy's Gyros,10.11,9635
-12,Hideki Cocinaro,07-01-2014,13:46,Tuesday,Kalami Kafenion,22.14,7108
-14,Lidelse Dedos,07-01-2014,13:52,Tuesday,Gelatogalore,71.77,1874
-15,Loreto Bodrogi,07-01-2014,13:53,Tuesday,Hippokampos,51.69,3853
-29,Bertrand Ovan,07-01-2014,13:54,Tuesday,Gelatogalore,88.97,5921
-13,Inga Ferro,07-01-2014,13:55,Tuesday,Abila Zacharo,65.9,7819
-11,Axel Calzas,07-01-2014,13:56,Tuesday,Ouzeri Elian,16.2,1321
-27,Kare Orilla,07-01-2014,14:00,Tuesday,Hippokampos,76.11,3492
-24,Minke Mies,07-01-2014,14:07,Tuesday,Katerina's Cafe,10.9,4434
-18,Birgitta Frente,07-01-2014,14:09,Tuesday,Guy's Gyros,12.57,9617
-30,Felix Resumir,07-01-2014,14:09,Tuesday,Ouzeri Elian,59.51,6901
-13,Inga Ferro,07-01-2014,19:45,Tuesday,Guy's Gyros,14.87,7819
-23,Varja Lagos,07-01-2014,19:48,Tuesday,Guy's Gyros,31.23,3484
-9,Gustav Cazar,07-01-2014,20:01,Tuesday,Hippokampos,20.17,1877
-2,Lars Azada,07-01-2014,20:02,Tuesday,Hippokampos,11.56,1415
-19,Vira Frente,07-01-2014,20:04,Tuesday,Albert's Fine Clothing,308.36,6895
-6,Linnea Bergen,07-01-2014,20:09,Tuesday,Katerina's Cafe,19.49,7253
-34,Edvard Vann,07-01-2014,20:10,Tuesday,Guy's Gyros,26.82,4795
-17,Sven Flecha,07-01-2014,20:10,Tuesday,Guy's Gyros,42.25,7384
-25,Kanon Herrero,07-01-2014,20:11,Tuesday,Katerina's Cafe,10.07,2142
-33,Brand Tempestad,07-01-2014,20:11,Tuesday,Guy's Gyros,76.71,9683
-14,Lidelse Dedos,07-01-2014,20:12,Tuesday,Katerina's Cafe,55.63,1874
-8,Lucas Alcazar,07-01-2014,20:13,Tuesday,Katerina's Cafe,94.75,7889
-15,Loreto Bodrogi,07-01-2014,20:14,Tuesday,Guy's Gyros,62.33,3853
-28,Isande Borrasca,07-01-2014,20:15,Tuesday,Ouzeri Elian,11.41,9241
-16,Isia Vann,07-01-2014,20:19,Tuesday,Guy's Gyros,89.76,7354
-30,Felix Resumir,07-01-2014,20:20,Tuesday,Frydos Autosupply n' More,312.73,6901
-29,Bertrand Ovan,07-01-2014,20:32,Tuesday,Katerina's Cafe,19.53,5921
-18,Birgitta Frente,07-01-2014,20:33,Tuesday,Katerina's Cafe,17.26,9617
-11,Axel Calzas,07-01-2014,20:34,Tuesday,Hippokampos,70.19,1321
-27,Kare Orilla,07-01-2014,20:47,Tuesday,Katerina's Cafe,32.83,3492
-32,Orhan Strum,07-01-2014,20:51,Tuesday,Hippokampos,32.99,8156
-21,Hennie Osvaldo,07-01-2014,21:01,Tuesday,Katerina's Cafe,33.29,9405
-7,Elsa Orilla,07-01-2014,21:03,Tuesday,Hippokampos,21.2,2540
-35,Willem Vasco-Pais,07-01-2014,21:17,Tuesday,Hippokampos,37.88,2463
-26,Marin Onda,07-01-2014,21:19,Tuesday,Katerina's Cafe,18.35,1310
-4,Ingrid Barranco,07-01-2014,21:21,Tuesday,Hippokampos,35.85,7688
-10,Ada Campo-Corrente,07-01-2014,21:51,Tuesday,Hippokampos,22.18,8332
-16,Isia Vann,08-01-2014,07:31,Wednesday,Brew've Been Served,15.66,7354
-14,Lidelse Dedos,08-01-2014,07:39,Wednesday,Hallowed Grounds,8.15,1874
-26,Marin Onda,08-01-2014,07:39,Wednesday,Hallowed Grounds,8.28,1310
-12,Hideki Cocinaro,08-01-2014,07:39,Wednesday,Hallowed Grounds,12.19,7108
-18,Birgitta Frente,08-01-2014,07:43,Wednesday,Hallowed Grounds,3.4,9617
-27,Kare Orilla,08-01-2014,07:47,Wednesday,Hallowed Grounds,3.11,3492
-20,Stenig Fusil,08-01-2014,07:48,Wednesday,Brew've Been Served,8.27,6816
-33,Brand Tempestad,08-01-2014,07:48,Wednesday,Brew've Been Served,19.17,9683
-15,Loreto Bodrogi,08-01-2014,07:48,Wednesday,Brew've Been Served,32.92,3853
-21,Hennie Osvaldo,08-01-2014,07:50,Wednesday,Brew've Been Served,33.68,9405
-6,Linnea Bergen,08-01-2014,07:51,Wednesday,Coffee Cameleon,6.59,7253
-29,Bertrand Ovan,08-01-2014,07:52,Wednesday,Coffee Cameleon,12.26,5921
-8,Lucas Alcazar,08-01-2014,07:55,Wednesday,Hallowed Grounds,79.92,7889
-23,Varja Lagos,08-01-2014,07:55,Wednesday,Brew've Been Served,91.87,3484
-1,Nils Calixto,08-01-2014,07:56,Wednesday,Hallowed Grounds,12.86,9551
-25,Kanon Herrero,08-01-2014,07:59,Wednesday,Coffee Cameleon,15.71,2142
-34,Edvard Vann,08-01-2014,08:00,Wednesday,Brew've Been Served,32.3,4795
-17,Sven Flecha,08-01-2014,08:01,Wednesday,Brew've Been Served,3.42,7384
-13,Inga Ferro,08-01-2014,08:01,Wednesday,Brew've Been Served,17.13,7819
-30,Felix Resumir,08-01-2014,08:03,Wednesday,Brew've Been Served,10.15,6901
-22,Adra Nubarron,08-01-2014,08:16,Wednesday,Brew've Been Served,7.26,1286
-24,Minke Mies,08-01-2014,08:18,Wednesday,Brew've Been Served,6.3,4434
-5,Isak Baza,08-01-2014,12:00,Wednesday,Jack's Magical Beans,3.96,6899
-9,Gustav Cazar,08-01-2014,12:00,Wednesday,Bean There Done That,8.06,1877
-4,Ingrid Barranco,08-01-2014,12:00,Wednesday,Brewed Awakenings,11.73,7688
-3,Felix Balas,08-01-2014,12:00,Wednesday,Bean There Done That,12.07,9635
-7,Elsa Orilla,08-01-2014,12:00,Wednesday,Brewed Awakenings,12.32,2540
-32,Orhan Strum,08-01-2014,12:00,Wednesday,Jack's Magical Beans,12.37,8156
-10,Ada Campo-Corrente,08-01-2014,12:00,Wednesday,Brewed Awakenings,15.03,8332
-2,Lars Azada,08-01-2014,12:00,Wednesday,Bean There Done That,17.45,1415
-28,Isande Borrasca,08-01-2014,12:00,Wednesday,Jack's Magical Beans,18.78,9241
-35,Willem Vasco-Pais,08-01-2014,12:00,Wednesday,Jack's Magical Beans,31.25,2463
-11,Axel Calzas,08-01-2014,12:00,Wednesday,Bean There Done That,94.96,1321
-15,Loreto Bodrogi,08-01-2014,12:29,Wednesday,Frank's Fuel,65.34,3853
-7,Elsa Orilla,08-01-2014,12:56,Wednesday,Chostus Hotel,107.51,2540
-10,Ada Campo-Corrente,08-01-2014,13:12,Wednesday,Hippokampos,26.55,8332
-34,Edvard Vann,08-01-2014,13:15,Wednesday,Hippokampos,9.03,4795
-33,Brand Tempestad,08-01-2014,13:19,Wednesday,Chostus Hotel,111.89,9683
-32,Orhan Strum,08-01-2014,13:21,Wednesday,Ouzeri Elian,109.73,8156
-35,Willem Vasco-Pais,08-01-2014,13:23,Wednesday,Abila Zacharo,36.85,2463
-6,Linnea Bergen,08-01-2014,13:26,Wednesday,Hippokampos,16.59,7253
-5,Isak Baza,08-01-2014,13:28,Wednesday,Katerina's Cafe,8.53,6899
-21,Hennie Osvaldo,08-01-2014,13:28,Wednesday,Gelatogalore,20.72,9405
-29,Bertrand Ovan,08-01-2014,13:29,Wednesday,Kalami Kafenion,24.08,5921
-11,Axel Calzas,08-01-2014,13:31,Wednesday,Hippokampos,37.89,1321
-17,Sven Flecha,08-01-2014,13:32,Wednesday,Guy's Gyros,30.12,7384
-2,Lars Azada,08-01-2014,13:34,Wednesday,Abila Zacharo,14.41,1415
-26,Marin Onda,08-01-2014,13:34,Wednesday,Katerina's Cafe,88.98,1310
-22,Adra Nubarron,08-01-2014,13:38,Wednesday,Gelatogalore,50.36,1286
-23,Varja Lagos,08-01-2014,13:39,Wednesday,Gelatogalore,119.75,3484
-15,Loreto Bodrogi,08-01-2014,13:40,Wednesday,Guy's Gyros,77.9,3853
-25,Kanon Herrero,08-01-2014,13:41,Wednesday,Katerina's Cafe,26.45,2142
-8,Lucas Alcazar,08-01-2014,13:42,Wednesday,Gelatogalore,35.29,7889
-19,Vira Frente,08-01-2014,13:42,Wednesday,Katerina's Cafe,57.04,6895
-1,Nils Calixto,08-01-2014,13:43,Wednesday,Hippokampos,39.8,9551
-16,Isia Vann,08-01-2014,13:44,Wednesday,Kalami Kafenion,31.96,7354
-27,Kare Orilla,08-01-2014,13:45,Wednesday,Kalami Kafenion,23.82,3492
-9,Gustav Cazar,08-01-2014,13:47,Wednesday,Katerina's Cafe,27.05,1877
-3,Felix Balas,08-01-2014,13:48,Wednesday,Hippokampos,28.79,9635
-13,Inga Ferro,08-01-2014,13:48,Wednesday,Gelatogalore,116.72,7819
-14,Lidelse Dedos,08-01-2014,13:51,Wednesday,Guy's Gyros,15.86,1874
-30,Felix Resumir,08-01-2014,13:51,Wednesday,Abila Zacharo,30.85,6901
-20,Stenig Fusil,08-01-2014,13:52,Wednesday,Kalami Kafenion,14.77,6816
-18,Birgitta Frente,08-01-2014,13:53,Wednesday,Abila Zacharo,16.2,9617
-24,Minke Mies,08-01-2014,13:57,Wednesday,Guy's Gyros,10.34,4434
-12,Hideki Cocinaro,08-01-2014,14:06,Wednesday,Katerina's Cafe,22.94,7108
-2,Lars Azada,08-01-2014,19:21,Wednesday,Hippokampos,10.52,1415
-7,Elsa Orilla,08-01-2014,19:28,Wednesday,Hippokampos,16.54,2540
-16,Isia Vann,08-01-2014,19:36,Wednesday,Guy's Gyros,15.69,7354
-24,Minke Mies,08-01-2014,19:48,Wednesday,Guy's Gyros,30.48,4434
-19,Vira Frente,08-01-2014,20:02,Wednesday,Hippokampos,32.66,6895
-17,Sven Flecha,08-01-2014,20:07,Wednesday,Guy's Gyros,28.81,7384
-26,Marin Onda,08-01-2014,20:08,Wednesday,Katerina's Cafe,31.59,1310
-22,Adra Nubarron,08-01-2014,20:12,Wednesday,Ouzeri Elian,62.2,1286
-23,Varja Lagos,08-01-2014,20:15,Wednesday,Guy's Gyros,99.08,3484
-33,Brand Tempestad,08-01-2014,20:17,Wednesday,Guy's Gyros,18.24,9683
-15,Loreto Bodrogi,08-01-2014,20:17,Wednesday,Frydos Autosupply n' More,182.56,3853
-25,Kanon Herrero,08-01-2014,20:27,Wednesday,Katerina's Cafe,33.31,2142
-8,Lucas Alcazar,08-01-2014,20:31,Wednesday,Katerina's Cafe,36.6,7889
-29,Bertrand Ovan,08-01-2014,20:42,Wednesday,Katerina's Cafe,92.83,5921
-3,Felix Balas,08-01-2014,20:45,Wednesday,Albert's Fine Clothing,136.01,9635
-10,Ada Campo-Corrente,08-01-2014,20:49,Wednesday,Hippokampos,15.64,8332
-4,Ingrid Barranco,08-01-2014,20:53,Wednesday,Hippokampos,26.31,7688
-30,Felix Resumir,08-01-2014,20:57,Wednesday,Guy's Gyros,10.28,6901
-13,Inga Ferro,08-01-2014,20:58,Wednesday,Guy's Gyros,22.91,7819
-12,Hideki Cocinaro,08-01-2014,21:00,Wednesday,General Grocer,265.84,7108
-14,Lidelse Dedos,08-01-2014,21:09,Wednesday,Katerina's Cafe,27.87,1874
-1,Nils Calixto,08-01-2014,21:16,Wednesday,Ouzeri Elian,30.81,9551
-5,Isak Baza,08-01-2014,21:17,Wednesday,Ouzeri Elian,29.85,6899
-35,Willem Vasco-Pais,08-01-2014,21:32,Wednesday,Hippokampos,78.99,2463
-6,Linnea Bergen,09-01-2014,07:35,Thursday,Coffee Cameleon,12.47,7253
-33,Brand Tempestad,09-01-2014,07:36,Thursday,Brew've Been Served,70.71,9683
-26,Marin Onda,09-01-2014,07:37,Thursday,Hallowed Grounds,17.56,1310
-29,Bertrand Ovan,09-01-2014,07:37,Thursday,Coffee Cameleon,19.99,5921
-12,Hideki Cocinaro,09-01-2014,07:42,Thursday,Hallowed Grounds,56.77,7108
-34,Edvard Vann,09-01-2014,07:48,Thursday,Brew've Been Served,5.13,4795
-17,Sven Flecha,09-01-2014,07:48,Thursday,Brew've Been Served,5.3,7384
-16,Isia Vann,09-01-2014,07:48,Thursday,Brew've Been Served,34.85,7354
-1,Nils Calixto,09-01-2014,07:50,Thursday,Hallowed Grounds,34.45,9551
-8,Lucas Alcazar,09-01-2014,07:51,Thursday,Hallowed Grounds,19.22,7889
-18,Birgitta Frente,09-01-2014,07:57,Thursday,Hallowed Grounds,18.48,9617
-21,Hennie Osvaldo,09-01-2014,07:57,Thursday,Hallowed Grounds,50.25,9405
-30,Felix Resumir,09-01-2014,07:58,Thursday,Brew've Been Served,19.47,6901
-24,Minke Mies,09-01-2014,08:00,Thursday,Brew've Been Served,6.21,4434
-13,Inga Ferro,09-01-2014,08:00,Thursday,Brew've Been Served,6.61,7819
-23,Varja Lagos,09-01-2014,08:01,Thursday,Brew've Been Served,92.12,3484
-25,Kanon Herrero,09-01-2014,08:03,Thursday,Coffee Cameleon,16.13,2142
-27,Kare Orilla,09-01-2014,08:07,Thursday,Hallowed Grounds,65.68,3492
-22,Adra Nubarron,09-01-2014,08:14,Thursday,Brew've Been Served,17.64,1286
-9,Gustav Cazar,09-01-2014,12:00,Thursday,Bean There Done That,4.06,1877
-15,Loreto Bodrogi,09-01-2014,12:00,Thursday,Jack's Magical Beans,6,3853
-5,Isak Baza,09-01-2014,12:00,Thursday,Jack's Magical Beans,10.11,6899
-4,Ingrid Barranco,09-01-2014,12:00,Thursday,Brewed Awakenings,11.76,7688
-28,Isande Borrasca,09-01-2014,12:00,Thursday,Jack's Magical Beans,12.13,9241
-2,Lars Azada,09-01-2014,12:00,Thursday,Bean There Done That,13,1415
-7,Elsa Orilla,09-01-2014,12:00,Thursday,Brewed Awakenings,13.16,2540
-11,Axel Calzas,09-01-2014,12:00,Thursday,Bean There Done That,15.53,1321
-32,Orhan Strum,09-01-2014,12:00,Thursday,Jack's Magical Beans,15.55,8156
-10,Ada Campo-Corrente,09-01-2014,12:00,Thursday,Brewed Awakenings,17.66,8332
-35,Willem Vasco-Pais,09-01-2014,12:00,Thursday,Jack's Magical Beans,37.43,2463
-10,Ada Campo-Corrente,09-01-2014,12:59,Thursday,Ouzeri Elian,31.03,8332
-6,Linnea Bergen,09-01-2014,13:03,Thursday,Katerina's Cafe,17.02,7253
-34,Edvard Vann,09-01-2014,13:21,Thursday,Gelatogalore,23.45,4795
-4,Ingrid Barranco,09-01-2014,13:21,Thursday,Ouzeri Elian,26.09,7688
-16,Isia Vann,09-01-2014,13:21,Thursday,Guy's Gyros,105.4,7354
-5,Isak Baza,09-01-2014,13:23,Thursday,Gelatogalore,8.6,6899
-20,Stenig Fusil,09-01-2014,13:23,Thursday,Ouzeri Elian,22.4,6816
-7,Elsa Orilla,09-01-2014,13:23,Thursday,Gelatogalore,56.74,2540
-23,Varja Lagos,09-01-2014,13:24,Thursday,Abila Zacharo,8.16,3484
-32,Orhan Strum,09-01-2014,13:27,Thursday,Katerina's Cafe,25.85,8156
-19,Vira Frente,09-01-2014,13:27,Thursday,Kalami Kafenion,110.76,6895
-8,Lucas Alcazar,09-01-2014,13:28,Thursday,Guy's Gyros,13.59,7889
-35,Willem Vasco-Pais,09-01-2014,13:32,Thursday,Abila Zacharo,8.6,2463
-15,Loreto Bodrogi,09-01-2014,13:35,Thursday,Katerina's Cafe,10.42,3853
-33,Brand Tempestad,09-01-2014,13:36,Thursday,Hippokampos,27.93,9683
-11,Axel Calzas,09-01-2014,13:37,Thursday,Hippokampos,9.12,1321
-17,Sven Flecha,09-01-2014,13:38,Thursday,Kalami Kafenion,18.14,7384
-21,Hennie Osvaldo,09-01-2014,13:40,Thursday,Gelatogalore,11.94,9405
-14,Lidelse Dedos,09-01-2014,13:40,Thursday,Abila Zacharo,20.73,1874
-3,Felix Balas,09-01-2014,13:41,Thursday,Hippokampos,8.43,9635
-1,Nils Calixto,09-01-2014,13:41,Thursday,Abila Zacharo,89.41,9551
-2,Lars Azada,09-01-2014,13:43,Thursday,Guy's Gyros,74.91,1415
-18,Birgitta Frente,09-01-2014,13:44,Thursday,Guy's Gyros,15,9617
-22,Adra Nubarron,09-01-2014,13:47,Thursday,Abila Zacharo,48.39,1286
-26,Marin Onda,09-01-2014,13:51,Thursday,Hippokampos,13.84,1310
-25,Kanon Herrero,09-01-2014,13:53,Thursday,Hippokampos,16.65,2142
-30,Felix Resumir,09-01-2014,13:56,Thursday,Guy's Gyros,8.87,6901
-24,Minke Mies,09-01-2014,13:56,Thursday,Hippokampos,65.7,4434
-12,Hideki Cocinaro,09-01-2014,14:04,Thursday,Ouzeri Elian,32.89,7108
-9,Gustav Cazar,09-01-2014,14:06,Thursday,Katerina's Cafe,8.01,1877
-29,Bertrand Ovan,09-01-2014,14:13,Thursday,Guy's Gyros,17.44,5921
-13,Inga Ferro,09-01-2014,14:15,Thursday,Abila Zacharo,14.37,7819
-29,Bertrand Ovan,09-01-2014,19:30,Thursday,Katerina's Cafe,26.6,5921
-23,Varja Lagos,09-01-2014,19:32,Thursday,Frydos Autosupply n' More,138.02,3484
-16,Isia Vann,09-01-2014,19:41,Thursday,Guy's Gyros,31.81,7354
-5,Isak Baza,09-01-2014,19:42,Thursday,Ouzeri Elian,27.08,6899
-28,Isande Borrasca,09-01-2014,19:43,Thursday,Ouzeri Elian,31.07,9241
-20,Stenig Fusil,09-01-2014,19:52,Thursday,Guy's Gyros,29.96,6816
-7,Elsa Orilla,09-01-2014,20:05,Thursday,Hippokampos,15.02,2540
-27,Kare Orilla,09-01-2014,20:08,Thursday,Katerina's Cafe,19.02,3492
-9,Gustav Cazar,09-01-2014,20:15,Thursday,Hippokampos,70.68,1877
-34,Edvard Vann,09-01-2014,20:19,Thursday,General Grocer,285.34,4795
-30,Felix Resumir,09-01-2014,20:20,Thursday,Frydos Autosupply n' More,31.24,6901
-21,Hennie Osvaldo,09-01-2014,20:20,Thursday,Katerina's Cafe,91.14,9405
-11,Axel Calzas,09-01-2014,20:21,Thursday,Frydos Autosupply n' More,120.65,1321
-8,Lucas Alcazar,09-01-2014,20:23,Thursday,Guy's Gyros,8.23,7889
-22,Adra Nubarron,09-01-2014,20:24,Thursday,Guy's Gyros,18.26,1286
-6,Linnea Bergen,09-01-2014,20:29,Thursday,Guy's Gyros,23.34,7253
-17,Sven Flecha,09-01-2014,20:39,Thursday,Guy's Gyros,35.05,7384
-35,Willem Vasco-Pais,09-01-2014,20:41,Thursday,Hippokampos,9.13,2463
-15,Loreto Bodrogi,09-01-2014,20:45,Thursday,Frydos Autosupply n' More,276.75,3853
-19,Vira Frente,09-01-2014,21:01,Thursday,Hippokampos,24.96,6895
-24,Minke Mies,09-01-2014,21:09,Thursday,Guy's Gyros,31.31,4434
-32,Orhan Strum,09-01-2014,21:12,Thursday,Hippokampos,23.66,8156
-26,Marin Onda,09-01-2014,21:18,Thursday,Katerina's Cafe,8.57,1310
-10,Ada Campo-Corrente,09-01-2014,21:27,Thursday,Albert's Fine Clothing,229.98,8332
-3,Felix Balas,09-01-2014,21:38,Thursday,Hippokampos,10.12,9635
-20,Stenig Fusil,10-01-2014,07:35,Friday,Brew've Been Served,15.85,6816
-6,Linnea Bergen,10-01-2014,07:40,Friday,Coffee Cameleon,8.51,7253
-18,Birgitta Frente,10-01-2014,07:41,Friday,Hallowed Grounds,8.34,9617
-26,Marin Onda,10-01-2014,07:41,Friday,Hallowed Grounds,11.49,1310
-14,Lidelse Dedos,10-01-2014,07:41,Friday,Hallowed Grounds,12.03,1874
-23,Varja Lagos,10-01-2014,07:45,Friday,Brew've Been Served,5.01,3484
-27,Kare Orilla,10-01-2014,07:45,Friday,Hallowed Grounds,11.38,3492
-29,Bertrand Ovan,10-01-2014,07:47,Friday,Coffee Cameleon,11.54,5921
-21,Hennie Osvaldo,10-01-2014,07:48,Friday,Brew've Been Served,13.32,9405
-8,Lucas Alcazar,10-01-2014,07:49,Friday,Hallowed Grounds,10.34,7889
-33,Brand Tempestad,10-01-2014,07:49,Friday,Brew've Been Served,89.93,9683
-12,Hideki Cocinaro,10-01-2014,07:50,Friday,Hallowed Grounds,10.76,7108
-17,Sven Flecha,10-01-2014,07:54,Friday,Brew've Been Served,83.44,7384
-16,Isia Vann,10-01-2014,07:56,Friday,Brew've Been Served,90.72,7354
-34,Edvard Vann,10-01-2014,07:56,Friday,Brew've Been Served,97.25,4795
-30,Felix Resumir,10-01-2014,08:01,Friday,Brew've Been Served,5.31,6901
-22,Adra Nubarron,10-01-2014,08:01,Friday,Brew've Been Served,5.89,1286
-13,Inga Ferro,10-01-2014,08:09,Friday,Brew've Been Served,3.03,7819
-15,Loreto Bodrogi,10-01-2014,08:09,Friday,Brew've Been Served,14.45,3853
-25,Kanon Herrero,10-01-2014,08:11,Friday,Coffee Cameleon,13.25,2142
-24,Minke Mies,10-01-2014,08:17,Friday,Brew've Been Served,12.64,4434
-4,Ingrid Barranco,10-01-2014,09:30,Friday,Kronos Mart,203.91,7688
-3,Felix Balas,10-01-2014,12:00,Friday,Bean There Done That,3.92,9635
-32,Orhan Strum,10-01-2014,12:00,Friday,Jack's Magical Beans,5.46,8156
-7,Elsa Orilla,10-01-2014,12:00,Friday,Brewed Awakenings,6.17,2540
-35,Willem Vasco-Pais,10-01-2014,12:00,Friday,Jack's Magical Beans,8.22,2463
-19,Vira Frente,10-01-2014,12:00,Friday,Bean There Done That,9.3,6895
-9,Gustav Cazar,10-01-2014,12:00,Friday,Bean There Done That,13.41,1877
-4,Ingrid Barranco,10-01-2014,12:00,Friday,Brewed Awakenings,13.82,7688
-10,Ada Campo-Corrente,10-01-2014,12:00,Friday,Brewed Awakenings,13.9,8332
-2,Lars Azada,10-01-2014,12:00,Friday,Bean There Done That,15.39,1415
-5,Isak Baza,10-01-2014,12:00,Friday,Jack's Magical Beans,15.69,6899
-28,Isande Borrasca,10-01-2014,12:00,Friday,Jack's Magical Beans,16.29,9241
-11,Axel Calzas,10-01-2014,12:00,Friday,Bean There Done That,18.67,1321
-33,Brand Tempestad,10-01-2014,13:08,Friday,Chostus Hotel,133.25,9683
-7,Elsa Orilla,10-01-2014,13:11,Friday,Chostus Hotel,197.41,2540
-32,Orhan Strum,10-01-2014,13:12,Friday,Guy's Gyros,36.44,8156
-1,Nils Calixto,10-01-2014,13:16,Friday,Ouzeri Elian,30.71,9551
-34,Edvard Vann,10-01-2014,13:20,Friday,Hippokampos,79.26,4795
-20,Stenig Fusil,10-01-2014,13:25,Friday,Guy's Gyros,26.76,6816
-6,Linnea Bergen,10-01-2014,13:27,Friday,Guy's Gyros,15.93,7253
-5,Isak Baza,10-01-2014,13:29,Friday,Abila Zacharo,113.33,6899
-4,Ingrid Barranco,10-01-2014,13:30,Friday,Katerina's Cafe,34.76,7688
-23,Varja Lagos,10-01-2014,13:30,Friday,Kalami Kafenion,35.69,3484
-2,Lars Azada,10-01-2014,13:35,Friday,Gelatogalore,26.15,1415
-15,Loreto Bodrogi,10-01-2014,13:35,Friday,Ouzeri Elian,35.24,3853
-28,Isande Borrasca,10-01-2014,13:35,Friday,Kalami Kafenion,101.5,9241
-16,Isia Vann,10-01-2014,13:36,Friday,Katerina's Cafe,25.36,7354
-26,Marin Onda,10-01-2014,13:36,Friday,Abila Zacharo,36.73,1310
-17,Sven Flecha,10-01-2014,13:38,Friday,Guy's Gyros,26.68,7384
-35,Willem Vasco-Pais,10-01-2014,13:40,Friday,Hippokampos,32.01,2463
-21,Hennie Osvaldo,10-01-2014,13:44,Friday,Ouzeri Elian,20.46,9405
-25,Kanon Herrero,10-01-2014,13:47,Friday,Katerina's Cafe,24.33,2142
-19,Vira Frente,10-01-2014,13:47,Friday,Katerina's Cafe,25.62,6895
-3,Felix Balas,10-01-2014,13:47,Friday,Guy's Gyros,31.5,9635
-9,Gustav Cazar,10-01-2014,13:50,Friday,Ouzeri Elian,15.25,1877
-11,Axel Calzas,10-01-2014,13:52,Friday,Guy's Gyros,31.05,1321
-24,Minke Mies,10-01-2014,13:53,Friday,Kalami Kafenion,24.3,4434
-30,Felix Resumir,10-01-2014,13:58,Friday,Hippokampos,39.89,6901
-14,Lidelse Dedos,10-01-2014,13:59,Friday,Abila Zacharo,8.22,1874
-27,Kare Orilla,10-01-2014,14:01,Friday,Abila Zacharo,16.12,3492
-13,Inga Ferro,10-01-2014,14:03,Friday,Abila Zacharo,36.38,7819
-18,Birgitta Frente,10-01-2014,14:07,Friday,Ouzeri Elian,30.93,9617
-12,Hideki Cocinaro,10-01-2014,14:08,Friday,Katerina's Cafe,77.62,7108
-34,Edvard Vann,10-01-2014,14:41,Friday,Octavio's Office Supplies,139.72,4795
-6,Linnea Bergen,10-01-2014,16:07,Friday,Octavio's Office Supplies,64.51,7253
-5,Isak Baza,10-01-2014,18:52,Friday,Ouzeri Elian,19.92,6899
-8,Lucas Alcazar,10-01-2014,18:57,Friday,Frydos Autosupply n' More,98.39,7889
-20,Stenig Fusil,10-01-2014,19:45,Friday,Guy's Gyros,23.61,6816
-2,Lars Azada,10-01-2014,19:46,Friday,Hippokampos,48.22,1415
-34,Edvard Vann,10-01-2014,19:54,Friday,Guy's Gyros,27.78,4795
-29,Bertrand Ovan,10-01-2014,19:56,Friday,Katerina's Cafe,21.89,5921
-21,Hennie Osvaldo,10-01-2014,20:08,Friday,Katerina's Cafe,15.76,9405
-30,Felix Resumir,10-01-2014,20:09,Friday,Guy's Gyros,29.81,6901
-4,Ingrid Barranco,10-01-2014,20:09,Friday,Hippokampos,70.48,7688
-19,Vira Frente,10-01-2014,20:11,Friday,Albert's Fine Clothing,126.13,6895
-17,Sven Flecha,10-01-2014,20:15,Friday,Frydos Autosupply n' More,237.08,7384
-13,Inga Ferro,10-01-2014,20:17,Friday,Shoppers' Delight,279.53,7819
-12,Hideki Cocinaro,10-01-2014,20:20,Friday,Guy's Gyros,35.54,7108
-15,Loreto Bodrogi,10-01-2014,20:23,Friday,Guy's Gyros,37.37,3853
-10,Ada Campo-Corrente,10-01-2014,20:50,Friday,Hippokampos,17.21,8332
-16,Isia Vann,10-01-2014,21:11,Friday,Roberts and Sons,241.2,7354
-32,Orhan Strum,10-01-2014,21:17,Friday,Hippokampos,27,8156
-24,Minke Mies,10-01-2014,21:28,Friday,General Grocer,227.28,4434
-35,Willem Vasco-Pais,10-01-2014,22:21,Friday,Hippokampos,79.97,2463
-32,Orhan Strum,11-01-2014,13:19,Saturday,Katerina's Cafe,45.22,8156
-19,Vira Frente,11-01-2014,13:32,Saturday,Katerina's Cafe,29.1,6895
-26,Marin Onda,11-01-2014,13:32,Saturday,Abila Zacharo,54.82,1310
-7,Elsa Orilla,11-01-2014,13:33,Saturday,Abila Zacharo,89.54,2540
-18,Birgitta Frente,11-01-2014,13:35,Saturday,Gelatogalore,17.31,9617
-24,Minke Mies,11-01-2014,13:36,Saturday,Hippokampos,103.38,4434
-1,Nils Calixto,11-01-2014,13:37,Saturday,Hippokampos,75.62,9551
-23,Varja Lagos,11-01-2014,13:43,Saturday,Katerina's Cafe,71.65,3484
-4,Ingrid Barranco,11-01-2014,13:47,Saturday,Hippokampos,31.1,7688
-11,Axel Calzas,11-01-2014,13:50,Saturday,Katerina's Cafe,23.45,1321
-6,Linnea Bergen,11-01-2014,13:51,Saturday,Abila Zacharo,32.02,7253
-15,Loreto Bodrogi,11-01-2014,13:59,Saturday,Gelatogalore,18.74,3853
-12,Hideki Cocinaro,11-01-2014,14:16,Saturday,Kalami Kafenion,39.36,7108
-25,Kanon Herrero,11-01-2014,14:17,Saturday,Katerina's Cafe,26.02,2142
-30,Felix Resumir,11-01-2014,14:19,Saturday,Abila Zacharo,45.2,6901
-18,Birgitta Frente,11-01-2014,15:15,Saturday,Shoppers' Delight,157.45,9617
-26,Marin Onda,11-01-2014,16:00,Saturday,Roberts and Sons,256.24,1310
-24,Minke Mies,11-01-2014,16:01,Saturday,Albert's Fine Clothing,211.47,4434
-4,Ingrid Barranco,11-01-2014,16:09,Saturday,Frydos Autosupply n' More,52.73,7688
-34,Edvard Vann,11-01-2014,16:24,Saturday,Ahaggo Museum,89.32,4795
-33,Brand Tempestad,11-01-2014,17:16,Saturday,Ahaggo Museum,52.14,9683
-18,Birgitta Frente,11-01-2014,19:08,Saturday,Katerina's Cafe,55.67,9617
-13,Inga Ferro,11-01-2014,19:17,Saturday,Kalami Kafenion,23.86,7819
-5,Isak Baza,11-01-2014,19:21,Saturday,Ouzeri Elian,69.36,6899
-4,Ingrid Barranco,11-01-2014,19:26,Saturday,Hippokampos,66.21,7688
-33,Brand Tempestad,11-01-2014,19:27,Saturday,Hippokampos,32.63,9683
-32,Orhan Strum,11-01-2014,19:27,Saturday,Albert's Fine Clothing,105.33,8156
-34,Edvard Vann,11-01-2014,19:29,Saturday,Hippokampos,63.21,4795
-25,Kanon Herrero,11-01-2014,19:31,Saturday,Katerina's Cafe,33.18,2142
-9,Gustav Cazar,11-01-2014,19:33,Saturday,Hippokampos,11.13,1877
-20,Stenig Fusil,11-01-2014,19:34,Saturday,Guy's Gyros,55.36,6816
-7,Elsa Orilla,11-01-2014,19:40,Saturday,Katerina's Cafe,57.36,2540
-1,Nils Calixto,11-01-2014,19:44,Saturday,Shoppers' Delight,149.2,9551
-10,Ada Campo-Corrente,11-01-2014,19:45,Saturday,Hippokampos,63.21,8332
-8,Lucas Alcazar,11-01-2014,19:50,Saturday,Katerina's Cafe,12.55,7889
-26,Marin Onda,11-01-2014,19:51,Saturday,Katerina's Cafe,45.68,1310
-3,Felix Balas,11-01-2014,19:53,Saturday,Hippokampos,67.37,9635
-22,Adra Nubarron,11-01-2014,20:04,Saturday,Kalami Kafenion,50.2,1286
-17,Sven Flecha,11-01-2014,20:06,Saturday,Guy's Gyros,33.65,7384
-16,Isia Vann,11-01-2014,20:09,Saturday,Guy's Gyros,16.33,7354
-21,Hennie Osvaldo,11-01-2014,20:13,Saturday,Katerina's Cafe,9.78,9405
-2,Lars Azada,11-01-2014,20:23,Saturday,Hippokampos,70.23,1415
-30,Felix Resumir,11-01-2014,20:26,Saturday,Frydos Autosupply n' More,261,6901
-12,Hideki Cocinaro,11-01-2014,20:30,Saturday,Kalami Kafenion,46.78,7108
-14,Lidelse Dedos,11-01-2014,20:46,Saturday,Katerina's Cafe,57.6,1874
-32,Orhan Strum,12-01-2014,03:39,Sunday,Kronos Mart,277.26,8156
-10,Ada Campo-Corrente,12-01-2014,13:03,Sunday,Ouzeri Elian,38.55,8332
-25,Kanon Herrero,12-01-2014,13:25,Sunday,Hippokampos,12.55,2142
-13,Inga Ferro,12-01-2014,13:28,Sunday,Ouzeri Elian,24.72,7819
-26,Marin Onda,12-01-2014,13:30,Sunday,Ouzeri Elian,72.32,1310
-30,Felix Resumir,12-01-2014,13:31,Sunday,Guy's Gyros,34.74,6901
-32,Orhan Strum,12-01-2014,13:32,Sunday,Ouzeri Elian,117.22,8156
-22,Adra Nubarron,12-01-2014,13:40,Sunday,Gelatogalore,20.09,1286
-33,Brand Tempestad,12-01-2014,13:45,Sunday,Abila Zacharo,11.2,9683
-35,Willem Vasco-Pais,12-01-2014,13:45,Sunday,Desafio Golf Course,129.33,2463
-7,Elsa Orilla,12-01-2014,13:52,Sunday,Kalami Kafenion,54.36,2540
-8,Lucas Alcazar,12-01-2014,13:54,Sunday,Hippokampos,8.54,7889
-27,Kare Orilla,12-01-2014,13:55,Sunday,Kalami Kafenion,14.59,3492
-14,Lidelse Dedos,12-01-2014,14:04,Sunday,Hippokampos,12.57,1874
-1,Nils Calixto,12-01-2014,14:06,Sunday,Hippokampos,71.99,9551
-4,Ingrid Barranco,12-01-2014,14:13,Sunday,Desafio Golf Course,220.77,7688
-10,Ada Campo-Corrente,12-01-2014,14:14,Sunday,Desafio Golf Course,198.46,8332
-26,Marin Onda,12-01-2014,15:10,Sunday,Shoppers' Delight,135.78,1310
-22,Adra Nubarron,12-01-2014,15:24,Sunday,Shoppers' Delight,86.22,1286
-13,Inga Ferro,12-01-2014,15:32,Sunday,Shoppers' Delight,204.37,7819
-25,Kanon Herrero,12-01-2014,15:49,Sunday,Albert's Fine Clothing,195.81,2142
-30,Felix Resumir,12-01-2014,16:27,Sunday,Ahaggo Museum,120.2,6901
-8,Lucas Alcazar,12-01-2014,19:18,Sunday,Katerina's Cafe,12.64,7889
-6,Linnea Bergen,12-01-2014,19:21,Sunday,Katerina's Cafe,11.81,7253
-11,Axel Calzas,12-01-2014,19:22,Sunday,Hippokampos,27.15,1321
-12,Hideki Cocinaro,12-01-2014,19:26,Sunday,Guy's Gyros,42.32,7108
-17,Sven Flecha,12-01-2014,19:26,Sunday,Shoppers' Delight,211.03,7384
-2,Lars Azada,12-01-2014,19:29,Sunday,Hippokampos,66.63,1415
-15,Loreto Bodrogi,12-01-2014,19:32,Sunday,Guy's Gyros,34.41,3853
-19,Vira Frente,12-01-2014,19:35,Sunday,Hippokampos,49.23,6895
-16,Isia Vann,12-01-2014,19:36,Sunday,Guy's Gyros,12.32,7354
-10,Ada Campo-Corrente,12-01-2014,19:44,Sunday,Hippokampos,26.79,8332
-27,Kare Orilla,12-01-2014,19:47,Sunday,Katerina's Cafe,17.36,3492
-22,Adra Nubarron,12-01-2014,19:50,Sunday,Gelatogalore,36.2,1286
-32,Orhan Strum,12-01-2014,19:51,Sunday,Hippokampos,52.21,8156
-9,Gustav Cazar,12-01-2014,19:58,Sunday,Albert's Fine Clothing,63.36,1877
-5,Isak Baza,12-01-2014,19:59,Sunday,Ouzeri Elian,55.55,6899
-3,Felix Balas,12-01-2014,20:05,Sunday,Hippokampos,78.21,9635
-21,Hennie Osvaldo,12-01-2014,20:12,Sunday,Katerina's Cafe,15.37,9405
-25,Kanon Herrero,12-01-2014,20:13,Sunday,Katerina's Cafe,39.55,2142
-7,Elsa Orilla,12-01-2014,20:15,Sunday,Hippokampos,69.41,2540
-4,Ingrid Barranco,12-01-2014,20:38,Sunday,Hippokampos,63.32,7688
-14,Lidelse Dedos,12-01-2014,20:48,Sunday,Katerina's Cafe,87.09,1874
-1,Nils Calixto,13-01-2014,06:04,Monday,Daily Dealz,2.01,9551
-8,Lucas Alcazar,13-01-2014,07:32,Monday,Hallowed Grounds,9.16,7889
-17,Sven Flecha,13-01-2014,07:38,Monday,Brew've Been Served,8.04,7384
-33,Brand Tempestad,13-01-2014,07:40,Monday,Brew've Been Served,8,9683
-26,Marin Onda,13-01-2014,07:42,Monday,Hallowed Grounds,3.02,1310
-27,Kare Orilla,13-01-2014,07:43,Monday,Hallowed Grounds,13.68,3492
-34,Edvard Vann,13-01-2014,07:43,Monday,Brew've Been Served,18.71,4795
-20,Stenig Fusil,13-01-2014,07:43,Monday,Brew've Been Served,24.18,6816
-21,Hennie Osvaldo,13-01-2014,07:44,Monday,Hallowed Grounds,5.85,9405
-16,Isia Vann,13-01-2014,07:53,Monday,Brew've Been Served,19.64,7354
-12,Hideki Cocinaro,13-01-2014,07:54,Monday,Hallowed Grounds,19.18,7108
-23,Varja Lagos,13-01-2014,07:57,Monday,Brew've Been Served,78.23,3484
-20,Stenig Fusil,13-01-2014,08:01,Monday,Kronos Mart,159.06,6816
-6,Linnea Bergen,13-01-2014,08:02,Monday,Coffee Cameleon,4.88,7253
-24,Minke Mies,13-01-2014,08:04,Monday,Brew've Been Served,16.05,4434
-22,Adra Nubarron,13-01-2014,08:07,Monday,Brew've Been Served,11.49,1286
-25,Kanon Herrero,13-01-2014,08:12,Monday,Coffee Cameleon,17.76,2142
-30,Felix Resumir,13-01-2014,08:21,Monday,Brew've Been Served,13.19,6901
-13,Inga Ferro,13-01-2014,08:22,Monday,Brew've Been Served,6.69,7819
-28,Isande Borrasca,13-01-2014,12:00,Monday,Jack's Magical Beans,5.22,9241
-11,Axel Calzas,13-01-2014,12:00,Monday,Bean There Done That,5.54,1321
-2,Lars Azada,13-01-2014,12:00,Monday,Bean There Done That,7.93,1415
-32,Orhan Strum,13-01-2014,12:00,Monday,Jack's Magical Beans,9.64,8156
-14,Lidelse Dedos,13-01-2014,12:00,Monday,Bean There Done That,10.37,1874
-4,Ingrid Barranco,13-01-2014,12:00,Monday,Brewed Awakenings,12.69,7688
-18,Birgitta Frente,13-01-2014,12:00,Monday,Bean There Done That,15.24,9617
-10,Ada Campo-Corrente,13-01-2014,12:00,Monday,Brewed Awakenings,16.25,8332
-35,Willem Vasco-Pais,13-01-2014,12:00,Monday,Jack's Magical Beans,17.52,2463
-5,Isak Baza,13-01-2014,12:00,Monday,Jack's Magical Beans,18.31,6899
-19,Vira Frente,13-01-2014,12:00,Monday,Bean There Done That,18.59,6895
-9,Gustav Cazar,13-01-2014,12:00,Monday,Bean There Done That,19.56,1877
-7,Elsa Orilla,13-01-2014,12:00,Monday,Brewed Awakenings,56.4,2540
-3,Felix Balas,13-01-2014,12:00,Monday,Bean There Done That,98.02,9635
-24,Minke Mies,13-01-2014,12:27,Monday,Hippokampos,17.17,4434
-32,Orhan Strum,13-01-2014,13:03,Monday,Gelatogalore,32.83,8156
-1,Nils Calixto,13-01-2014,13:18,Monday,U-Pump,55.25,9551
-10,Ada Campo-Corrente,13-01-2014,13:19,Monday,Gelatogalore,46.45,8332
-20,Stenig Fusil,13-01-2014,13:20,Monday,Abila Zacharo,79.95,6816
-22,Adra Nubarron,13-01-2014,13:21,Monday,Abila Zacharo,64.5,1286
-6,Linnea Bergen,13-01-2014,13:24,Monday,Hippokampos,35.73,7253
-33,Brand Tempestad,13-01-2014,13:27,Monday,Abila Zacharo,8.72,9683
-1,Nils Calixto,13-01-2014,13:28,Monday,Hippokampos,30.51,9551
-7,Elsa Orilla,13-01-2014,13:33,Monday,Guy's Gyros,27.49,2540
-5,Isak Baza,13-01-2014,13:34,Monday,Katerina's Cafe,26.15,6899
-11,Axel Calzas,13-01-2014,13:34,Monday,Abila Zacharo,27.3,1321
-16,Isia Vann,13-01-2014,13:34,Monday,Hippokampos,59.9,7354
-21,Hennie Osvaldo,13-01-2014,13:36,Monday,Katerina's Cafe,17.21,9405
-34,Edvard Vann,13-01-2014,13:37,Monday,Ouzeri Elian,95.03,4795
-25,Kanon Herrero,13-01-2014,13:39,Monday,Guy's Gyros,37.37,2142
-14,Lidelse Dedos,13-01-2014,13:40,Monday,Katerina's Cafe,8.29,1874
-35,Willem Vasco-Pais,13-01-2014,13:40,Monday,Guy's Gyros,29.25,2463
-2,Lars Azada,13-01-2014,13:41,Monday,Gelatogalore,36.93,1415
-3,Felix Balas,13-01-2014,13:42,Monday,Abila Zacharo,11.99,9635
-26,Marin Onda,13-01-2014,13:48,Monday,Ouzeri Elian,8.32,1310
-27,Kare Orilla,13-01-2014,13:48,Monday,Katerina's Cafe,24.26,3492
-15,Loreto Bodrogi,13-01-2014,13:48,Monday,Abila Zacharo,116.32,3853
-17,Sven Flecha,13-01-2014,13:50,Monday,Hippokampos,91.97,7384
-13,Inga Ferro,13-01-2014,13:51,Monday,Abila Zacharo,17.41,7819
-18,Birgitta Frente,13-01-2014,14:04,Monday,Hippokampos,25.09,9617
-9,Gustav Cazar,13-01-2014,14:06,Monday,Ouzeri Elian,29.75,1877
-30,Felix Resumir,13-01-2014,14:13,Monday,Guy's Gyros,12.76,6901
-1,Nils Calixto,13-01-2014,19:20,Monday,Frydos Autosupply n' More,10000,9551
-15,Loreto Bodrogi,13-01-2014,19:27,Monday,Shoppers' Delight,216.43,3853
-1,Nils Calixto,13-01-2014,19:30,Monday,Ouzeri Elian,28.75,9551
-16,Isia Vann,13-01-2014,20:09,Monday,Guy's Gyros,22.34,7354
-34,Edvard Vann,13-01-2014,20:11,Monday,Guy's Gyros,20.47,4795
-17,Sven Flecha,13-01-2014,20:15,Monday,Guy's Gyros,36.89,7384
-13,Inga Ferro,13-01-2014,20:18,Monday,Guy's Gyros,15.84,7819
-25,Kanon Herrero,13-01-2014,20:24,Monday,Katerina's Cafe,35.7,2142
-26,Marin Onda,13-01-2014,20:33,Monday,Katerina's Cafe,91.36,1310
-35,Willem Vasco-Pais,13-01-2014,20:35,Monday,Hippokampos,29.22,2463
-4,Ingrid Barranco,13-01-2014,20:35,Monday,Albert's Fine Clothing,288,7688
-2,Lars Azada,13-01-2014,20:42,Monday,Hippokampos,31.59,1415
-11,Axel Calzas,13-01-2014,20:42,Monday,Albert's Fine Clothing,49.48,1321
-22,Adra Nubarron,13-01-2014,20:42,Monday,Guy's Gyros,88.57,1286
-33,Brand Tempestad,13-01-2014,20:44,Monday,Guy's Gyros,15.55,9683
-30,Felix Resumir,13-01-2014,20:45,Monday,Shoppers' Delight,144.4,6901
-6,Linnea Bergen,13-01-2014,20:47,Monday,Katerina's Cafe,22.24,7253
-8,Lucas Alcazar,13-01-2014,20:51,Monday,Katerina's Cafe,55.82,7889
-12,Hideki Cocinaro,13-01-2014,20:59,Monday,Guy's Gyros,37.5,7108
-14,Lidelse Dedos,13-01-2014,21:00,Monday,Katerina's Cafe,27.59,1874
-10,Ada Campo-Corrente,13-01-2014,21:12,Monday,Hippokampos,31.47,8332
-21,Hennie Osvaldo,13-01-2014,21:16,Monday,Katerina's Cafe,33.11,9405
-32,Orhan Strum,13-01-2014,21:27,Monday,Hippokampos,99.63,8156
-34,Edvard Vann,14-01-2014,07:31,Tuesday,Brew've Been Served,4.72,4795
-16,Isia Vann,14-01-2014,07:35,Tuesday,Brew've Been Served,7.31,7354
-8,Lucas Alcazar,14-01-2014,07:35,Tuesday,Hallowed Grounds,10.75,7889
-33,Brand Tempestad,14-01-2014,07:40,Tuesday,Brew've Been Served,5.87,9683
-26,Marin Onda,14-01-2014,07:42,Tuesday,Hallowed Grounds,4.59,1310
-23,Varja Lagos,14-01-2014,07:45,Tuesday,Brew've Been Served,10.96,3484
-12,Hideki Cocinaro,14-01-2014,07:45,Tuesday,Hallowed Grounds,13,7108
-21,Hennie Osvaldo,14-01-2014,07:45,Tuesday,Brew've Been Served,16.53,9405
-15,Loreto Bodrogi,14-01-2014,07:48,Tuesday,Brew've Been Served,6.45,3853
-20,Stenig Fusil,14-01-2014,07:53,Tuesday,Brew've Been Served,3.66,6816
-17,Sven Flecha,14-01-2014,07:53,Tuesday,Brew've Been Served,8.24,7384
-6,Linnea Bergen,14-01-2014,07:53,Tuesday,Coffee Cameleon,15.63,7253
-14,Lidelse Dedos,14-01-2014,07:54,Tuesday,Hallowed Grounds,19.99,1874
-18,Birgitta Frente,14-01-2014,07:54,Tuesday,Hallowed Grounds,50.21,9617
-25,Kanon Herrero,14-01-2014,07:56,Tuesday,Coffee Cameleon,7.84,2142
-13,Inga Ferro,14-01-2014,07:58,Tuesday,Brew've Been Served,11.94,7819
-22,Adra Nubarron,14-01-2014,08:03,Tuesday,Brew've Been Served,3.21,1286
-27,Kare Orilla,14-01-2014,08:12,Tuesday,Hallowed Grounds,39.52,3492
-30,Felix Resumir,14-01-2014,08:13,Tuesday,Brew've Been Served,12.31,6901
-5,Isak Baza,14-01-2014,08:20,Tuesday,Kronos Mart,58.85,6899
-19,Vira Frente,14-01-2014,12:00,Tuesday,Bean There Done That,5.9,6895
-2,Lars Azada,14-01-2014,12:00,Tuesday,Bean There Done That,7.28,1415
-7,Elsa Orilla,14-01-2014,12:00,Tuesday,Brewed Awakenings,8.3,2540
-10,Ada Campo-Corrente,14-01-2014,12:00,Tuesday,Brewed Awakenings,11.35,8332
-9,Gustav Cazar,14-01-2014,12:00,Tuesday,Bean There Done That,14.56,1877
-4,Ingrid Barranco,14-01-2014,12:00,Tuesday,Brewed Awakenings,17.14,7688
-3,Felix Balas,14-01-2014,12:00,Tuesday,Bean There Done That,19.37,9635
-28,Isande Borrasca,14-01-2014,12:00,Tuesday,Jack's Magical Beans,63.36,9241
-11,Axel Calzas,14-01-2014,12:00,Tuesday,Bean There Done That,67.82,1321
-32,Orhan Strum,14-01-2014,12:00,Tuesday,Jack's Magical Beans,95.7,8156
-32,Orhan Strum,14-01-2014,13:14,Tuesday,Katerina's Cafe,29.12,8156
-6,Linnea Bergen,14-01-2014,13:17,Tuesday,Hippokampos,36.01,7253
-7,Elsa Orilla,14-01-2014,13:17,Tuesday,Chostus Hotel,109.54,2540
-33,Brand Tempestad,14-01-2014,13:21,Tuesday,Chostus Hotel,113.08,9683
-19,Vira Frente,14-01-2014,13:22,Tuesday,Katerina's Cafe,10.03,6895
-10,Ada Campo-Corrente,14-01-2014,13:24,Tuesday,Kalami Kafenion,15.15,8332
-3,Felix Balas,14-01-2014,13:24,Tuesday,Kalami Kafenion,17.38,9635
-4,Ingrid Barranco,14-01-2014,13:25,Tuesday,Hippokampos,23.69,7688
-16,Isia Vann,14-01-2014,13:32,Tuesday,Katerina's Cafe,20.95,7354
-17,Sven Flecha,14-01-2014,13:32,Tuesday,Gelatogalore,27.26,7384
-25,Kanon Herrero,14-01-2014,13:32,Tuesday,Gelatogalore,32.82,2142
-35,Willem Vasco-Pais,14-01-2014,13:33,Tuesday,Gelatogalore,39.17,2463
-34,Edvard Vann,14-01-2014,13:34,Tuesday,Katerina's Cafe,29.1,4795
-21,Hennie Osvaldo,14-01-2014,13:35,Tuesday,Abila Zacharo,15.26,9405
-2,Lars Azada,14-01-2014,13:36,Tuesday,Guy's Gyros,13.27,1415
-26,Marin Onda,14-01-2014,13:37,Tuesday,Abila Zacharo,10.24,1310
-15,Loreto Bodrogi,14-01-2014,13:37,Tuesday,Hippokampos,19.07,3853
-20,Stenig Fusil,14-01-2014,13:38,Tuesday,Abila Zacharo,8.41,6816
-23,Varja Lagos,14-01-2014,13:40,Tuesday,Ouzeri Elian,107.32,3484
-5,Isak Baza,14-01-2014,13:41,Tuesday,Ouzeri Elian,79.58,6899
-27,Kare Orilla,14-01-2014,13:42,Tuesday,Kalami Kafenion,23.1,3492
-8,Lucas Alcazar,14-01-2014,13:42,Tuesday,Hippokampos,98.81,7889
-14,Lidelse Dedos,14-01-2014,13:44,Tuesday,Guy's Gyros,16.35,1874
-18,Birgitta Frente,14-01-2014,13:49,Tuesday,Guy's Gyros,38.26,9617
-9,Gustav Cazar,14-01-2014,13:49,Tuesday,Gelatogalore,70.98,1877
-11,Axel Calzas,14-01-2014,13:51,Tuesday,Kalami Kafenion,15.27,1321
-12,Hideki Cocinaro,14-01-2014,13:51,Tuesday,Ouzeri Elian,62.3,7108
-30,Felix Resumir,14-01-2014,13:57,Tuesday,Hippokampos,17.18,6901
-13,Inga Ferro,14-01-2014,13:58,Tuesday,Katerina's Cafe,33.54,7819
-22,Adra Nubarron,14-01-2014,13:59,Tuesday,Guy's Gyros,50.4,1286
-24,Minke Mies,14-01-2014,14:03,Tuesday,Abila Zacharo,24.87,4434
-20,Stenig Fusil,14-01-2014,15:49,Tuesday,Octavio's Office Supplies,131.73,6816
-2,Lars Azada,14-01-2014,19:44,Tuesday,Hippokampos,39.64,1415
-12,Hideki Cocinaro,14-01-2014,19:59,Tuesday,Guy's Gyros,94.26,7108
-34,Edvard Vann,14-01-2014,20:01,Tuesday,Guy's Gyros,23.59,4795
-23,Varja Lagos,14-01-2014,20:05,Tuesday,Albert's Fine Clothing,50.77,3484
-8,Lucas Alcazar,14-01-2014,20:09,Tuesday,Katerina's Cafe,91.8,7889
-20,Stenig Fusil,14-01-2014,20:15,Tuesday,Guy's Gyros,18.11,6816
-17,Sven Flecha,14-01-2014,20:19,Tuesday,Guy's Gyros,12.96,7384
-35,Willem Vasco-Pais,14-01-2014,20:22,Tuesday,Hippokampos,9.55,2463
-15,Loreto Bodrogi,14-01-2014,20:25,Tuesday,Guy's Gyros,10.85,3853
-14,Lidelse Dedos,14-01-2014,20:26,Tuesday,Katerina's Cafe,12.65,1874
-13,Inga Ferro,14-01-2014,20:29,Tuesday,Guy's Gyros,25.28,7819
-5,Isak Baza,14-01-2014,20:32,Tuesday,Ouzeri Elian,11.86,6899
-24,Minke Mies,14-01-2014,20:33,Tuesday,Frydos Autosupply n' More,42.72,4434
-27,Kare Orilla,14-01-2014,20:34,Tuesday,Katerina's Cafe,11.89,3492
-28,Isande Borrasca,14-01-2014,20:41,Tuesday,Ouzeri Elian,24.06,9241
-30,Felix Resumir,14-01-2014,20:43,Tuesday,Frydos Autosupply n' More,146.74,6901
-10,Ada Campo-Corrente,14-01-2014,20:48,Tuesday,Hippokampos,43.56,8332
-3,Felix Balas,14-01-2014,20:50,Tuesday,Albert's Fine Clothing,228.72,9635
-19,Vira Frente,14-01-2014,21:04,Tuesday,Hippokampos,28.45,6895
-18,Birgitta Frente,14-01-2014,21:10,Tuesday,Katerina's Cafe,18.35,9617
-21,Hennie Osvaldo,14-01-2014,21:14,Tuesday,Roberts and Sons,223.81,9405
-7,Elsa Orilla,14-01-2014,21:31,Tuesday,Hippokampos,22.13,2540
-16,Isia Vann,14-01-2014,21:31,Tuesday,Guy's Gyros,26.14,7354
-8,Lucas Alcazar,15-01-2014,07:33,Wednesday,Hallowed Grounds,11.98,7889
-17,Sven Flecha,15-01-2014,07:34,Wednesday,Brew've Been Served,3.71,7384
-18,Birgitta Frente,15-01-2014,07:36,Wednesday,Hallowed Grounds,5.28,9617
-20,Stenig Fusil,15-01-2014,07:36,Wednesday,Brew've Been Served,15.5,6816
-33,Brand Tempestad,15-01-2014,07:40,Wednesday,Brew've Been Served,19.87,9683
-12,Hideki Cocinaro,15-01-2014,07:44,Wednesday,Hallowed Grounds,12.17,7108
-21,Hennie Osvaldo,15-01-2014,07:45,Wednesday,Brew've Been Served,11.47,9405
-25,Kanon Herrero,15-01-2014,07:45,Wednesday,Coffee Cameleon,19.93,2142
-13,Inga Ferro,15-01-2014,07:48,Wednesday,Brew've Been Served,6.58,7819
-22,Adra Nubarron,15-01-2014,07:49,Wednesday,Brew've Been Served,11.23,1286
-16,Isia Vann,15-01-2014,07:50,Wednesday,Brew've Been Served,19.24,7354
-6,Linnea Bergen,15-01-2014,07:56,Wednesday,Coffee Cameleon,5.49,7253
-34,Edvard Vann,15-01-2014,07:57,Wednesday,Brew've Been Served,4.92,4795
-23,Varja Lagos,15-01-2014,07:58,Wednesday,Brew've Been Served,14.06,3484
-27,Kare Orilla,15-01-2014,07:59,Wednesday,Hallowed Grounds,14.33,3492
-26,Marin Onda,15-01-2014,08:00,Wednesday,Hallowed Grounds,15.27,1310
-24,Minke Mies,15-01-2014,08:01,Wednesday,Brew've Been Served,49.7,4434
-15,Loreto Bodrogi,15-01-2014,08:02,Wednesday,Brew've Been Served,15.58,3853
-30,Felix Resumir,15-01-2014,08:14,Wednesday,Brew've Been Served,18.58,6901
-10,Ada Campo-Corrente,15-01-2014,12:00,Wednesday,Brewed Awakenings,3.62,8332
-28,Isande Borrasca,15-01-2014,12:00,Wednesday,Jack's Magical Beans,5.3,9241
-3,Felix Balas,15-01-2014,12:00,Wednesday,Bean There Done That,5.34,9635
-5,Isak Baza,15-01-2014,12:00,Wednesday,Jack's Magical Beans,11.15,6899
-19,Vira Frente,15-01-2014,12:00,Wednesday,Bean There Done That,15.24,6895
-11,Axel Calzas,15-01-2014,12:00,Wednesday,Bean There Done That,18.96,1321
-35,Willem Vasco-Pais,15-01-2014,12:00,Wednesday,Jack's Magical Beans,19.54,2463
-32,Orhan Strum,15-01-2014,12:00,Wednesday,Jack's Magical Beans,84.06,8156
-7,Elsa Orilla,15-01-2014,12:00,Wednesday,Brewed Awakenings,91.62,2540
-9,Gustav Cazar,15-01-2014,12:00,Wednesday,Bean There Done That,93.13,1877
-32,Orhan Strum,15-01-2014,13:08,Wednesday,Kalami Kafenion,22.39,8156
-6,Linnea Bergen,15-01-2014,13:10,Wednesday,Ouzeri Elian,8.93,7253
-10,Ada Campo-Corrente,15-01-2014,13:12,Wednesday,Hippokampos,36.7,8332
-33,Brand Tempestad,15-01-2014,13:12,Wednesday,Hippokampos,118.89,9683
-23,Varja Lagos,15-01-2014,13:22,Wednesday,Ouzeri Elian,12.9,3484
-2,Lars Azada,15-01-2014,13:22,Wednesday,Guy's Gyros,14.37,1415
-8,Lucas Alcazar,15-01-2014,13:22,Wednesday,Abila Zacharo,31,7889
-5,Isak Baza,15-01-2014,13:24,Wednesday,Hippokampos,13,6899
-4,Ingrid Barranco,15-01-2014,13:26,Wednesday,Abila Zacharo,23.51,7688
-22,Adra Nubarron,15-01-2014,13:27,Wednesday,Katerina's Cafe,55.6,1286
-11,Axel Calzas,15-01-2014,13:31,Wednesday,Ouzeri Elian,36.47,1321
-14,Lidelse Dedos,15-01-2014,13:35,Wednesday,Kalami Kafenion,26.17,1874
-21,Hennie Osvaldo,15-01-2014,13:39,Wednesday,Hippokampos,8.75,9405
-35,Willem Vasco-Pais,15-01-2014,13:39,Wednesday,Gelatogalore,9.61,2463
-16,Isia Vann,15-01-2014,13:41,Wednesday,Guy's Gyros,49.34,7354
-7,Elsa Orilla,15-01-2014,13:41,Wednesday,Hippokampos,82.61,2540
-12,Hideki Cocinaro,15-01-2014,13:42,Wednesday,Ouzeri Elian,22.86,7108
-9,Gustav Cazar,15-01-2014,13:42,Wednesday,Hippokampos,32.4,1877
-25,Kanon Herrero,15-01-2014,13:44,Wednesday,Guy's Gyros,15.89,2142
-19,Vira Frente,15-01-2014,13:45,Wednesday,Kalami Kafenion,47.86,6895
-3,Felix Balas,15-01-2014,13:45,Wednesday,Abila Zacharo,88.83,9635
-17,Sven Flecha,15-01-2014,13:47,Wednesday,Abila Zacharo,20.44,7384
-15,Loreto Bodrogi,15-01-2014,13:55,Wednesday,Gelatogalore,31.21,3853
-13,Inga Ferro,15-01-2014,13:58,Wednesday,Gelatogalore,39.4,7819
-26,Marin Onda,15-01-2014,14:00,Wednesday,Katerina's Cafe,12.12,1310
-18,Birgitta Frente,15-01-2014,14:00,Wednesday,Guy's Gyros,25.58,9617
-27,Kare Orilla,15-01-2014,14:02,Wednesday,Abila Zacharo,24.53,3492
-24,Minke Mies,15-01-2014,14:02,Wednesday,Hippokampos,118.23,4434
-30,Felix Resumir,15-01-2014,14:13,Wednesday,Kalami Kafenion,28.82,6901
-28,Isande Borrasca,15-01-2014,19:18,Wednesday,Ouzeri Elian,28.86,9241
-27,Kare Orilla,15-01-2014,19:50,Wednesday,Katerina's Cafe,39.23,3492
-7,Elsa Orilla,15-01-2014,19:52,Wednesday,Frydos Autosupply n' More,18.91,2540
-23,Varja Lagos,15-01-2014,19:53,Wednesday,Guy's Gyros,98.04,3484
-2,Lars Azada,15-01-2014,19:55,Wednesday,Hippokampos,13.02,1415
-24,Minke Mies,15-01-2014,19:55,Wednesday,Guy's Gyros,31.04,4434
-13,Inga Ferro,15-01-2014,19:56,Wednesday,General Grocer,126.2,7819
-25,Kanon Herrero,15-01-2014,20:00,Wednesday,Katerina's Cafe,29.84,2142
-16,Isia Vann,15-01-2014,20:02,Wednesday,Guy's Gyros,28.75,7354
-33,Brand Tempestad,15-01-2014,20:04,Wednesday,Frydos Autosupply n' More,235.27,9683
-18,Birgitta Frente,15-01-2014,20:05,Wednesday,Katerina's Cafe,11.45,9617
-20,Stenig Fusil,15-01-2014,20:08,Wednesday,Guy's Gyros,36.35,6816
-3,Felix Balas,15-01-2014,20:10,Wednesday,Hippokampos,35.12,9635
-10,Ada Campo-Corrente,15-01-2014,20:10,Wednesday,Shoppers' Delight,162,8332
-4,Ingrid Barranco,15-01-2014,20:16,Wednesday,Hippokampos,11.8,7688
-11,Axel Calzas,15-01-2014,20:23,Wednesday,Hippokampos,10.35,1321
-26,Marin Onda,15-01-2014,20:23,Wednesday,Katerina's Cafe,39.63,1310
-9,Gustav Cazar,15-01-2014,20:24,Wednesday,Hippokampos,16.37,1877
-5,Isak Baza,15-01-2014,20:29,Wednesday,Ouzeri Elian,23.18,6899
-14,Lidelse Dedos,15-01-2014,20:33,Wednesday,Frydos Autosupply n' More,18.66,1874
-15,Loreto Bodrogi,15-01-2014,20:59,Wednesday,Guy's Gyros,61.43,3853
-6,Linnea Bergen,15-01-2014,21:05,Wednesday,Katerina's Cafe,13.77,7253
-22,Adra Nubarron,15-01-2014,21:05,Wednesday,Guy's Gyros,27.01,1286
-19,Vira Frente,15-01-2014,21:08,Wednesday,Hippokampos,101.14,6895
-32,Orhan Strum,15-01-2014,21:42,Wednesday,Hippokampos,37.16,8156
-12,Hideki Cocinaro,16-01-2014,07:30,Thursday,Kronos Mart,298.83,7108
-16,Isia Vann,16-01-2014,07:34,Thursday,Brew've Been Served,8.18,7354
-23,Varja Lagos,16-01-2014,07:36,Thursday,Brew've Been Served,19.9,3484
-8,Lucas Alcazar,16-01-2014,07:44,Thursday,Hallowed Grounds,13.84,7889
-27,Kare Orilla,16-01-2014,07:44,Thursday,Hallowed Grounds,17.74,3492
-12,Hideki Cocinaro,16-01-2014,07:44,Thursday,Hallowed Grounds,18.2,7108
-17,Sven Flecha,16-01-2014,07:50,Thursday,Brew've Been Served,7.31,7384
-26,Marin Onda,16-01-2014,07:51,Thursday,Hallowed Grounds,9.6,1310
-18,Birgitta Frente,16-01-2014,07:51,Thursday,Hallowed Grounds,44.98,9617
-22,Adra Nubarron,16-01-2014,07:52,Thursday,Brew've Been Served,12.67,1286
-34,Edvard Vann,16-01-2014,07:53,Thursday,Brew've Been Served,4.7,4795
-14,Lidelse Dedos,16-01-2014,07:54,Thursday,Hallowed Grounds,7.22,1874
-20,Stenig Fusil,16-01-2014,07:55,Thursday,Brew've Been Served,12.83,6816
-33,Brand Tempestad,16-01-2014,07:56,Thursday,Brew've Been Served,4.33,9683
-15,Loreto Bodrogi,16-01-2014,08:02,Thursday,Brew've Been Served,5.82,3853
-30,Felix Resumir,16-01-2014,08:03,Thursday,Brew've Been Served,16.67,6901
-21,Hennie Osvaldo,16-01-2014,08:03,Thursday,Hallowed Grounds,72.61,9405
-1,Nils Calixto,16-01-2014,08:05,Thursday,Hallowed Grounds,12.19,9551
-24,Minke Mies,16-01-2014,08:09,Thursday,Brew've Been Served,17.44,4434
-13,Inga Ferro,16-01-2014,08:19,Thursday,Brew've Been Served,16.9,7819
-9,Gustav Cazar,16-01-2014,12:00,Thursday,Bean There Done That,5.56,1877
-10,Ada Campo-Corrente,16-01-2014,12:00,Thursday,Brewed Awakenings,6.39,8332
-7,Elsa Orilla,16-01-2014,12:00,Thursday,Brewed Awakenings,6.53,2540
-35,Willem Vasco-Pais,16-01-2014,12:00,Thursday,Jack's Magical Beans,6.95,2463
-5,Isak Baza,16-01-2014,12:00,Thursday,Jack's Magical Beans,9.12,6899
-3,Felix Balas,16-01-2014,12:00,Thursday,Bean There Done That,12.33,9635
-32,Orhan Strum,16-01-2014,12:00,Thursday,Jack's Magical Beans,12.56,8156
-28,Isande Borrasca,16-01-2014,12:00,Thursday,Jack's Magical Beans,14.86,9241
-19,Vira Frente,16-01-2014,12:00,Thursday,Bean There Done That,17.4,6895
-4,Ingrid Barranco,16-01-2014,12:00,Thursday,Brewed Awakenings,17.91,7688
-2,Lars Azada,16-01-2014,12:00,Thursday,Bean There Done That,19.82,1415
-11,Axel Calzas,16-01-2014,12:00,Thursday,Bean There Done That,98.34,1321
-33,Brand Tempestad,16-01-2014,13:17,Thursday,Katerina's Cafe,11.08,9683
-10,Ada Campo-Corrente,16-01-2014,13:19,Thursday,Hippokampos,17.66,8332
-4,Ingrid Barranco,16-01-2014,13:19,Thursday,Katerina's Cafe,27.82,7688
-32,Orhan Strum,16-01-2014,13:22,Thursday,Hippokampos,26.15,8156
-22,Adra Nubarron,16-01-2014,13:22,Thursday,Abila Zacharo,64.71,1286
-8,Lucas Alcazar,16-01-2014,13:23,Thursday,Guy's Gyros,31.48,7889
-5,Isak Baza,16-01-2014,13:26,Thursday,Hippokampos,36.17,6899
-23,Varja Lagos,16-01-2014,13:27,Thursday,Katerina's Cafe,34.02,3484
-1,Nils Calixto,16-01-2014,13:28,Thursday,Guy's Gyros,10.27,9551
-7,Elsa Orilla,16-01-2014,13:30,Thursday,Hippokampos,10.38,2540
-6,Linnea Bergen,16-01-2014,13:30,Thursday,Hippokampos,16.53,7253
-35,Willem Vasco-Pais,16-01-2014,13:33,Thursday,Gelatogalore,12.33,2463
-2,Lars Azada,16-01-2014,13:36,Thursday,Hippokampos,31.14,1415
-21,Hennie Osvaldo,16-01-2014,13:37,Thursday,Gelatogalore,22.19,9405
-34,Edvard Vann,16-01-2014,13:39,Thursday,Abila Zacharo,69.27,4795
-13,Inga Ferro,16-01-2014,13:42,Thursday,Guy's Gyros,29.7,7819
-11,Axel Calzas,16-01-2014,13:43,Thursday,Hippokampos,14.89,1321
-20,Stenig Fusil,16-01-2014,13:44,Thursday,Guy's Gyros,13.48,6816
-16,Isia Vann,16-01-2014,13:44,Thursday,Hippokampos,18.18,7354
-15,Loreto Bodrogi,16-01-2014,13:45,Thursday,Ouzeri Elian,12.47,3853
-25,Kanon Herrero,16-01-2014,13:45,Thursday,Ouzeri Elian,18.27,2142
-12,Hideki Cocinaro,16-01-2014,13:47,Thursday,Abila Zacharo,36.02,7108
-27,Kare Orilla,16-01-2014,13:48,Thursday,Kalami Kafenion,11.83,3492
-18,Birgitta Frente,16-01-2014,13:48,Thursday,Hippokampos,29.93,9617
-14,Lidelse Dedos,16-01-2014,13:48,Thursday,Gelatogalore,32.4,1874
-3,Felix Balas,16-01-2014,13:48,Thursday,Kalami Kafenion,91.38,9635
-17,Sven Flecha,16-01-2014,13:49,Thursday,Kalami Kafenion,8.86,7384
-26,Marin Onda,16-01-2014,13:54,Thursday,Hippokampos,8.07,1310
-30,Felix Resumir,16-01-2014,13:55,Thursday,Abila Zacharo,8.43,6901
-9,Gustav Cazar,16-01-2014,14:05,Thursday,Guy's Gyros,32.8,1877
-24,Minke Mies,16-01-2014,17:07,Thursday,Gelatogalore,10.62,4434
-17,Sven Flecha,16-01-2014,19:04,Thursday,Guy's Gyros,25.57,7384
-23,Varja Lagos,16-01-2014,19:09,Thursday,Guy's Gyros,8.31,3484
-8,Lucas Alcazar,16-01-2014,19:39,Thursday,Katerina's Cafe,10.93,7889
-34,Edvard Vann,16-01-2014,19:40,Thursday,Guy's Gyros,37.8,4795
-14,Lidelse Dedos,16-01-2014,19:45,Thursday,Frydos Autosupply n' More,53.37,1874
-30,Felix Resumir,16-01-2014,20:09,Thursday,Guy's Gyros,28.27,6901
-11,Axel Calzas,16-01-2014,20:13,Thursday,Hippokampos,29.13,1321
-33,Brand Tempestad,16-01-2014,20:14,Thursday,Guy's Gyros,111.31,9683
-15,Loreto Bodrogi,16-01-2014,20:17,Thursday,Guy's Gyros,25.78,3853
-20,Stenig Fusil,16-01-2014,20:17,Thursday,Guy's Gyros,30.76,6816
-18,Birgitta Frente,16-01-2014,20:23,Thursday,Katerina's Cafe,13.91,9617
-5,Isak Baza,16-01-2014,20:25,Thursday,Ouzeri Elian,23.89,6899
-13,Inga Ferro,16-01-2014,20:25,Thursday,Albert's Fine Clothing,91.71,7819
-24,Minke Mies,16-01-2014,20:25,Thursday,Roberts and Sons,155.76,4434
-1,Nils Calixto,16-01-2014,20:28,Thursday,Ouzeri Elian,9.91,9551
-21,Hennie Osvaldo,16-01-2014,20:28,Thursday,Katerina's Cafe,30.84,9405
-12,Hideki Cocinaro,16-01-2014,20:35,Thursday,Guy's Gyros,11.31,7108
-25,Kanon Herrero,16-01-2014,20:36,Thursday,Katerina's Cafe,19.44,2142
-19,Vira Frente,16-01-2014,20:42,Thursday,Hippokampos,114,6895
-35,Willem Vasco-Pais,16-01-2014,20:43,Thursday,Hippokampos,27.74,2463
-9,Gustav Cazar,16-01-2014,20:45,Thursday,Shoppers' Delight,160.69,1877
-22,Adra Nubarron,16-01-2014,20:50,Thursday,Shoppers' Delight,16.84,1286
-27,Kare Orilla,16-01-2014,20:51,Thursday,Katerina's Cafe,34.58,3492
-16,Isia Vann,16-01-2014,20:52,Thursday,Roberts and Sons,240.66,7354
-10,Ada Campo-Corrente,16-01-2014,20:58,Thursday,Hippokampos,12.47,8332
-4,Ingrid Barranco,16-01-2014,21:13,Thursday,Hippokampos,20.84,7688
-28,Isande Borrasca,16-01-2014,21:16,Thursday,Ouzeri Elian,29.99,9241
-17,Sven Flecha,17-01-2014,07:29,Friday,Brew've Been Served,52.56,7384
-26,Marin Onda,17-01-2014,07:31,Friday,Hallowed Grounds,3.25,1310
-8,Lucas Alcazar,17-01-2014,07:33,Friday,Hallowed Grounds,14.58,7889
-18,Birgitta Frente,17-01-2014,07:39,Friday,Hallowed Grounds,15.98,9617
-6,Linnea Bergen,17-01-2014,07:51,Friday,Coffee Cameleon,6.81,7253
-20,Stenig Fusil,17-01-2014,07:52,Friday,Coffee Cameleon,9.16,6816
-14,Lidelse Dedos,17-01-2014,07:52,Friday,Hallowed Grounds,18.6,1874
-31,Sten Sanjorge Jr.,17-01-2014,07:56,Friday,Hallowed Grounds,9.72,5010
-16,Isia Vann,17-01-2014,07:57,Friday,Brew've Been Served,10.52,7354
-34,Edvard Vann,17-01-2014,07:59,Friday,Brew've Been Served,19.39,4795
-23,Varja Lagos,17-01-2014,08:03,Friday,Brew've Been Served,13.66,3484
-27,Kare Orilla,17-01-2014,08:03,Friday,Hallowed Grounds,38.22,3492
-1,Nils Calixto,17-01-2014,08:04,Friday,Hallowed Grounds,9.4,9551
-21,Hennie Osvaldo,17-01-2014,08:04,Friday,Brew've Been Served,16.62,9405
-2,Lars Azada,17-01-2014,08:08,Friday,Kronos Mart,286.24,1415
-24,Minke Mies,17-01-2014,08:13,Friday,Coffee Cameleon,14.99,4434
-15,Loreto Bodrogi,17-01-2014,08:15,Friday,Brew've Been Served,3.09,3853
-30,Felix Resumir,17-01-2014,08:17,Friday,Brew've Been Served,5.29,6901
-13,Inga Ferro,17-01-2014,08:22,Friday,Brew've Been Served,15.46,7819
-22,Adra Nubarron,17-01-2014,08:23,Friday,Brew've Been Served,51.04,1286
-19,Vira Frente,17-01-2014,12:00,Friday,Bean There Done That,5.77,6895
-10,Ada Campo-Corrente,17-01-2014,12:00,Friday,Brewed Awakenings,6,8332
-5,Isak Baza,17-01-2014,12:00,Friday,Jack's Magical Beans,7.57,6899
-4,Ingrid Barranco,17-01-2014,12:00,Friday,Brewed Awakenings,8.16,7688
-3,Felix Balas,17-01-2014,12:00,Friday,Bean There Done That,8.21,9635
-11,Axel Calzas,17-01-2014,12:00,Friday,Bean There Done That,18.72,1321
-28,Isande Borrasca,17-01-2014,12:00,Friday,Jack's Magical Beans,19.11,9241
-9,Gustav Cazar,17-01-2014,12:00,Friday,Bean There Done That,19.56,1877
-2,Lars Azada,17-01-2014,12:00,Friday,Bean There Done That,19.67,1415
-7,Elsa Orilla,17-01-2014,12:00,Friday,Brewed Awakenings,88.69,2540
-10,Ada Campo-Corrente,17-01-2014,13:11,Friday,Abila Zacharo,68.78,8332
-6,Linnea Bergen,17-01-2014,13:16,Friday,Kalami Kafenion,140.78,7253
-32,Orhan Strum,17-01-2014,13:17,Friday,Gelatogalore,15.84,8156
-4,Ingrid Barranco,17-01-2014,13:18,Friday,Guy's Gyros,8.64,7688
-23,Varja Lagos,17-01-2014,13:21,Friday,Guy's Gyros,22.18,3484
-34,Edvard Vann,17-01-2014,13:27,Friday,Hippokampos,14.57,4795
-31,Sten Sanjorge Jr.,17-01-2014,13:28,Friday,Abila Zacharo,15.95,5010
-20,Stenig Fusil,17-01-2014,13:31,Friday,Hippokampos,15.77,6816
-3,Felix Balas,17-01-2014,13:33,Friday,Gelatogalore,23.23,9635
-35,Willem Vasco-Pais,17-01-2014,13:37,Friday,Kalami Kafenion,105.32,2463
-2,Lars Azada,17-01-2014,13:38,Friday,Ouzeri Elian,14.01,1415
-15,Loreto Bodrogi,17-01-2014,13:38,Friday,Guy's Gyros,39.14,3853
-22,Adra Nubarron,17-01-2014,13:38,Friday,Hippokampos,52.31,1286
-21,Hennie Osvaldo,17-01-2014,13:39,Friday,Kalami Kafenion,27.7,9405
-26,Marin Onda,17-01-2014,13:40,Friday,Gelatogalore,37.3,1310
-25,Kanon Herrero,17-01-2014,13:41,Friday,Abila Zacharo,14.51,2142
-16,Isia Vann,17-01-2014,13:45,Friday,Abila Zacharo,79.67,7354
-11,Axel Calzas,17-01-2014,13:48,Friday,Katerina's Cafe,13.11,1321
-33,Brand Tempestad,17-01-2014,13:49,Friday,Chostus Hotel,114.22,9683
-14,Lidelse Dedos,17-01-2014,13:51,Friday,Kalami Kafenion,20.02,1874
-13,Inga Ferro,17-01-2014,13:51,Friday,Gelatogalore,34.59,7819
-18,Birgitta Frente,17-01-2014,13:52,Friday,Hippokampos,108.35,9617
-24,Minke Mies,17-01-2014,13:53,Friday,Katerina's Cafe,35.52,4434
-7,Elsa Orilla,17-01-2014,13:54,Friday,Chostus Hotel,159.62,2540
-30,Felix Resumir,17-01-2014,13:55,Friday,Guy's Gyros,32.31,6901
-27,Kare Orilla,17-01-2014,13:57,Friday,Gelatogalore,21.62,3492
-9,Gustav Cazar,17-01-2014,13:58,Friday,Hippokampos,21.81,1877
-12,Hideki Cocinaro,17-01-2014,13:58,Friday,Kalami Kafenion,27.73,7108
-27,Kare Orilla,17-01-2014,19:24,Friday,Katerina's Cafe,22.18,3492
-20,Stenig Fusil,17-01-2014,19:29,Friday,Guy's Gyros,19.68,6816
-5,Isak Baza,17-01-2014,19:40,Friday,Ouzeri Elian,38.6,6899
-11,Axel Calzas,17-01-2014,19:44,Friday,Albert's Fine Clothing,1239.41,1321
-30,Felix Resumir,17-01-2014,19:46,Friday,Guy's Gyros,16.83,6901
-34,Edvard Vann,17-01-2014,19:53,Friday,Guy's Gyros,35.1,4795
-7,Elsa Orilla,17-01-2014,20:03,Friday,Hippokampos,8.92,2540
-17,Sven Flecha,17-01-2014,20:05,Friday,Shoppers' Delight,155.01,7384
-26,Marin Onda,17-01-2014,20:07,Friday,Katerina's Cafe,21.22,1310
-28,Isande Borrasca,17-01-2014,20:07,Friday,Ouzeri Elian,70.21,9241
-23,Varja Lagos,17-01-2014,20:16,Friday,Guy's Gyros,37.55,3484
-6,Linnea Bergen,17-01-2014,20:20,Friday,Katerina's Cafe,19.09,7253
-13,Inga Ferro,17-01-2014,20:21,Friday,Guy's Gyros,8.31,7819
-22,Adra Nubarron,17-01-2014,20:21,Friday,Shoppers' Delight,289.33,1286
-15,Loreto Bodrogi,17-01-2014,20:24,Friday,Guy's Gyros,8.54,3853
-8,Lucas Alcazar,17-01-2014,20:24,Friday,Katerina's Cafe,72.13,7889
-1,Nils Calixto,17-01-2014,20:28,Friday,Ouzeri Elian,35.81,9551
-12,Hideki Cocinaro,17-01-2014,20:41,Friday,General Grocer,98.03,7108
-16,Isia Vann,17-01-2014,20:41,Friday,Frydos Autosupply n' More,260.08,7354
-4,Ingrid Barranco,17-01-2014,20:54,Friday,Hippokampos,11.93,7688
-25,Kanon Herrero,17-01-2014,20:58,Friday,Katerina's Cafe,38.21,2142
-33,Brand Tempestad,17-01-2014,20:59,Friday,Guy's Gyros,29.71,9683
-21,Hennie Osvaldo,17-01-2014,21:06,Friday,Katerina's Cafe,27.49,9405
-24,Minke Mies,17-01-2014,21:07,Friday,Guy's Gyros,55.4,4434
-35,Willem Vasco-Pais,17-01-2014,21:29,Friday,Hippokampos,38.19,2463
-3,Felix Balas,17-01-2014,21:58,Friday,Hippokampos,12.86,9635
-31,Sten Sanjorge Jr.,18-01-2014,12:03,Saturday,Chostus Hotel,600,5010
-32,Orhan Strum,18-01-2014,13:04,Saturday,Abila Zacharo,111.93,8156
-7,Elsa Orilla,18-01-2014,13:05,Saturday,Abila Zacharo,25.59,2540
-19,Vira Frente,18-01-2014,13:18,Saturday,Ouzeri Elian,33.57,6895
-9,Gustav Cazar,18-01-2014,13:21,Saturday,Hippokampos,100.11,1877
-6,Linnea Bergen,18-01-2014,13:25,Saturday,Abila Zacharo,18.45,7253
-17,Sven Flecha,18-01-2014,13:27,Saturday,Guy's Gyros,55.21,7384
-14,Lidelse Dedos,18-01-2014,13:28,Saturday,Guy's Gyros,27.4,1874
-35,Willem Vasco-Pais,18-01-2014,13:28,Saturday,Kalami Kafenion,38.91,2463
-1,Nils Calixto,18-01-2014,13:32,Saturday,Abila Zacharo,16.59,9551
-23,Varja Lagos,18-01-2014,13:34,Saturday,Katerina's Cafe,19.3,3484
-11,Axel Calzas,18-01-2014,13:58,Saturday,Kalami Kafenion,24.14,1321
-4,Ingrid Barranco,18-01-2014,14:03,Saturday,Katerina's Cafe,96.36,7688
-18,Birgitta Frente,18-01-2014,14:05,Saturday,Guy's Gyros,47.89,9617
-13,Inga Ferro,18-01-2014,14:06,Saturday,Katerina's Cafe,24.14,7819
-30,Felix Resumir,18-01-2014,14:17,Saturday,Kalami Kafenion,53.36,6901
-22,Adra Nubarron,18-01-2014,14:51,Saturday,Ahaggo Museum,55.55,1286
-17,Sven Flecha,18-01-2014,14:55,Saturday,Ahaggo Museum,120.2,7384
-19,Vira Frente,18-01-2014,15:20,Saturday,Albert's Fine Clothing,35.66,6895
-14,Lidelse Dedos,18-01-2014,15:32,Saturday,Frydos Autosupply n' More,361.54,1874
-32,Orhan Strum,18-01-2014,15:40,Saturday,Shoppers' Delight,258.33,8156
-6,Linnea Bergen,18-01-2014,15:41,Saturday,Roberts and Sons,62.47,7253
-9,Gustav Cazar,18-01-2014,15:51,Saturday,Frydos Autosupply n' More,103.55,1877
-35,Willem Vasco-Pais,18-01-2014,15:53,Saturday,Frydos Autosupply n' More,120.67,2463
-3,Felix Balas,18-01-2014,18:39,Saturday,Frank's Fuel,52.66,9635
-32,Orhan Strum,18-01-2014,18:59,Saturday,Albert's Fine Clothing,226.49,8156
-23,Varja Lagos,18-01-2014,19:08,Saturday,Guy's Gyros,39.68,3484
-18,Birgitta Frente,18-01-2014,19:20,Saturday,Roberts and Sons,266.69,9617
-11,Axel Calzas,18-01-2014,19:21,Saturday,Hippokampos,21.34,1321
-5,Isak Baza,18-01-2014,19:21,Saturday,Ouzeri Elian,57.63,6899
-1,Nils Calixto,18-01-2014,19:26,Saturday,Ouzeri Elian,61.56,9551
-8,Lucas Alcazar,18-01-2014,19:30,Saturday,Katerina's Cafe,8.14,7889
-14,Lidelse Dedos,18-01-2014,19:31,Saturday,Katerina's Cafe,22.74,1874
-24,Minke Mies,18-01-2014,19:32,Saturday,Katerina's Cafe,33.41,4434
-19,Vira Frente,18-01-2014,19:35,Saturday,Hippokampos,27.21,6895
-34,Edvard Vann,18-01-2014,19:36,Saturday,Abila Zacharo,21.29,4795
-35,Willem Vasco-Pais,18-01-2014,19:36,Saturday,Hippokampos,53.21,2463
-3,Felix Balas,18-01-2014,19:39,Saturday,Kalami Kafenion,71.14,9635
-20,Stenig Fusil,18-01-2014,19:39,Saturday,Guy's Gyros,78.36,6816
-10,Ada Campo-Corrente,18-01-2014,19:42,Saturday,Hippokampos,63.21,8332
-4,Ingrid Barranco,18-01-2014,19:46,Saturday,Roberts and Sons,125.35,7688
-26,Marin Onda,18-01-2014,19:54,Saturday,Katerina's Cafe,33.63,1310
-21,Hennie Osvaldo,18-01-2014,20:01,Saturday,Katerina's Cafe,17.37,9405
-22,Adra Nubarron,18-01-2014,20:01,Saturday,Hippokampos,49.21,1286
-30,Felix Resumir,18-01-2014,20:07,Saturday,General Grocer,108.49,6901
-16,Isia Vann,18-01-2014,20:09,Saturday,Katerina's Cafe,19.31,7354
-2,Lars Azada,18-01-2014,20:11,Saturday,Hippokampos,72.5,1415
-15,Loreto Bodrogi,18-01-2014,20:13,Saturday,Katerina's Cafe,9.72,3853
-13,Inga Ferro,18-01-2014,20:15,Saturday,Katerina's Cafe,37.21,7819
-9,Gustav Cazar,18-01-2014,20:23,Saturday,Hippokampos,29.21,1877
-23,Varja Lagos,19-01-2014,03:13,Sunday,Kronos Mart,87.66,3484
-1,Nils Calixto,19-01-2014,03:45,Sunday,Kronos Mart,194.51,9551
-10,Ada Campo-Corrente,19-01-2014,03:48,Sunday,Kronos Mart,150.36,8332
-32,Orhan Strum,19-01-2014,12:41,Sunday,Desafio Golf Course,150.07,8156
-4,Ingrid Barranco,19-01-2014,12:57,Sunday,Desafio Golf Course,145.72,7688
-16,Isia Vann,19-01-2014,13:00,Sunday,Katerina's Cafe,35.01,7354
-19,Vira Frente,19-01-2014,13:09,Sunday,Gelatogalore,22.36,6895
-34,Edvard Vann,19-01-2014,13:23,Sunday,Katerina's Cafe,70.22,4795
-28,Isande Borrasca,19-01-2014,13:26,Sunday,Ahaggo Museum,26.91,9241
-23,Varja Lagos,19-01-2014,13:27,Sunday,Ouzeri Elian,23.65,3484
-25,Kanon Herrero,19-01-2014,13:33,Sunday,Hippokampos,64.37,2142
-10,Ada Campo-Corrente,19-01-2014,13:51,Sunday,Desafio Golf Course,190.91,8332
-24,Minke Mies,19-01-2014,13:53,Sunday,Katerina's Cafe,26.76,4434
-26,Marin Onda,19-01-2014,14:01,Sunday,Katerina's Cafe,12.78,1310
-17,Sven Flecha,19-01-2014,14:08,Sunday,Ouzeri Elian,45.32,7384
-30,Felix Resumir,19-01-2014,14:20,Sunday,Abila Zacharo,47.8,6901
-27,Kare Orilla,19-01-2014,14:20,Sunday,Katerina's Cafe,54.2,3492
-19,Vira Frente,19-01-2014,15:03,Sunday,General Grocer,70.22,6895
-35,Willem Vasco-Pais,19-01-2014,15:15,Sunday,Desafio Golf Course,110.02,2463
-23,Varja Lagos,19-01-2014,15:26,Sunday,Frydos Autosupply n' More,56.09,3484
-25,Kanon Herrero,19-01-2014,15:39,Sunday,Albert's Fine Clothing,274.66,2142
-31,Sten Sanjorge Jr.,19-01-2014,15:46,Sunday,Desafio Golf Course,148.22,5010
-34,Edvard Vann,19-01-2014,15:53,Sunday,Frydos Autosupply n' More,209.76,4795
-10,Ada Campo-Corrente,19-01-2014,19:43,Sunday,Hippokampos,48.23,8332
-3,Felix Balas,19-01-2014,19:43,Sunday,Hippokampos,101.25,9635
-19,Vira Frente,19-01-2014,19:44,Sunday,Hippokampos,46.32,6895
-11,Axel Calzas,19-01-2014,19:44,Sunday,Hippokampos,88.27,1321
-22,Adra Nubarron,19-01-2014,19:45,Sunday,Guy's Gyros,23.21,1286
-31,Sten Sanjorge Jr.,19-01-2014,19:45,Sunday,Guy's Gyros,25.79,5010
-23,Varja Lagos,19-01-2014,19:45,Sunday,Guy's Gyros,58.35,3484
-17,Sven Flecha,19-01-2014,19:45,Sunday,Guy's Gyros,65.21,7384
-21,Hennie Osvaldo,19-01-2014,19:45,Sunday,Frydos Autosupply n' More,98.04,9405
-5,Isak Baza,19-01-2014,19:48,Sunday,Ouzeri Elian,67.98,6899
-1,Nils Calixto,19-01-2014,19:49,Sunday,Ouzeri Elian,32.77,9551
-20,Stenig Fusil,19-01-2014,19:49,Sunday,Guy's Gyros,100.36,6816
-8,Lucas Alcazar,19-01-2014,19:53,Sunday,Katerina's Cafe,34.03,7889
-25,Kanon Herrero,19-01-2014,19:56,Sunday,Shoppers' Delight,30.39,2142
-35,Willem Vasco-Pais,19-01-2014,19:56,Sunday,Hippokampos,63.17,2463
-16,Isia Vann,19-01-2014,20:00,Sunday,Guy's Gyros,18.08,7354
-7,Elsa Orilla,19-01-2014,20:02,Sunday,Albert's Fine Clothing,254.29,2540
-14,Lidelse Dedos,19-01-2014,20:05,Sunday,Katerina's Cafe,33.79,1874
-12,Hideki Cocinaro,19-01-2014,20:14,Sunday,Guy's Gyros,36.87,7108
-33,Brand Tempestad,19-01-2014,20:16,Sunday,Guy's Gyros,37.48,9683
-2,Lars Azada,19-01-2014,20:16,Sunday,Hippokampos,78.96,1415
-18,Birgitta Frente,19-01-2014,20:22,Sunday,Katerina's Cafe,38.9,9617
-15,Loreto Bodrogi,19-01-2014,20:25,Sunday,Guy's Gyros,20.94,3853
-24,Minke Mies,19-01-2014,20:30,Sunday,Guy's Gyros,31.94,4434
-30,Felix Resumir,19-01-2014,20:51,Sunday,Guy's Gyros,39.6,6901
+CarID,Name,Employment_Type,Date,Time,Day_of_Week,Weekday/Weekend,Category,Location,Price,Last4ccnum
+34,Edvard Vann,Security,1/6/2014,7:28,Monday,Weekday,Food,Brew've Been Served,11.34,4795
+12,Hideki Cocinaro,Security,1/6/2014,7:34,Monday,Weekday,Food,Hallowed Grounds,52.22,7108
+20,Stenig Fusil,Security,1/6/2014,7:35,Monday,Weekday,Food,Brew've Been Served,8.33,6816
+18,Birgitta Frente,Engineering,1/6/2014,7:36,Monday,Weekday,Food,Hallowed Grounds,16.72,9617
+17,Sven Flecha,Information Technology,1/6/2014,7:37,Monday,Weekday,Food,Brew've Been Served,4.24,7384
+6,Linnea Bergen,Information Technology,1/6/2014,7:42,Monday,Weekday,Food,Coffee Cameleon,28.73,7253
+33,Brand Tempestad,Engineering,1/6/2014,7:43,Monday,Weekday,Food,Brew've Been Served,16.9,9683
+27,Kare Orilla,Engineering,1/6/2014,7:48,Monday,Weekday,Food,Hallowed Grounds,10.66,3492
+29,Bertrand Ovan,Facilities,1/6/2014,7:49,Monday,Weekday,Food,Coffee Cameleon,8.39,5921
+21,Hennie Osvaldo,Security,1/6/2014,7:52,Monday,Weekday,Food,Brew've Been Served,32.83,9405
+25,Kanon Herrero,Engineering,1/6/2014,7:54,Monday,Weekday,Food,Coffee Cameleon,11.86,2142
+8,Lucas Alcazar,Information Technology,1/6/2014,7:54,Monday,Weekday,Food,Hallowed Grounds,16.88,7889
+23,Varja Lagos,Security,1/6/2014,7:55,Monday,Weekday,Food,Brew've Been Served,3.67,3484
+1,Nils Calixto,Information Technology,1/6/2014,7:55,Monday,Weekday,Food,Hallowed Grounds,8.05,9551
+13,Inga Ferro,Security,1/6/2014,7:59,Monday,Weekday,Food,Brew've Been Served,8.88,7819
+14,Lidelse Dedos,Engineering,1/6/2014,8:01,Monday,Weekday,Food,Hallowed Grounds,10.07,1874
+24,Minke Mies,Security,1/6/2014,8:06,Monday,Weekday,Food,Brew've Been Served,15.58,4434
+15,Loreto Bodrogi,Security,1/6/2014,8:06,Monday,Weekday,Food,Brew've Been Served,18.24,3853
+30,Felix Resumir,Security,1/6/2014,8:07,Monday,Weekday,Food,Brew've Been Served,5.66,6901
+22,Adra Nubarron,Security,1/6/2014,8:16,Monday,Weekday,Food,Brew've Been Served,14.97,1286
+19,Vira Frente,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Bean There Done That,4.27,6895
+10,Ada Campo-Corrente,Executive,1/6/2014,12:00,Monday,Weekday,Food,Brewed Awakenings,4.35,8332
+11,Axel Calzas,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Bean There Done That,5.24,1321
+4,Ingrid Barranco,Executive,1/6/2014,12:00,Monday,Weekday,Food,Brewed Awakenings,5.72,7688
+9,Gustav Cazar,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Bean There Done That,8.54,1877
+2,Lars Azada,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Bean There Done That,10.28,1415
+5,Isak Baza,Information Technology,1/6/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,11.03,6899
+3,Felix Balas,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Bean There Done That,16.09,9635
+7,Elsa Orilla,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Brewed Awakenings,16.89,2540
+35,Willem Vasco-Pais,Executive,1/6/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,18.1,2463
+28,Isande Borrasca,Engineering,1/6/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,18.59,9241
+32,Orhan Strum,Executive,1/6/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,27.84,8156
+10,Ada Campo-Corrente,Executive,1/6/2014,12:56,Monday,Weekday,Food,Katerina’s Cafe,13.68,8332
+32,Orhan Strum,Executive,1/6/2014,12:57,Monday,Weekday,Food,Hippokampos,9.16,8156
+6,Linnea Bergen,Information Technology,1/6/2014,13:19,Monday,Weekday,Food,Gelatogalore,12.74,7253
+23,Varja Lagos,Security,1/6/2014,13:19,Monday,Weekday,Food,Kalami Kafenion,70.1,3484
+1,Nils Calixto,Information Technology,1/6/2014,13:21,Monday,Weekday,Food,Hippokampos,28.23,9551
+7,Elsa Orilla,Engineering,1/6/2014,13:22,Monday,Weekday,Food,Ouzeri Elian,38.9,2540
+34,Edvard Vann,Security,1/6/2014,13:23,Monday,Weekday,Food,Hippokampos,13.26,4795
+2,Lars Azada,Engineering,1/6/2014,13:24,Monday,Weekday,Food,Guy's Gyros,15.44,1415
+4,Ingrid Barranco,Executive,1/6/2014,13:27,Monday,Weekday,Food,Abila Zacharo,30.08,7688
+22,Adra Nubarron,Security,1/6/2014,13:27,Monday,Weekday,Food,Abila Zacharo,50.14,1286
+17,Sven Flecha,Information Technology,1/6/2014,13:30,Monday,Weekday,Food,Guy's Gyros,16.92,7384
+16,Isia Vann,Security,1/6/2014,13:35,Monday,Weekday,Food,Abila Zacharo,92.05,7354
+20,Stenig Fusil,Security,1/6/2014,13:37,Monday,Weekday,Food,Ouzeri Elian,20.56,6816
+26,Marin Onda,Engineering,1/6/2014,13:39,Monday,Weekday,Food,Guy's Gyros,11.22,1310
+8,Lucas Alcazar,Information Technology,1/6/2014,13:41,Monday,Weekday,Food,Gelatogalore,22.64,7889
+19,Vira Frente,Engineering,1/6/2014,13:42,Monday,Weekday,Food,Ouzeri Elian,20.4,6895
+5,Isak Baza,Information Technology,1/6/2014,13:46,Monday,Weekday,Food,Katerina’s Cafe,18.56,6899
+3,Felix Balas,Engineering,1/6/2014,13:46,Monday,Weekday,Food,Guy's Gyros,30.82,9635
+35,Willem Vasco-Pais,Executive,1/6/2014,13:46,Monday,Weekday,Food,Guy's Gyros,99.67,2463
+11,Axel Calzas,Engineering,1/6/2014,13:47,Monday,Weekday,Food,Kalami Kafenion,22.13,1321
+29,Bertrand Ovan,Facilities,1/6/2014,13:48,Monday,Weekday,Food,Ouzeri Elian,30.87,5921
+14,Lidelse Dedos,Engineering,1/6/2014,13:50,Monday,Weekday,Food,Katerina’s Cafe,13.59,1874
+18,Birgitta Frente,Engineering,1/6/2014,13:50,Monday,Weekday,Food,Katerina’s Cafe,32.64,9617
+24,Minke Mies,Security,1/6/2014,13:52,Monday,Weekday,Food,Kalami Kafenion,22.31,4434
+27,Kare Orilla,Engineering,1/6/2014,13:52,Monday,Weekday,Food,Gelatogalore,36.33,3492
+25,Kanon Herrero,Engineering,1/6/2014,13:53,Monday,Weekday,Food,Katerina’s Cafe,36.95,2142
+21,Hennie Osvaldo,Security,1/6/2014,13:54,Monday,Weekday,Food,Abila Zacharo,23.15,9405
+9,Gustav Cazar,Engineering,1/6/2014,13:57,Monday,Weekday,Food,Hippokampos,8.64,1877
+15,Loreto Bodrogi,Security,1/6/2014,13:59,Monday,Weekday,Food,Katerina’s Cafe,39.41,3853
+13,Inga Ferro,Security,1/6/2014,14:00,Monday,Weekday,Food,Gelatogalore,23.41,7819
+12,Hideki Cocinaro,Security,1/6/2014,14:05,Monday,Weekday,Food,Abila Zacharo,78.11,7108
+30,Felix Resumir,Security,1/6/2014,14:17,Monday,Weekday,Food,Katerina’s Cafe,19.65,6901
+23,Varja Lagos,Security,1/6/2014,17:28,Monday,Weekday,Gas,U-Pump,59.51,3484
+17,Sven Flecha,Information Technology,1/6/2014,19:18,Monday,Weekday,Food,Guy's Gyros,39.29,7384
+28,Isande Borrasca,Engineering,1/6/2014,19:50,Monday,Weekday,Company,Frydos Autosupply n' More,273.87,9241
+6,Linnea Bergen,Information Technology,1/6/2014,20:07,Monday,Weekday,Food,Katerina’s Cafe,23.63,7253
+14,Lidelse Dedos,Engineering,1/6/2014,20:08,Monday,Weekday,Food,Katerina’s Cafe,12.32,1874
+30,Felix Resumir,Security,1/6/2014,20:09,Monday,Weekday,Food,Guy's Gyros,11.94,6901
+23,Varja Lagos,Security,1/6/2014,20:13,Monday,Weekday,Food,Guy's Gyros,22.57,3484
+20,Stenig Fusil,Security,1/6/2014,20:15,Monday,Weekday,Food,Guy's Gyros,117.82,6816
+11,Axel Calzas,Engineering,1/6/2014,20:20,Monday,Weekday,Food,Hippokampos,35.34,1321
+13,Inga Ferro,Security,1/6/2014,20:24,Monday,Weekday,Food,Guy's Gyros,28.94,7819
+1,Nils Calixto,Information Technology,1/6/2014,20:26,Monday,Weekday,Retail,Albert's Fine Clothing,276.9,9551
+12,Hideki Cocinaro,Security,1/6/2014,20:28,Monday,Weekday,Food,Guy's Gyros,95.29,7108
+21,Hennie Osvaldo,Security,1/6/2014,20:29,Monday,Weekday,Food,Katerina’s Cafe,17.92,9405
+19,Vira Frente,Engineering,1/6/2014,20:29,Monday,Weekday,Food,Hippokampos,85.5,6895
+29,Bertrand Ovan,Facilities,1/6/2014,20:33,Monday,Weekday,Food,Katerina’s Cafe,15.52,5921
+9,Gustav Cazar,Engineering,1/6/2014,20:36,Monday,Weekday,Food,Hippokampos,26.8,1877
+2,Lars Azada,Engineering,1/6/2014,20:46,Monday,Weekday,Food,Hippokampos,21.33,1415
+16,Isia Vann,Security,1/6/2014,20:49,Monday,Weekday,Retail,Shoppers' Delight,293.67,7354
+4,Ingrid Barranco,Executive,1/6/2014,20:52,Monday,Weekday,Food,Hippokampos,17.27,7688
+27,Kare Orilla,Engineering,1/6/2014,20:59,Monday,Weekday,Food,Katerina’s Cafe,26.1,3492
+18,Birgitta Frente,Engineering,1/6/2014,21:03,Monday,Weekday,Food,Katerina’s Cafe,10.72,9617
+24,Minke Mies,Security,1/6/2014,21:03,Monday,Weekday,Retail,Albert's Fine Clothing,121.76,4434
+32,Orhan Strum,Executive,1/6/2014,21:11,Monday,Weekday,Food,Hippokampos,28.14,8156
+25,Kanon Herrero,Engineering,1/6/2014,21:23,Monday,Weekday,Company,Frydos Autosupply n' More,197.32,2142
+26,Marin Onda,Engineering,1/6/2014,21:32,Monday,Weekday,Company,Frydos Autosupply n' More,314.98,1310
+10,Ada Campo-Corrente,Executive,1/6/2014,21:52,Monday,Weekday,Food,Hippokampos,20.61,8332
+17,Sven Flecha,Information Technology,1/7/2014,7:27,Tuesday,Weekday,Food,Brew've Been Served,5.08,7384
+34,Edvard Vann,Security,1/7/2014,7:33,Tuesday,Weekday,Food,Brew've Been Served,7.09,4795
+8,Lucas Alcazar,Information Technology,1/7/2014,7:35,Tuesday,Weekday,Food,Hallowed Grounds,14.05,7889
+14,Lidelse Dedos,Engineering,1/7/2014,7:41,Tuesday,Weekday,Food,Hallowed Grounds,19.59,1874
+20,Stenig Fusil,Security,1/7/2014,7:45,Tuesday,Weekday,Food,Brew've Been Served,19.6,6816
+29,Bertrand Ovan,Facilities,1/7/2014,7:46,Tuesday,Weekday,Food,Coffee Cameleon,9.1,5921
+1,Nils Calixto,Information Technology,1/7/2014,7:46,Tuesday,Weekday,Food,Hallowed Grounds,84.44,9551
+26,Marin Onda,Engineering,1/7/2014,7:47,Tuesday,Weekday,Food,Hallowed Grounds,7.88,1310
+12,Hideki Cocinaro,Security,1/7/2014,7:48,Tuesday,Weekday,Food,Hallowed Grounds,18.97,7108
+6,Linnea Bergen,Information Technology,1/7/2014,7:49,Tuesday,Weekday,Food,Coffee Cameleon,27.66,7253
+27,Kare Orilla,Engineering,1/7/2014,7:50,Tuesday,Weekday,Food,Hallowed Grounds,9.61,3492
+24,Minke Mies,Security,1/7/2014,7:52,Tuesday,Weekday,Food,Brew've Been Served,3,4434
+22,Adra Nubarron,Security,1/7/2014,7:54,Tuesday,Weekday,Food,Brew've Been Served,11.92,1286
+23,Varja Lagos,Security,1/7/2014,7:55,Tuesday,Weekday,Food,Brew've Been Served,69.06,3484
+33,Brand Tempestad,Engineering,1/7/2014,7:56,Tuesday,Weekday,Food,Brew've Been Served,98.53,9683
+25,Kanon Herrero,Engineering,1/7/2014,8:00,Tuesday,Weekday,Food,Coffee Cameleon,11.55,2142
+18,Birgitta Frente,Engineering,1/7/2014,8:01,Tuesday,Weekday,Food,Hallowed Grounds,9.92,9617
+21,Hennie Osvaldo,Security,1/7/2014,8:02,Tuesday,Weekday,Food,Brew've Been Served,14.49,9405
+13,Inga Ferro,Security,1/7/2014,8:06,Tuesday,Weekday,Food,Brew've Been Served,3.03,7819
+30,Felix Resumir,Security,1/7/2014,8:18,Tuesday,Weekday,Food,Brew've Been Served,47.74,6901
+10,Ada Campo-Corrente,Executive,1/7/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,6.72,8332
+11,Axel Calzas,Engineering,1/7/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,8.03,1321
+4,Ingrid Barranco,Executive,1/7/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,12.17,7688
+28,Isande Borrasca,Engineering,1/7/2014,12:00,Tuesday,Weekday,Food,Jack's Magical Beans,18.77,9241
+32,Orhan Strum,Executive,1/7/2014,12:00,Tuesday,Weekday,Food,Jack's Magical Beans,19.61,8156
+5,Isak Baza,Information Technology,1/7/2014,12:00,Tuesday,Weekday,Food,Jack's Magical Beans,23.68,6899
+19,Vira Frente,Engineering,1/7/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,46.25,6895
+2,Lars Azada,Engineering,1/7/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,51.25,1415
+9,Gustav Cazar,Engineering,1/7/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,53.89,1877
+15,Loreto Bodrogi,Security,1/7/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,64.84,3853
+35,Willem Vasco-Pais,Executive,1/7/2014,12:00,Tuesday,Weekday,Food,Jack's Magical Beans,69.84,2463
+7,Elsa Orilla,Engineering,1/7/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,71.59,2540
+32,Orhan Strum,Executive,1/7/2014,13:13,Tuesday,Weekday,Food,Guy's Gyros,29.57,8156
+2,Lars Azada,Engineering,1/7/2014,13:20,Tuesday,Weekday,Food,Abila Zacharo,13.52,1415
+10,Ada Campo-Corrente,Executive,1/7/2014,13:20,Tuesday,Weekday,Food,Gelatogalore,35.06,8332
+16,Isia Vann,Security,1/7/2014,13:20,Tuesday,Weekday,Food,Guy's Gyros,38.56,7354
+22,Adra Nubarron,Security,1/7/2014,13:24,Tuesday,Weekday,Food,Kalami Kafenion,45.05,1286
+5,Isak Baza,Information Technology,1/7/2014,13:25,Tuesday,Weekday,Food,Abila Zacharo,82.25,6899
+25,Kanon Herrero,Engineering,1/7/2014,13:29,Tuesday,Weekday,Food,Ouzeri Elian,29.1,2142
+26,Marin Onda,Engineering,1/7/2014,13:30,Tuesday,Weekday,Food,Gelatogalore,51.64,1310
+20,Stenig Fusil,Security,1/7/2014,13:33,Tuesday,Weekday,Food,Guy's Gyros,11.31,6816
+34,Edvard Vann,Security,1/7/2014,13:33,Tuesday,Weekday,Food,Kalami Kafenion,18.06,4795
+8,Lucas Alcazar,Information Technology,1/7/2014,13:33,Tuesday,Weekday,Food,Katerina’s Cafe,22.27,7889
+6,Linnea Bergen,Information Technology,1/7/2014,13:33,Tuesday,Weekday,Food,Gelatogalore,34.04,7253
+4,Ingrid Barranco,Executive,1/7/2014,13:33,Tuesday,Weekday,Food,Abila Zacharo,52.72,7688
+19,Vira Frente,Engineering,1/7/2014,13:34,Tuesday,Weekday,Food,Ouzeri Elian,64.84,6895
+35,Willem Vasco-Pais,Executive,1/7/2014,13:35,Tuesday,Weekday,Food,Gelatogalore,8.98,2463
+1,Nils Calixto,Information Technology,1/7/2014,13:37,Tuesday,Weekday,Food,Gelatogalore,21.52,9551
+21,Hennie Osvaldo,Security,1/7/2014,13:39,Tuesday,Weekday,Food,Gelatogalore,17.21,9405
+33,Brand Tempestad,Engineering,1/7/2014,13:41,Tuesday,Weekday,Food,Abila Zacharo,17.81,9683
+23,Varja Lagos,Security,1/7/2014,13:41,Tuesday,Weekday,Food,Katerina’s Cafe,51.41,3484
+9,Gustav Cazar,Engineering,1/7/2014,13:45,Tuesday,Weekday,Food,Kalami Kafenion,22.83,1877
+3,Felix Balas,Engineering,1/7/2014,13:46,Tuesday,Weekday,Food,Guy's Gyros,10.11,9635
+12,Hideki Cocinaro,Security,1/7/2014,13:46,Tuesday,Weekday,Food,Kalami Kafenion,22.14,7108
+14,Lidelse Dedos,Engineering,1/7/2014,13:52,Tuesday,Weekday,Food,Gelatogalore,71.77,1874
+15,Loreto Bodrogi,Security,1/7/2014,13:53,Tuesday,Weekday,Food,Hippokampos,51.69,3853
+29,Bertrand Ovan,Facilities,1/7/2014,13:54,Tuesday,Weekday,Food,Gelatogalore,88.97,5921
+13,Inga Ferro,Security,1/7/2014,13:55,Tuesday,Weekday,Food,Abila Zacharo,65.9,7819
+11,Axel Calzas,Engineering,1/7/2014,13:56,Tuesday,Weekday,Food,Ouzeri Elian,16.2,1321
+27,Kare Orilla,Engineering,1/7/2014,14:00,Tuesday,Weekday,Food,Hippokampos,76.11,3492
+24,Minke Mies,Security,1/7/2014,14:07,Tuesday,Weekday,Food,Katerina’s Cafe,10.9,4434
+18,Birgitta Frente,Engineering,1/7/2014,14:09,Tuesday,Weekday,Food,Guy's Gyros,12.57,9617
+30,Felix Resumir,Security,1/7/2014,14:09,Tuesday,Weekday,Food,Ouzeri Elian,59.51,6901
+13,Inga Ferro,Security,1/7/2014,19:45,Tuesday,Weekday,Food,Guy's Gyros,14.87,7819
+23,Varja Lagos,Security,1/7/2014,19:48,Tuesday,Weekday,Food,Guy's Gyros,31.23,3484
+9,Gustav Cazar,Engineering,1/7/2014,20:01,Tuesday,Weekday,Food,Hippokampos,20.17,1877
+2,Lars Azada,Engineering,1/7/2014,20:02,Tuesday,Weekday,Food,Hippokampos,11.56,1415
+19,Vira Frente,Engineering,1/7/2014,20:04,Tuesday,Weekday,Retail,Albert's Fine Clothing,308.36,6895
+6,Linnea Bergen,Information Technology,1/7/2014,20:09,Tuesday,Weekday,Food,Katerina’s Cafe,19.49,7253
+34,Edvard Vann,Security,1/7/2014,20:10,Tuesday,Weekday,Food,Guy's Gyros,26.82,4795
+17,Sven Flecha,Information Technology,1/7/2014,20:10,Tuesday,Weekday,Food,Guy's Gyros,42.25,7384
+25,Kanon Herrero,Engineering,1/7/2014,20:11,Tuesday,Weekday,Food,Katerina’s Cafe,10.07,2142
+33,Brand Tempestad,Engineering,1/7/2014,20:11,Tuesday,Weekday,Food,Guy's Gyros,76.71,9683
+14,Lidelse Dedos,Engineering,1/7/2014,20:12,Tuesday,Weekday,Food,Katerina’s Cafe,55.63,1874
+8,Lucas Alcazar,Information Technology,1/7/2014,20:13,Tuesday,Weekday,Food,Katerina’s Cafe,94.75,7889
+15,Loreto Bodrogi,Security,1/7/2014,20:14,Tuesday,Weekday,Food,Guy's Gyros,62.33,3853
+28,Isande Borrasca,Engineering,1/7/2014,20:15,Tuesday,Weekday,Food,Ouzeri Elian,11.41,9241
+16,Isia Vann,Security,1/7/2014,20:19,Tuesday,Weekday,Food,Guy's Gyros,89.76,7354
+30,Felix Resumir,Security,1/7/2014,20:20,Tuesday,Weekday,Company,Frydos Autosupply n' More,312.73,6901
+29,Bertrand Ovan,Facilities,1/7/2014,20:32,Tuesday,Weekday,Food,Katerina’s Cafe,19.53,5921
+18,Birgitta Frente,Engineering,1/7/2014,20:33,Tuesday,Weekday,Food,Katerina’s Cafe,17.26,9617
+11,Axel Calzas,Engineering,1/7/2014,20:34,Tuesday,Weekday,Food,Hippokampos,70.19,1321
+27,Kare Orilla,Engineering,1/7/2014,20:47,Tuesday,Weekday,Food,Katerina’s Cafe,32.83,3492
+32,Orhan Strum,Executive,1/7/2014,20:51,Tuesday,Weekday,Food,Hippokampos,32.99,8156
+21,Hennie Osvaldo,Security,1/7/2014,21:01,Tuesday,Weekday,Food,Katerina’s Cafe,33.29,9405
+7,Elsa Orilla,Engineering,1/7/2014,21:03,Tuesday,Weekday,Food,Hippokampos,21.2,2540
+35,Willem Vasco-Pais,Executive,1/7/2014,21:17,Tuesday,Weekday,Food,Hippokampos,37.88,2463
+26,Marin Onda,Engineering,1/7/2014,21:19,Tuesday,Weekday,Food,Katerina’s Cafe,18.35,1310
+4,Ingrid Barranco,Executive,1/7/2014,21:21,Tuesday,Weekday,Food,Hippokampos,35.85,7688
+10,Ada Campo-Corrente,Executive,1/7/2014,21:51,Tuesday,Weekday,Food,Hippokampos,22.18,8332
+16,Isia Vann,Security,1/8/2014,7:31,Wednesday,Weekday,Food,Brew've Been Served,15.66,7354
+14,Lidelse Dedos,Engineering,1/8/2014,7:39,Wednesday,Weekday,Food,Hallowed Grounds,8.15,1874
+26,Marin Onda,Engineering,1/8/2014,7:39,Wednesday,Weekday,Food,Hallowed Grounds,8.28,1310
+12,Hideki Cocinaro,Security,1/8/2014,7:39,Wednesday,Weekday,Food,Hallowed Grounds,12.19,7108
+18,Birgitta Frente,Engineering,1/8/2014,7:43,Wednesday,Weekday,Food,Hallowed Grounds,3.4,9617
+27,Kare Orilla,Engineering,1/8/2014,7:47,Wednesday,Weekday,Food,Hallowed Grounds,3.11,3492
+20,Stenig Fusil,Security,1/8/2014,7:48,Wednesday,Weekday,Food,Brew've Been Served,8.27,6816
+33,Brand Tempestad,Engineering,1/8/2014,7:48,Wednesday,Weekday,Food,Brew've Been Served,19.17,9683
+15,Loreto Bodrogi,Security,1/8/2014,7:48,Wednesday,Weekday,Food,Brew've Been Served,32.92,3853
+21,Hennie Osvaldo,Security,1/8/2014,7:50,Wednesday,Weekday,Food,Brew've Been Served,33.68,9405
+6,Linnea Bergen,Information Technology,1/8/2014,7:51,Wednesday,Weekday,Food,Coffee Cameleon,6.59,7253
+29,Bertrand Ovan,Facilities,1/8/2014,7:52,Wednesday,Weekday,Food,Coffee Cameleon,12.26,5921
+8,Lucas Alcazar,Information Technology,1/8/2014,7:55,Wednesday,Weekday,Food,Hallowed Grounds,79.92,7889
+23,Varja Lagos,Security,1/8/2014,7:55,Wednesday,Weekday,Food,Brew've Been Served,91.87,3484
+1,Nils Calixto,Information Technology,1/8/2014,7:56,Wednesday,Weekday,Food,Hallowed Grounds,12.86,9551
+25,Kanon Herrero,Engineering,1/8/2014,7:59,Wednesday,Weekday,Food,Coffee Cameleon,15.71,2142
+34,Edvard Vann,Security,1/8/2014,8:00,Wednesday,Weekday,Food,Brew've Been Served,32.3,4795
+17,Sven Flecha,Information Technology,1/8/2014,8:01,Wednesday,Weekday,Food,Brew've Been Served,3.42,7384
+13,Inga Ferro,Security,1/8/2014,8:01,Wednesday,Weekday,Food,Brew've Been Served,17.13,7819
+30,Felix Resumir,Security,1/8/2014,8:03,Wednesday,Weekday,Food,Brew've Been Served,10.15,6901
+22,Adra Nubarron,Security,1/8/2014,8:16,Wednesday,Weekday,Food,Brew've Been Served,7.26,1286
+24,Minke Mies,Security,1/8/2014,8:18,Wednesday,Weekday,Food,Brew've Been Served,6.3,4434
+5,Isak Baza,Information Technology,1/8/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,3.96,6899
+9,Gustav Cazar,Engineering,1/8/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,8.06,1877
+4,Ingrid Barranco,Executive,1/8/2014,12:00,Wednesday,Weekday,Food,Brewed Awakenings,11.73,7688
+3,Felix Balas,Engineering,1/8/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,12.07,9635
+7,Elsa Orilla,Engineering,1/8/2014,12:00,Wednesday,Weekday,Food,Brewed Awakenings,12.32,2540
+32,Orhan Strum,Executive,1/8/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,12.37,8156
+10,Ada Campo-Corrente,Executive,1/8/2014,12:00,Wednesday,Weekday,Food,Brewed Awakenings,15.03,8332
+2,Lars Azada,Engineering,1/8/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,17.45,1415
+28,Isande Borrasca,Engineering,1/8/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,18.78,9241
+35,Willem Vasco-Pais,Executive,1/8/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,31.25,2463
+11,Axel Calzas,Engineering,1/8/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,94.96,1321
+15,Loreto Bodrogi,Security,1/8/2014,12:29,Wednesday,Weekday,Gas,Frank's Fuel,65.34,3853
+7,Elsa Orilla,Engineering,1/8/2014,12:56,Wednesday,Weekday,Leisure,Chostus Hotel,107.51,2540
+10,Ada Campo-Corrente,Executive,1/8/2014,13:12,Wednesday,Weekday,Food,Hippokampos,26.55,8332
+34,Edvard Vann,Security,1/8/2014,13:15,Wednesday,Weekday,Food,Hippokampos,9.03,4795
+33,Brand Tempestad,Engineering,1/8/2014,13:19,Wednesday,Weekday,Leisure,Chostus Hotel,111.89,9683
+32,Orhan Strum,Executive,1/8/2014,13:21,Wednesday,Weekday,Food,Ouzeri Elian,109.73,8156
+35,Willem Vasco-Pais,Executive,1/8/2014,13:23,Wednesday,Weekday,Food,Abila Zacharo,36.85,2463
+6,Linnea Bergen,Information Technology,1/8/2014,13:26,Wednesday,Weekday,Food,Hippokampos,16.59,7253
+5,Isak Baza,Information Technology,1/8/2014,13:28,Wednesday,Weekday,Food,Katerina’s Cafe,8.53,6899
+21,Hennie Osvaldo,Security,1/8/2014,13:28,Wednesday,Weekday,Food,Gelatogalore,20.72,9405
+29,Bertrand Ovan,Facilities,1/8/2014,13:29,Wednesday,Weekday,Food,Kalami Kafenion,24.08,5921
+11,Axel Calzas,Engineering,1/8/2014,13:31,Wednesday,Weekday,Food,Hippokampos,37.89,1321
+17,Sven Flecha,Information Technology,1/8/2014,13:32,Wednesday,Weekday,Food,Guy's Gyros,30.12,7384
+2,Lars Azada,Engineering,1/8/2014,13:34,Wednesday,Weekday,Food,Abila Zacharo,14.41,1415
+26,Marin Onda,Engineering,1/8/2014,13:34,Wednesday,Weekday,Food,Katerina’s Cafe,88.98,1310
+22,Adra Nubarron,Security,1/8/2014,13:38,Wednesday,Weekday,Food,Gelatogalore,50.36,1286
+23,Varja Lagos,Security,1/8/2014,13:39,Wednesday,Weekday,Food,Gelatogalore,119.75,3484
+15,Loreto Bodrogi,Security,1/8/2014,13:40,Wednesday,Weekday,Food,Guy's Gyros,77.9,3853
+25,Kanon Herrero,Engineering,1/8/2014,13:41,Wednesday,Weekday,Food,Katerina’s Cafe,26.45,2142
+8,Lucas Alcazar,Information Technology,1/8/2014,13:42,Wednesday,Weekday,Food,Gelatogalore,35.29,7889
+19,Vira Frente,Engineering,1/8/2014,13:42,Wednesday,Weekday,Food,Katerina’s Cafe,57.04,6895
+1,Nils Calixto,Information Technology,1/8/2014,13:43,Wednesday,Weekday,Food,Hippokampos,39.8,9551
+16,Isia Vann,Security,1/8/2014,13:44,Wednesday,Weekday,Food,Kalami Kafenion,31.96,7354
+27,Kare Orilla,Engineering,1/8/2014,13:45,Wednesday,Weekday,Food,Kalami Kafenion,23.82,3492
+9,Gustav Cazar,Engineering,1/8/2014,13:47,Wednesday,Weekday,Food,Katerina’s Cafe,27.05,1877
+3,Felix Balas,Engineering,1/8/2014,13:48,Wednesday,Weekday,Food,Hippokampos,28.79,9635
+13,Inga Ferro,Security,1/8/2014,13:48,Wednesday,Weekday,Food,Gelatogalore,116.72,7819
+14,Lidelse Dedos,Engineering,1/8/2014,13:51,Wednesday,Weekday,Food,Guy's Gyros,15.86,1874
+30,Felix Resumir,Security,1/8/2014,13:51,Wednesday,Weekday,Food,Abila Zacharo,30.85,6901
+20,Stenig Fusil,Security,1/8/2014,13:52,Wednesday,Weekday,Food,Kalami Kafenion,14.77,6816
+18,Birgitta Frente,Engineering,1/8/2014,13:53,Wednesday,Weekday,Food,Abila Zacharo,16.2,9617
+24,Minke Mies,Security,1/8/2014,13:57,Wednesday,Weekday,Food,Guy's Gyros,10.34,4434
+12,Hideki Cocinaro,Security,1/8/2014,14:06,Wednesday,Weekday,Food,Katerina’s Cafe,22.94,7108
+2,Lars Azada,Engineering,1/8/2014,19:21,Wednesday,Weekday,Food,Hippokampos,10.52,1415
+7,Elsa Orilla,Engineering,1/8/2014,19:28,Wednesday,Weekday,Food,Hippokampos,16.54,2540
+16,Isia Vann,Security,1/8/2014,19:36,Wednesday,Weekday,Food,Guy's Gyros,15.69,7354
+24,Minke Mies,Security,1/8/2014,19:48,Wednesday,Weekday,Food,Guy's Gyros,30.48,4434
+19,Vira Frente,Engineering,1/8/2014,20:02,Wednesday,Weekday,Food,Hippokampos,32.66,6895
+17,Sven Flecha,Information Technology,1/8/2014,20:07,Wednesday,Weekday,Food,Guy's Gyros,28.81,7384
+26,Marin Onda,Engineering,1/8/2014,20:08,Wednesday,Weekday,Food,Katerina’s Cafe,31.59,1310
+22,Adra Nubarron,Security,1/8/2014,20:12,Wednesday,Weekday,Food,Ouzeri Elian,62.2,1286
+23,Varja Lagos,Security,1/8/2014,20:15,Wednesday,Weekday,Food,Guy's Gyros,99.08,3484
+33,Brand Tempestad,Engineering,1/8/2014,20:17,Wednesday,Weekday,Food,Guy's Gyros,18.24,9683
+15,Loreto Bodrogi,Security,1/8/2014,20:17,Wednesday,Weekday,Company,Frydos Autosupply n' More,182.56,3853
+25,Kanon Herrero,Engineering,1/8/2014,20:27,Wednesday,Weekday,Food,Katerina’s Cafe,33.31,2142
+8,Lucas Alcazar,Information Technology,1/8/2014,20:31,Wednesday,Weekday,Food,Katerina’s Cafe,36.6,7889
+29,Bertrand Ovan,Facilities,1/8/2014,20:42,Wednesday,Weekday,Food,Katerina’s Cafe,92.83,5921
+3,Felix Balas,Engineering,1/8/2014,20:45,Wednesday,Weekday,Retail,Albert's Fine Clothing,136.01,9635
+10,Ada Campo-Corrente,Executive,1/8/2014,20:49,Wednesday,Weekday,Food,Hippokampos,15.64,8332
+4,Ingrid Barranco,Executive,1/8/2014,20:53,Wednesday,Weekday,Food,Hippokampos,26.31,7688
+30,Felix Resumir,Security,1/8/2014,20:57,Wednesday,Weekday,Food,Guy's Gyros,10.28,6901
+13,Inga Ferro,Security,1/8/2014,20:58,Wednesday,Weekday,Food,Guy's Gyros,22.91,7819
+12,Hideki Cocinaro,Security,1/8/2014,21:00,Wednesday,Weekday,Retail,General Grocer,265.84,7108
+14,Lidelse Dedos,Engineering,1/8/2014,21:09,Wednesday,Weekday,Food,Katerina’s Cafe,27.87,1874
+1,Nils Calixto,Information Technology,1/8/2014,21:16,Wednesday,Weekday,Food,Ouzeri Elian,30.81,9551
+5,Isak Baza,Information Technology,1/8/2014,21:17,Wednesday,Weekday,Food,Ouzeri Elian,29.85,6899
+35,Willem Vasco-Pais,Executive,1/8/2014,21:32,Wednesday,Weekday,Food,Hippokampos,78.99,2463
+6,Linnea Bergen,Information Technology,1/9/2014,7:35,Thursday,Weekday,Food,Coffee Cameleon,12.47,7253
+33,Brand Tempestad,Engineering,1/9/2014,7:36,Thursday,Weekday,Food,Brew've Been Served,70.71,9683
+26,Marin Onda,Engineering,1/9/2014,7:37,Thursday,Weekday,Food,Hallowed Grounds,17.56,1310
+29,Bertrand Ovan,Facilities,1/9/2014,7:37,Thursday,Weekday,Food,Coffee Cameleon,19.99,5921
+12,Hideki Cocinaro,Security,1/9/2014,7:42,Thursday,Weekday,Food,Hallowed Grounds,56.77,7108
+34,Edvard Vann,Security,1/9/2014,7:48,Thursday,Weekday,Food,Brew've Been Served,5.13,4795
+17,Sven Flecha,Information Technology,1/9/2014,7:48,Thursday,Weekday,Food,Brew've Been Served,5.3,7384
+16,Isia Vann,Security,1/9/2014,7:48,Thursday,Weekday,Food,Brew've Been Served,34.85,7354
+1,Nils Calixto,Information Technology,1/9/2014,7:50,Thursday,Weekday,Food,Hallowed Grounds,34.45,9551
+8,Lucas Alcazar,Information Technology,1/9/2014,7:51,Thursday,Weekday,Food,Hallowed Grounds,19.22,7889
+18,Birgitta Frente,Engineering,1/9/2014,7:57,Thursday,Weekday,Food,Hallowed Grounds,18.48,9617
+21,Hennie Osvaldo,Security,1/9/2014,7:57,Thursday,Weekday,Food,Hallowed Grounds,50.25,9405
+30,Felix Resumir,Security,1/9/2014,7:58,Thursday,Weekday,Food,Brew've Been Served,19.47,6901
+24,Minke Mies,Security,1/9/2014,8:00,Thursday,Weekday,Food,Brew've Been Served,6.21,4434
+13,Inga Ferro,Security,1/9/2014,8:00,Thursday,Weekday,Food,Brew've Been Served,6.61,7819
+23,Varja Lagos,Security,1/9/2014,8:01,Thursday,Weekday,Food,Brew've Been Served,92.12,3484
+25,Kanon Herrero,Engineering,1/9/2014,8:03,Thursday,Weekday,Food,Coffee Cameleon,16.13,2142
+27,Kare Orilla,Engineering,1/9/2014,8:07,Thursday,Weekday,Food,Hallowed Grounds,65.68,3492
+22,Adra Nubarron,Security,1/9/2014,8:14,Thursday,Weekday,Food,Brew've Been Served,17.64,1286
+9,Gustav Cazar,Engineering,1/9/2014,12:00,Thursday,Weekday,Food,Bean There Done That,4.06,1877
+15,Loreto Bodrogi,Security,1/9/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,6,3853
+5,Isak Baza,Information Technology,1/9/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,10.11,6899
+4,Ingrid Barranco,Executive,1/9/2014,12:00,Thursday,Weekday,Food,Brewed Awakenings,11.76,7688
+28,Isande Borrasca,Engineering,1/9/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,12.13,9241
+2,Lars Azada,Engineering,1/9/2014,12:00,Thursday,Weekday,Food,Bean There Done That,13,1415
+7,Elsa Orilla,Engineering,1/9/2014,12:00,Thursday,Weekday,Food,Brewed Awakenings,13.16,2540
+11,Axel Calzas,Engineering,1/9/2014,12:00,Thursday,Weekday,Food,Bean There Done That,15.53,1321
+32,Orhan Strum,Executive,1/9/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,15.55,8156
+10,Ada Campo-Corrente,Executive,1/9/2014,12:00,Thursday,Weekday,Food,Brewed Awakenings,17.66,8332
+35,Willem Vasco-Pais,Executive,1/9/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,37.43,2463
+10,Ada Campo-Corrente,Executive,1/9/2014,12:59,Thursday,Weekday,Food,Ouzeri Elian,31.03,8332
+6,Linnea Bergen,Information Technology,1/9/2014,13:03,Thursday,Weekday,Food,Katerina’s Cafe,17.02,7253
+34,Edvard Vann,Security,1/9/2014,13:21,Thursday,Weekday,Food,Gelatogalore,23.45,4795
+4,Ingrid Barranco,Executive,1/9/2014,13:21,Thursday,Weekday,Food,Ouzeri Elian,26.09,7688
+16,Isia Vann,Security,1/9/2014,13:21,Thursday,Weekday,Food,Guy's Gyros,105.4,7354
+5,Isak Baza,Information Technology,1/9/2014,13:23,Thursday,Weekday,Food,Gelatogalore,8.6,6899
+20,Stenig Fusil,Security,1/9/2014,13:23,Thursday,Weekday,Food,Ouzeri Elian,22.4,6816
+7,Elsa Orilla,Engineering,1/9/2014,13:23,Thursday,Weekday,Food,Gelatogalore,56.74,2540
+23,Varja Lagos,Security,1/9/2014,13:24,Thursday,Weekday,Food,Abila Zacharo,8.16,3484
+32,Orhan Strum,Executive,1/9/2014,13:27,Thursday,Weekday,Food,Katerina’s Cafe,25.85,8156
+19,Vira Frente,Engineering,1/9/2014,13:27,Thursday,Weekday,Food,Kalami Kafenion,110.76,6895
+8,Lucas Alcazar,Information Technology,1/9/2014,13:28,Thursday,Weekday,Food,Guy's Gyros,13.59,7889
+35,Willem Vasco-Pais,Executive,1/9/2014,13:32,Thursday,Weekday,Food,Abila Zacharo,8.6,2463
+15,Loreto Bodrogi,Security,1/9/2014,13:35,Thursday,Weekday,Food,Katerina’s Cafe,10.42,3853
+33,Brand Tempestad,Engineering,1/9/2014,13:36,Thursday,Weekday,Food,Hippokampos,27.93,9683
+11,Axel Calzas,Engineering,1/9/2014,13:37,Thursday,Weekday,Food,Hippokampos,9.12,1321
+17,Sven Flecha,Information Technology,1/9/2014,13:38,Thursday,Weekday,Food,Kalami Kafenion,18.14,7384
+21,Hennie Osvaldo,Security,1/9/2014,13:40,Thursday,Weekday,Food,Gelatogalore,11.94,9405
+14,Lidelse Dedos,Engineering,1/9/2014,13:40,Thursday,Weekday,Food,Abila Zacharo,20.73,1874
+3,Felix Balas,Engineering,1/9/2014,13:41,Thursday,Weekday,Food,Hippokampos,8.43,9635
+1,Nils Calixto,Information Technology,1/9/2014,13:41,Thursday,Weekday,Food,Abila Zacharo,89.41,9551
+2,Lars Azada,Engineering,1/9/2014,13:43,Thursday,Weekday,Food,Guy's Gyros,74.91,1415
+18,Birgitta Frente,Engineering,1/9/2014,13:44,Thursday,Weekday,Food,Guy's Gyros,15,9617
+22,Adra Nubarron,Security,1/9/2014,13:47,Thursday,Weekday,Food,Abila Zacharo,48.39,1286
+26,Marin Onda,Engineering,1/9/2014,13:51,Thursday,Weekday,Food,Hippokampos,13.84,1310
+25,Kanon Herrero,Engineering,1/9/2014,13:53,Thursday,Weekday,Food,Hippokampos,16.65,2142
+30,Felix Resumir,Security,1/9/2014,13:56,Thursday,Weekday,Food,Guy's Gyros,8.87,6901
+24,Minke Mies,Security,1/9/2014,13:56,Thursday,Weekday,Food,Hippokampos,65.7,4434
+12,Hideki Cocinaro,Security,1/9/2014,14:04,Thursday,Weekday,Food,Ouzeri Elian,32.89,7108
+9,Gustav Cazar,Engineering,1/9/2014,14:06,Thursday,Weekday,Food,Katerina’s Cafe,8.01,1877
+29,Bertrand Ovan,Facilities,1/9/2014,14:13,Thursday,Weekday,Food,Guy's Gyros,17.44,5921
+13,Inga Ferro,Security,1/9/2014,14:15,Thursday,Weekday,Food,Abila Zacharo,14.37,7819
+29,Bertrand Ovan,Facilities,1/9/2014,19:30,Thursday,Weekday,Food,Katerina’s Cafe,26.6,5921
+23,Varja Lagos,Security,1/9/2014,19:32,Thursday,Weekday,Company,Frydos Autosupply n' More,138.02,3484
+16,Isia Vann,Security,1/9/2014,19:41,Thursday,Weekday,Food,Guy's Gyros,31.81,7354
+5,Isak Baza,Information Technology,1/9/2014,19:42,Thursday,Weekday,Food,Ouzeri Elian,27.08,6899
+28,Isande Borrasca,Engineering,1/9/2014,19:43,Thursday,Weekday,Food,Ouzeri Elian,31.07,9241
+20,Stenig Fusil,Security,1/9/2014,19:52,Thursday,Weekday,Food,Guy's Gyros,29.96,6816
+7,Elsa Orilla,Engineering,1/9/2014,20:05,Thursday,Weekday,Food,Hippokampos,15.02,2540
+27,Kare Orilla,Engineering,1/9/2014,20:08,Thursday,Weekday,Food,Katerina’s Cafe,19.02,3492
+9,Gustav Cazar,Engineering,1/9/2014,20:15,Thursday,Weekday,Food,Hippokampos,70.68,1877
+34,Edvard Vann,Security,1/9/2014,20:19,Thursday,Weekday,Retail,General Grocer,285.34,4795
+30,Felix Resumir,Security,1/9/2014,20:20,Thursday,Weekday,Company,Frydos Autosupply n' More,31.24,6901
+21,Hennie Osvaldo,Security,1/9/2014,20:20,Thursday,Weekday,Food,Katerina’s Cafe,91.14,9405
+11,Axel Calzas,Engineering,1/9/2014,20:21,Thursday,Weekday,Company,Frydos Autosupply n' More,120.65,1321
+8,Lucas Alcazar,Information Technology,1/9/2014,20:23,Thursday,Weekday,Food,Guy's Gyros,8.23,7889
+22,Adra Nubarron,Security,1/9/2014,20:24,Thursday,Weekday,Food,Guy's Gyros,18.26,1286
+6,Linnea Bergen,Information Technology,1/9/2014,20:29,Thursday,Weekday,Food,Guy's Gyros,23.34,7253
+17,Sven Flecha,Information Technology,1/9/2014,20:39,Thursday,Weekday,Food,Guy's Gyros,35.05,7384
+35,Willem Vasco-Pais,Executive,1/9/2014,20:41,Thursday,Weekday,Food,Hippokampos,9.13,2463
+15,Loreto Bodrogi,Security,1/9/2014,20:45,Thursday,Weekday,Company,Frydos Autosupply n' More,276.75,3853
+19,Vira Frente,Engineering,1/9/2014,21:01,Thursday,Weekday,Food,Hippokampos,24.96,6895
+24,Minke Mies,Security,1/9/2014,21:09,Thursday,Weekday,Food,Guy's Gyros,31.31,4434
+32,Orhan Strum,Executive,1/9/2014,21:12,Thursday,Weekday,Food,Hippokampos,23.66,8156
+26,Marin Onda,Engineering,1/9/2014,21:18,Thursday,Weekday,Food,Katerina’s Cafe,8.57,1310
+10,Ada Campo-Corrente,Executive,1/9/2014,21:27,Thursday,Weekday,Retail,Albert's Fine Clothing,229.98,8332
+3,Felix Balas,Engineering,1/9/2014,21:38,Thursday,Weekday,Food,Hippokampos,10.12,9635
+20,Stenig Fusil,Security,1/10/2014,7:35,Friday,Weekday,Food,Brew've Been Served,15.85,6816
+6,Linnea Bergen,Information Technology,1/10/2014,7:40,Friday,Weekday,Food,Coffee Cameleon,8.51,7253
+18,Birgitta Frente,Engineering,1/10/2014,7:41,Friday,Weekday,Food,Hallowed Grounds,8.34,9617
+26,Marin Onda,Engineering,1/10/2014,7:41,Friday,Weekday,Food,Hallowed Grounds,11.49,1310
+14,Lidelse Dedos,Engineering,1/10/2014,7:41,Friday,Weekday,Food,Hallowed Grounds,12.03,1874
+23,Varja Lagos,Security,1/10/2014,7:45,Friday,Weekday,Food,Brew've Been Served,5.01,3484
+27,Kare Orilla,Engineering,1/10/2014,7:45,Friday,Weekday,Food,Hallowed Grounds,11.38,3492
+29,Bertrand Ovan,Facilities,1/10/2014,7:47,Friday,Weekday,Food,Coffee Cameleon,11.54,5921
+21,Hennie Osvaldo,Security,1/10/2014,7:48,Friday,Weekday,Food,Brew've Been Served,13.32,9405
+8,Lucas Alcazar,Information Technology,1/10/2014,7:49,Friday,Weekday,Food,Hallowed Grounds,10.34,7889
+33,Brand Tempestad,Engineering,1/10/2014,7:49,Friday,Weekday,Food,Brew've Been Served,89.93,9683
+12,Hideki Cocinaro,Security,1/10/2014,7:50,Friday,Weekday,Food,Hallowed Grounds,10.76,7108
+17,Sven Flecha,Information Technology,1/10/2014,7:54,Friday,Weekday,Food,Brew've Been Served,83.44,7384
+16,Isia Vann,Security,1/10/2014,7:56,Friday,Weekday,Food,Brew've Been Served,90.72,7354
+34,Edvard Vann,Security,1/10/2014,7:56,Friday,Weekday,Food,Brew've Been Served,97.25,4795
+30,Felix Resumir,Security,1/10/2014,8:01,Friday,Weekday,Food,Brew've Been Served,5.31,6901
+22,Adra Nubarron,Security,1/10/2014,8:01,Friday,Weekday,Food,Brew've Been Served,5.89,1286
+13,Inga Ferro,Security,1/10/2014,8:09,Friday,Weekday,Food,Brew've Been Served,3.03,7819
+15,Loreto Bodrogi,Security,1/10/2014,8:09,Friday,Weekday,Food,Brew've Been Served,14.45,3853
+25,Kanon Herrero,Engineering,1/10/2014,8:11,Friday,Weekday,Food,Coffee Cameleon,13.25,2142
+24,Minke Mies,Security,1/10/2014,8:17,Friday,Weekday,Food,Brew've Been Served,12.64,4434
+4,Ingrid Barranco,Executive,1/10/2014,9:30,Friday,Weekday,Retail,Kronos Mart,203.91,7688
+3,Felix Balas,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Bean There Done That,3.92,9635
+32,Orhan Strum,Executive,1/10/2014,12:00,Friday,Weekday,Food,Jack's Magical Beans,5.46,8156
+7,Elsa Orilla,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Brewed Awakenings,6.17,2540
+35,Willem Vasco-Pais,Executive,1/10/2014,12:00,Friday,Weekday,Food,Jack's Magical Beans,8.22,2463
+19,Vira Frente,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Bean There Done That,9.3,6895
+9,Gustav Cazar,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Bean There Done That,13.41,1877
+4,Ingrid Barranco,Executive,1/10/2014,12:00,Friday,Weekday,Food,Brewed Awakenings,13.82,7688
+10,Ada Campo-Corrente,Executive,1/10/2014,12:00,Friday,Weekday,Food,Brewed Awakenings,13.9,8332
+2,Lars Azada,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Bean There Done That,15.39,1415
+5,Isak Baza,Information Technology,1/10/2014,12:00,Friday,Weekday,Food,Jack's Magical Beans,15.69,6899
+28,Isande Borrasca,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Jack's Magical Beans,16.29,9241
+11,Axel Calzas,Engineering,1/10/2014,12:00,Friday,Weekday,Food,Bean There Done That,18.67,1321
+33,Brand Tempestad,Engineering,1/10/2014,13:08,Friday,Weekday,Leisure,Chostus Hotel,133.25,9683
+7,Elsa Orilla,Engineering,1/10/2014,13:11,Friday,Weekday,Leisure,Chostus Hotel,197.41,2540
+32,Orhan Strum,Executive,1/10/2014,13:12,Friday,Weekday,Food,Guy's Gyros,36.44,8156
+1,Nils Calixto,Information Technology,1/10/2014,13:16,Friday,Weekday,Food,Ouzeri Elian,30.71,9551
+34,Edvard Vann,Security,1/10/2014,13:20,Friday,Weekday,Food,Hippokampos,79.26,4795
+20,Stenig Fusil,Security,1/10/2014,13:25,Friday,Weekday,Food,Guy's Gyros,26.76,6816
+6,Linnea Bergen,Information Technology,1/10/2014,13:27,Friday,Weekday,Food,Guy's Gyros,15.93,7253
+5,Isak Baza,Information Technology,1/10/2014,13:29,Friday,Weekday,Food,Abila Zacharo,113.33,6899
+4,Ingrid Barranco,Executive,1/10/2014,13:30,Friday,Weekday,Food,Katerina’s Cafe,34.76,7688
+23,Varja Lagos,Security,1/10/2014,13:30,Friday,Weekday,Food,Kalami Kafenion,35.69,3484
+2,Lars Azada,Engineering,1/10/2014,13:35,Friday,Weekday,Food,Gelatogalore,26.15,1415
+15,Loreto Bodrogi,Security,1/10/2014,13:35,Friday,Weekday,Food,Ouzeri Elian,35.24,3853
+28,Isande Borrasca,Engineering,1/10/2014,13:35,Friday,Weekday,Food,Kalami Kafenion,101.5,9241
+16,Isia Vann,Security,1/10/2014,13:36,Friday,Weekday,Food,Katerina’s Cafe,25.36,7354
+26,Marin Onda,Engineering,1/10/2014,13:36,Friday,Weekday,Food,Abila Zacharo,36.73,1310
+17,Sven Flecha,Information Technology,1/10/2014,13:38,Friday,Weekday,Food,Guy's Gyros,26.68,7384
+35,Willem Vasco-Pais,Executive,1/10/2014,13:40,Friday,Weekday,Food,Hippokampos,32.01,2463
+21,Hennie Osvaldo,Security,1/10/2014,13:44,Friday,Weekday,Food,Ouzeri Elian,20.46,9405
+25,Kanon Herrero,Engineering,1/10/2014,13:47,Friday,Weekday,Food,Katerina’s Cafe,24.33,2142
+19,Vira Frente,Engineering,1/10/2014,13:47,Friday,Weekday,Food,Katerina’s Cafe,25.62,6895
+3,Felix Balas,Engineering,1/10/2014,13:47,Friday,Weekday,Food,Guy's Gyros,31.5,9635
+9,Gustav Cazar,Engineering,1/10/2014,13:50,Friday,Weekday,Food,Ouzeri Elian,15.25,1877
+11,Axel Calzas,Engineering,1/10/2014,13:52,Friday,Weekday,Food,Guy's Gyros,31.05,1321
+24,Minke Mies,Security,1/10/2014,13:53,Friday,Weekday,Food,Kalami Kafenion,24.3,4434
+30,Felix Resumir,Security,1/10/2014,13:58,Friday,Weekday,Food,Hippokampos,39.89,6901
+14,Lidelse Dedos,Engineering,1/10/2014,13:59,Friday,Weekday,Food,Abila Zacharo,8.22,1874
+27,Kare Orilla,Engineering,1/10/2014,14:01,Friday,Weekday,Food,Abila Zacharo,16.12,3492
+13,Inga Ferro,Security,1/10/2014,14:03,Friday,Weekday,Food,Abila Zacharo,36.38,7819
+18,Birgitta Frente,Engineering,1/10/2014,14:07,Friday,Weekday,Food,Ouzeri Elian,30.93,9617
+12,Hideki Cocinaro,Security,1/10/2014,14:08,Friday,Weekday,Food,Katerina’s Cafe,77.62,7108
+34,Edvard Vann,Security,1/10/2014,14:41,Friday,Weekday,Company,Octavio's Office Supplies,139.72,4795
+6,Linnea Bergen,Information Technology,1/10/2014,16:07,Friday,Weekday,Company,Octavio's Office Supplies,64.51,7253
+5,Isak Baza,Information Technology,1/10/2014,18:52,Friday,Weekday,Food,Ouzeri Elian,19.92,6899
+8,Lucas Alcazar,Information Technology,1/10/2014,18:57,Friday,Weekday,Company,Frydos Autosupply n' More,98.39,7889
+20,Stenig Fusil,Security,1/10/2014,19:45,Friday,Weekday,Food,Guy's Gyros,23.61,6816
+2,Lars Azada,Engineering,1/10/2014,19:46,Friday,Weekday,Food,Hippokampos,48.22,1415
+34,Edvard Vann,Security,1/10/2014,19:54,Friday,Weekday,Food,Guy's Gyros,27.78,4795
+29,Bertrand Ovan,Facilities,1/10/2014,19:56,Friday,Weekday,Food,Katerina’s Cafe,21.89,5921
+21,Hennie Osvaldo,Security,1/10/2014,20:08,Friday,Weekday,Food,Katerina’s Cafe,15.76,9405
+30,Felix Resumir,Security,1/10/2014,20:09,Friday,Weekday,Food,Guy's Gyros,29.81,6901
+4,Ingrid Barranco,Executive,1/10/2014,20:09,Friday,Weekday,Food,Hippokampos,70.48,7688
+19,Vira Frente,Engineering,1/10/2014,20:11,Friday,Weekday,Retail,Albert's Fine Clothing,126.13,6895
+17,Sven Flecha,Information Technology,1/10/2014,20:15,Friday,Weekday,Company,Frydos Autosupply n' More,237.08,7384
+13,Inga Ferro,Security,1/10/2014,20:17,Friday,Weekday,Retail,Shoppers' Delight,279.53,7819
+12,Hideki Cocinaro,Security,1/10/2014,20:20,Friday,Weekday,Food,Guy's Gyros,35.54,7108
+15,Loreto Bodrogi,Security,1/10/2014,20:23,Friday,Weekday,Food,Guy's Gyros,37.37,3853
+10,Ada Campo-Corrente,Executive,1/10/2014,20:50,Friday,Weekday,Food,Hippokampos,17.21,8332
+16,Isia Vann,Security,1/10/2014,21:11,Friday,Weekday,Retail,Roberts and Sons,241.2,7354
+32,Orhan Strum,Executive,1/10/2014,21:17,Friday,Weekday,Food,Hippokampos,27,8156
+24,Minke Mies,Security,1/10/2014,21:28,Friday,Weekday,Retail,General Grocer,227.28,4434
+35,Willem Vasco-Pais,Executive,1/10/2014,22:21,Friday,Weekday,Food,Hippokampos,79.97,2463
+32,Orhan Strum,Executive,1/11/2014,13:19,Saturday,Weekend,Food,Katerina’s Cafe,45.22,8156
+19,Vira Frente,Engineering,1/11/2014,13:32,Saturday,Weekend,Food,Katerina’s Cafe,29.1,6895
+26,Marin Onda,Engineering,1/11/2014,13:32,Saturday,Weekend,Food,Abila Zacharo,54.82,1310
+7,Elsa Orilla,Engineering,1/11/2014,13:33,Saturday,Weekend,Food,Abila Zacharo,89.54,2540
+18,Birgitta Frente,Engineering,1/11/2014,13:35,Saturday,Weekend,Food,Gelatogalore,17.31,9617
+24,Minke Mies,Security,1/11/2014,13:36,Saturday,Weekend,Food,Hippokampos,103.38,4434
+1,Nils Calixto,Information Technology,1/11/2014,13:37,Saturday,Weekend,Food,Hippokampos,75.62,9551
+23,Varja Lagos,Security,1/11/2014,13:43,Saturday,Weekend,Food,Katerina’s Cafe,71.65,3484
+4,Ingrid Barranco,Executive,1/11/2014,13:47,Saturday,Weekend,Food,Hippokampos,31.1,7688
+11,Axel Calzas,Engineering,1/11/2014,13:50,Saturday,Weekend,Food,Katerina’s Cafe,23.45,1321
+6,Linnea Bergen,Information Technology,1/11/2014,13:51,Saturday,Weekend,Food,Abila Zacharo,32.02,7253
+15,Loreto Bodrogi,Security,1/11/2014,13:59,Saturday,Weekend,Food,Gelatogalore,18.74,3853
+12,Hideki Cocinaro,Security,1/11/2014,14:16,Saturday,Weekend,Food,Kalami Kafenion,39.36,7108
+25,Kanon Herrero,Engineering,1/11/2014,14:17,Saturday,Weekend,Food,Katerina’s Cafe,26.02,2142
+30,Felix Resumir,Security,1/11/2014,14:19,Saturday,Weekend,Food,Abila Zacharo,45.2,6901
+18,Birgitta Frente,Engineering,1/11/2014,15:15,Saturday,Weekend,Retail,Shoppers' Delight,157.45,9617
+26,Marin Onda,Engineering,1/11/2014,16:00,Saturday,Weekend,Retail,Roberts and Sons,256.24,1310
+24,Minke Mies,Security,1/11/2014,16:01,Saturday,Weekend,Retail,Albert's Fine Clothing,211.47,4434
+4,Ingrid Barranco,Executive,1/11/2014,16:09,Saturday,Weekend,Company,Frydos Autosupply n' More,52.73,7688
+34,Edvard Vann,Security,1/11/2014,16:24,Saturday,Weekend,Leisure,Ahaggo Museum,89.32,4795
+33,Brand Tempestad,Engineering,1/11/2014,17:16,Saturday,Weekend,Leisure,Ahaggo Museum,52.14,9683
+18,Birgitta Frente,Engineering,1/11/2014,19:08,Saturday,Weekend,Food,Katerina’s Cafe,55.67,9617
+13,Inga Ferro,Security,1/11/2014,19:17,Saturday,Weekend,Food,Kalami Kafenion,23.86,7819
+5,Isak Baza,Information Technology,1/11/2014,19:21,Saturday,Weekend,Food,Ouzeri Elian,69.36,6899
+4,Ingrid Barranco,Executive,1/11/2014,19:26,Saturday,Weekend,Food,Hippokampos,66.21,7688
+33,Brand Tempestad,Engineering,1/11/2014,19:27,Saturday,Weekend,Food,Hippokampos,32.63,9683
+32,Orhan Strum,Executive,1/11/2014,19:27,Saturday,Weekend,Retail,Albert's Fine Clothing,105.33,8156
+34,Edvard Vann,Security,1/11/2014,19:29,Saturday,Weekend,Food,Hippokampos,63.21,4795
+25,Kanon Herrero,Engineering,1/11/2014,19:31,Saturday,Weekend,Food,Katerina’s Cafe,33.18,2142
+9,Gustav Cazar,Engineering,1/11/2014,19:33,Saturday,Weekend,Food,Hippokampos,11.13,1877
+20,Stenig Fusil,Security,1/11/2014,19:34,Saturday,Weekend,Food,Guy's Gyros,55.36,6816
+7,Elsa Orilla,Engineering,1/11/2014,19:40,Saturday,Weekend,Food,Katerina’s Cafe,57.36,2540
+1,Nils Calixto,Information Technology,1/11/2014,19:44,Saturday,Weekend,Retail,Shoppers' Delight,149.2,9551
+10,Ada Campo-Corrente,Executive,1/11/2014,19:45,Saturday,Weekend,Food,Hippokampos,63.21,8332
+8,Lucas Alcazar,Information Technology,1/11/2014,19:50,Saturday,Weekend,Food,Katerina’s Cafe,12.55,7889
+26,Marin Onda,Engineering,1/11/2014,19:51,Saturday,Weekend,Food,Katerina’s Cafe,45.68,1310
+3,Felix Balas,Engineering,1/11/2014,19:53,Saturday,Weekend,Food,Hippokampos,67.37,9635
+22,Adra Nubarron,Security,1/11/2014,20:04,Saturday,Weekend,Food,Kalami Kafenion,50.2,1286
+17,Sven Flecha,Information Technology,1/11/2014,20:06,Saturday,Weekend,Food,Guy's Gyros,33.65,7384
+16,Isia Vann,Security,1/11/2014,20:09,Saturday,Weekend,Food,Guy's Gyros,16.33,7354
+21,Hennie Osvaldo,Security,1/11/2014,20:13,Saturday,Weekend,Food,Katerina’s Cafe,9.78,9405
+2,Lars Azada,Engineering,1/11/2014,20:23,Saturday,Weekend,Food,Hippokampos,70.23,1415
+30,Felix Resumir,Security,1/11/2014,20:26,Saturday,Weekend,Company,Frydos Autosupply n' More,261,6901
+12,Hideki Cocinaro,Security,1/11/2014,20:30,Saturday,Weekend,Food,Kalami Kafenion,46.78,7108
+14,Lidelse Dedos,Engineering,1/11/2014,20:46,Saturday,Weekend,Food,Katerina’s Cafe,57.6,1874
+32,Orhan Strum,Executive,1/12/2014,3:39,Sunday,Weekend,Retail,Kronos Mart,277.26,8156
+10,Ada Campo-Corrente,Executive,1/12/2014,13:03,Sunday,Weekend,Food,Ouzeri Elian,38.55,8332
+25,Kanon Herrero,Engineering,1/12/2014,13:25,Sunday,Weekend,Food,Hippokampos,12.55,2142
+13,Inga Ferro,Security,1/12/2014,13:28,Sunday,Weekend,Food,Ouzeri Elian,24.72,7819
+26,Marin Onda,Engineering,1/12/2014,13:30,Sunday,Weekend,Food,Ouzeri Elian,72.32,1310
+30,Felix Resumir,Security,1/12/2014,13:31,Sunday,Weekend,Food,Guy's Gyros,34.74,6901
+32,Orhan Strum,Executive,1/12/2014,13:32,Sunday,Weekend,Food,Ouzeri Elian,117.22,8156
+22,Adra Nubarron,Security,1/12/2014,13:40,Sunday,Weekend,Food,Gelatogalore,20.09,1286
+33,Brand Tempestad,Engineering,1/12/2014,13:45,Sunday,Weekend,Food,Abila Zacharo,11.2,9683
+35,Willem Vasco-Pais,Executive,1/12/2014,13:45,Sunday,Weekend,Leisure,Desafio Golf Course,129.33,2463
+7,Elsa Orilla,Engineering,1/12/2014,13:52,Sunday,Weekend,Food,Kalami Kafenion,54.36,2540
+8,Lucas Alcazar,Information Technology,1/12/2014,13:54,Sunday,Weekend,Food,Hippokampos,8.54,7889
+27,Kare Orilla,Engineering,1/12/2014,13:55,Sunday,Weekend,Food,Kalami Kafenion,14.59,3492
+14,Lidelse Dedos,Engineering,1/12/2014,14:04,Sunday,Weekend,Food,Hippokampos,12.57,1874
+1,Nils Calixto,Information Technology,1/12/2014,14:06,Sunday,Weekend,Food,Hippokampos,71.99,9551
+4,Ingrid Barranco,Executive,1/12/2014,14:13,Sunday,Weekend,Leisure,Desafio Golf Course,220.77,7688
+10,Ada Campo-Corrente,Executive,1/12/2014,14:14,Sunday,Weekend,Leisure,Desafio Golf Course,198.46,8332
+26,Marin Onda,Engineering,1/12/2014,15:10,Sunday,Weekend,Retail,Shoppers' Delight,135.78,1310
+22,Adra Nubarron,Security,1/12/2014,15:24,Sunday,Weekend,Retail,Shoppers' Delight,86.22,1286
+13,Inga Ferro,Security,1/12/2014,15:32,Sunday,Weekend,Retail,Shoppers' Delight,204.37,7819
+25,Kanon Herrero,Engineering,1/12/2014,15:49,Sunday,Weekend,Retail,Albert's Fine Clothing,195.81,2142
+30,Felix Resumir,Security,1/12/2014,16:27,Sunday,Weekend,Leisure,Ahaggo Museum,120.2,6901
+8,Lucas Alcazar,Information Technology,1/12/2014,19:18,Sunday,Weekend,Food,Katerina’s Cafe,12.64,7889
+6,Linnea Bergen,Information Technology,1/12/2014,19:21,Sunday,Weekend,Food,Katerina’s Cafe,11.81,7253
+11,Axel Calzas,Engineering,1/12/2014,19:22,Sunday,Weekend,Food,Hippokampos,27.15,1321
+12,Hideki Cocinaro,Security,1/12/2014,19:26,Sunday,Weekend,Food,Guy's Gyros,42.32,7108
+17,Sven Flecha,Information Technology,1/12/2014,19:26,Sunday,Weekend,Retail,Shoppers' Delight,211.03,7384
+2,Lars Azada,Engineering,1/12/2014,19:29,Sunday,Weekend,Food,Hippokampos,66.63,1415
+15,Loreto Bodrogi,Security,1/12/2014,19:32,Sunday,Weekend,Food,Guy's Gyros,34.41,3853
+19,Vira Frente,Engineering,1/12/2014,19:35,Sunday,Weekend,Food,Hippokampos,49.23,6895
+16,Isia Vann,Security,1/12/2014,19:36,Sunday,Weekend,Food,Guy's Gyros,12.32,7354
+10,Ada Campo-Corrente,Executive,1/12/2014,19:44,Sunday,Weekend,Food,Hippokampos,26.79,8332
+27,Kare Orilla,Engineering,1/12/2014,19:47,Sunday,Weekend,Food,Katerina’s Cafe,17.36,3492
+22,Adra Nubarron,Security,1/12/2014,19:50,Sunday,Weekend,Food,Gelatogalore,36.2,1286
+32,Orhan Strum,Executive,1/12/2014,19:51,Sunday,Weekend,Food,Hippokampos,52.21,8156
+9,Gustav Cazar,Engineering,1/12/2014,19:58,Sunday,Weekend,Retail,Albert's Fine Clothing,63.36,1877
+5,Isak Baza,Information Technology,1/12/2014,19:59,Sunday,Weekend,Food,Ouzeri Elian,55.55,6899
+3,Felix Balas,Engineering,1/12/2014,20:05,Sunday,Weekend,Food,Hippokampos,78.21,9635
+21,Hennie Osvaldo,Security,1/12/2014,20:12,Sunday,Weekend,Food,Katerina’s Cafe,15.37,9405
+25,Kanon Herrero,Engineering,1/12/2014,20:13,Sunday,Weekend,Food,Katerina’s Cafe,39.55,2142
+7,Elsa Orilla,Engineering,1/12/2014,20:15,Sunday,Weekend,Food,Hippokampos,69.41,2540
+4,Ingrid Barranco,Executive,1/12/2014,20:38,Sunday,Weekend,Food,Hippokampos,63.32,7688
+14,Lidelse Dedos,Engineering,1/12/2014,20:48,Sunday,Weekend,Food,Katerina’s Cafe,87.09,1874
+1,Nils Calixto,Information Technology,1/13/2014,6:04,Monday,Weekday,Retail,Daily Dealz,2.01,9551
+8,Lucas Alcazar,Information Technology,1/13/2014,7:32,Monday,Weekday,Food,Hallowed Grounds,9.16,7889
+17,Sven Flecha,Information Technology,1/13/2014,7:38,Monday,Weekday,Food,Brew've Been Served,8.04,7384
+33,Brand Tempestad,Engineering,1/13/2014,7:40,Monday,Weekday,Food,Brew've Been Served,8,9683
+26,Marin Onda,Engineering,1/13/2014,7:42,Monday,Weekday,Food,Hallowed Grounds,3.02,1310
+27,Kare Orilla,Engineering,1/13/2014,7:43,Monday,Weekday,Food,Hallowed Grounds,13.68,3492
+34,Edvard Vann,Security,1/13/2014,7:43,Monday,Weekday,Food,Brew've Been Served,18.71,4795
+20,Stenig Fusil,Security,1/13/2014,7:43,Monday,Weekday,Food,Brew've Been Served,24.18,6816
+21,Hennie Osvaldo,Security,1/13/2014,7:44,Monday,Weekday,Food,Hallowed Grounds,5.85,9405
+16,Isia Vann,Security,1/13/2014,7:53,Monday,Weekday,Food,Brew've Been Served,19.64,7354
+12,Hideki Cocinaro,Security,1/13/2014,7:54,Monday,Weekday,Food,Hallowed Grounds,19.18,7108
+23,Varja Lagos,Security,1/13/2014,7:57,Monday,Weekday,Food,Brew've Been Served,78.23,3484
+20,Stenig Fusil,Security,1/13/2014,8:01,Monday,Weekday,Retail,Kronos Mart,159.06,6816
+6,Linnea Bergen,Information Technology,1/13/2014,8:02,Monday,Weekday,Food,Coffee Cameleon,4.88,7253
+24,Minke Mies,Security,1/13/2014,8:04,Monday,Weekday,Food,Brew've Been Served,16.05,4434
+22,Adra Nubarron,Security,1/13/2014,8:07,Monday,Weekday,Food,Brew've Been Served,11.49,1286
+25,Kanon Herrero,Engineering,1/13/2014,8:12,Monday,Weekday,Food,Coffee Cameleon,17.76,2142
+30,Felix Resumir,Security,1/13/2014,8:21,Monday,Weekday,Food,Brew've Been Served,13.19,6901
+13,Inga Ferro,Security,1/13/2014,8:22,Monday,Weekday,Food,Brew've Been Served,6.69,7819
+28,Isande Borrasca,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,5.22,9241
+11,Axel Calzas,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,5.54,1321
+2,Lars Azada,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,7.93,1415
+32,Orhan Strum,Executive,1/13/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,9.64,8156
+14,Lidelse Dedos,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,10.37,1874
+4,Ingrid Barranco,Executive,1/13/2014,12:00,Monday,Weekday,Food,Brewed Awakenings,12.69,7688
+18,Birgitta Frente,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,15.24,9617
+10,Ada Campo-Corrente,Executive,1/13/2014,12:00,Monday,Weekday,Food,Brewed Awakenings,16.25,8332
+35,Willem Vasco-Pais,Executive,1/13/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,17.52,2463
+5,Isak Baza,Information Technology,1/13/2014,12:00,Monday,Weekday,Food,Jack's Magical Beans,18.31,6899
+19,Vira Frente,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,18.59,6895
+9,Gustav Cazar,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,19.56,1877
+7,Elsa Orilla,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Brewed Awakenings,56.4,2540
+3,Felix Balas,Engineering,1/13/2014,12:00,Monday,Weekday,Food,Bean There Done That,98.02,9635
+24,Minke Mies,Security,1/13/2014,12:27,Monday,Weekday,Food,Hippokampos,17.17,4434
+32,Orhan Strum,Executive,1/13/2014,13:03,Monday,Weekday,Food,Gelatogalore,32.83,8156
+1,Nils Calixto,Information Technology,1/13/2014,13:18,Monday,Weekday,Gas,U-Pump,55.25,9551
+10,Ada Campo-Corrente,Executive,1/13/2014,13:19,Monday,Weekday,Food,Gelatogalore,46.45,8332
+20,Stenig Fusil,Security,1/13/2014,13:20,Monday,Weekday,Food,Abila Zacharo,79.95,6816
+22,Adra Nubarron,Security,1/13/2014,13:21,Monday,Weekday,Food,Abila Zacharo,64.5,1286
+6,Linnea Bergen,Information Technology,1/13/2014,13:24,Monday,Weekday,Food,Hippokampos,35.73,7253
+33,Brand Tempestad,Engineering,1/13/2014,13:27,Monday,Weekday,Food,Abila Zacharo,8.72,9683
+1,Nils Calixto,Information Technology,1/13/2014,13:28,Monday,Weekday,Food,Hippokampos,30.51,9551
+7,Elsa Orilla,Engineering,1/13/2014,13:33,Monday,Weekday,Food,Guy's Gyros,27.49,2540
+5,Isak Baza,Information Technology,1/13/2014,13:34,Monday,Weekday,Food,Katerina’s Cafe,26.15,6899
+11,Axel Calzas,Engineering,1/13/2014,13:34,Monday,Weekday,Food,Abila Zacharo,27.3,1321
+16,Isia Vann,Security,1/13/2014,13:34,Monday,Weekday,Food,Hippokampos,59.9,7354
+21,Hennie Osvaldo,Security,1/13/2014,13:36,Monday,Weekday,Food,Katerina’s Cafe,17.21,9405
+34,Edvard Vann,Security,1/13/2014,13:37,Monday,Weekday,Food,Ouzeri Elian,95.03,4795
+25,Kanon Herrero,Engineering,1/13/2014,13:39,Monday,Weekday,Food,Guy's Gyros,37.37,2142
+14,Lidelse Dedos,Engineering,1/13/2014,13:40,Monday,Weekday,Food,Katerina’s Cafe,8.29,1874
+35,Willem Vasco-Pais,Executive,1/13/2014,13:40,Monday,Weekday,Food,Guy's Gyros,29.25,2463
+2,Lars Azada,Engineering,1/13/2014,13:41,Monday,Weekday,Food,Gelatogalore,36.93,1415
+3,Felix Balas,Engineering,1/13/2014,13:42,Monday,Weekday,Food,Abila Zacharo,11.99,9635
+26,Marin Onda,Engineering,1/13/2014,13:48,Monday,Weekday,Food,Ouzeri Elian,8.32,1310
+27,Kare Orilla,Engineering,1/13/2014,13:48,Monday,Weekday,Food,Katerina’s Cafe,24.26,3492
+15,Loreto Bodrogi,Security,1/13/2014,13:48,Monday,Weekday,Food,Abila Zacharo,116.32,3853
+17,Sven Flecha,Information Technology,1/13/2014,13:50,Monday,Weekday,Food,Hippokampos,91.97,7384
+13,Inga Ferro,Security,1/13/2014,13:51,Monday,Weekday,Food,Abila Zacharo,17.41,7819
+18,Birgitta Frente,Engineering,1/13/2014,14:04,Monday,Weekday,Food,Hippokampos,25.09,9617
+9,Gustav Cazar,Engineering,1/13/2014,14:06,Monday,Weekday,Food,Ouzeri Elian,29.75,1877
+30,Felix Resumir,Security,1/13/2014,14:13,Monday,Weekday,Food,Guy's Gyros,12.76,6901
+1,Nils Calixto,Information Technology,1/13/2014,19:20,Monday,Weekday,Company,Frydos Autosupply n' More,10000,9551
+15,Loreto Bodrogi,Security,1/13/2014,19:27,Monday,Weekday,Retail,Shoppers' Delight,216.43,3853
+1,Nils Calixto,Information Technology,1/13/2014,19:30,Monday,Weekday,Food,Ouzeri Elian,28.75,9551
+16,Isia Vann,Security,1/13/2014,20:09,Monday,Weekday,Food,Guy's Gyros,22.34,7354
+34,Edvard Vann,Security,1/13/2014,20:11,Monday,Weekday,Food,Guy's Gyros,20.47,4795
+17,Sven Flecha,Information Technology,1/13/2014,20:15,Monday,Weekday,Food,Guy's Gyros,36.89,7384
+13,Inga Ferro,Security,1/13/2014,20:18,Monday,Weekday,Food,Guy's Gyros,15.84,7819
+25,Kanon Herrero,Engineering,1/13/2014,20:24,Monday,Weekday,Food,Katerina’s Cafe,35.7,2142
+26,Marin Onda,Engineering,1/13/2014,20:33,Monday,Weekday,Food,Katerina’s Cafe,91.36,1310
+35,Willem Vasco-Pais,Executive,1/13/2014,20:35,Monday,Weekday,Food,Hippokampos,29.22,2463
+4,Ingrid Barranco,Executive,1/13/2014,20:35,Monday,Weekday,Retail,Albert's Fine Clothing,288,7688
+2,Lars Azada,Engineering,1/13/2014,20:42,Monday,Weekday,Food,Hippokampos,31.59,1415
+11,Axel Calzas,Engineering,1/13/2014,20:42,Monday,Weekday,Retail,Albert's Fine Clothing,49.48,1321
+22,Adra Nubarron,Security,1/13/2014,20:42,Monday,Weekday,Food,Guy's Gyros,88.57,1286
+33,Brand Tempestad,Engineering,1/13/2014,20:44,Monday,Weekday,Food,Guy's Gyros,15.55,9683
+30,Felix Resumir,Security,1/13/2014,20:45,Monday,Weekday,Retail,Shoppers' Delight,144.4,6901
+6,Linnea Bergen,Information Technology,1/13/2014,20:47,Monday,Weekday,Food,Katerina’s Cafe,22.24,7253
+8,Lucas Alcazar,Information Technology,1/13/2014,20:51,Monday,Weekday,Food,Katerina’s Cafe,55.82,7889
+12,Hideki Cocinaro,Security,1/13/2014,20:59,Monday,Weekday,Food,Guy's Gyros,37.5,7108
+14,Lidelse Dedos,Engineering,1/13/2014,21:00,Monday,Weekday,Food,Katerina’s Cafe,27.59,1874
+10,Ada Campo-Corrente,Executive,1/13/2014,21:12,Monday,Weekday,Food,Hippokampos,31.47,8332
+21,Hennie Osvaldo,Security,1/13/2014,21:16,Monday,Weekday,Food,Katerina’s Cafe,33.11,9405
+32,Orhan Strum,Executive,1/13/2014,21:27,Monday,Weekday,Food,Hippokampos,99.63,8156
+34,Edvard Vann,Security,1/14/2014,7:31,Tuesday,Weekday,Food,Brew've Been Served,4.72,4795
+16,Isia Vann,Security,1/14/2014,7:35,Tuesday,Weekday,Food,Brew've Been Served,7.31,7354
+8,Lucas Alcazar,Information Technology,1/14/2014,7:35,Tuesday,Weekday,Food,Hallowed Grounds,10.75,7889
+33,Brand Tempestad,Engineering,1/14/2014,7:40,Tuesday,Weekday,Food,Brew've Been Served,5.87,9683
+26,Marin Onda,Engineering,1/14/2014,7:42,Tuesday,Weekday,Food,Hallowed Grounds,4.59,1310
+23,Varja Lagos,Security,1/14/2014,7:45,Tuesday,Weekday,Food,Brew've Been Served,10.96,3484
+12,Hideki Cocinaro,Security,1/14/2014,7:45,Tuesday,Weekday,Food,Hallowed Grounds,13,7108
+21,Hennie Osvaldo,Security,1/14/2014,7:45,Tuesday,Weekday,Food,Brew've Been Served,16.53,9405
+15,Loreto Bodrogi,Security,1/14/2014,7:48,Tuesday,Weekday,Food,Brew've Been Served,6.45,3853
+20,Stenig Fusil,Security,1/14/2014,7:53,Tuesday,Weekday,Food,Brew've Been Served,3.66,6816
+17,Sven Flecha,Information Technology,1/14/2014,7:53,Tuesday,Weekday,Food,Brew've Been Served,8.24,7384
+6,Linnea Bergen,Information Technology,1/14/2014,7:53,Tuesday,Weekday,Food,Coffee Cameleon,15.63,7253
+14,Lidelse Dedos,Engineering,1/14/2014,7:54,Tuesday,Weekday,Food,Hallowed Grounds,19.99,1874
+18,Birgitta Frente,Engineering,1/14/2014,7:54,Tuesday,Weekday,Food,Hallowed Grounds,50.21,9617
+25,Kanon Herrero,Engineering,1/14/2014,7:56,Tuesday,Weekday,Food,Coffee Cameleon,7.84,2142
+13,Inga Ferro,Security,1/14/2014,7:58,Tuesday,Weekday,Food,Brew've Been Served,11.94,7819
+22,Adra Nubarron,Security,1/14/2014,8:03,Tuesday,Weekday,Food,Brew've Been Served,3.21,1286
+27,Kare Orilla,Engineering,1/14/2014,8:12,Tuesday,Weekday,Food,Hallowed Grounds,39.52,3492
+30,Felix Resumir,Security,1/14/2014,8:13,Tuesday,Weekday,Food,Brew've Been Served,12.31,6901
+5,Isak Baza,Information Technology,1/14/2014,8:20,Tuesday,Weekday,Retail,Kronos Mart,58.85,6899
+19,Vira Frente,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,5.9,6895
+2,Lars Azada,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,7.28,1415
+7,Elsa Orilla,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,8.3,2540
+10,Ada Campo-Corrente,Executive,1/14/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,11.35,8332
+9,Gustav Cazar,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,14.56,1877
+4,Ingrid Barranco,Executive,1/14/2014,12:00,Tuesday,Weekday,Food,Brewed Awakenings,17.14,7688
+3,Felix Balas,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,19.37,9635
+28,Isande Borrasca,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Jack's Magical Beans,63.36,9241
+11,Axel Calzas,Engineering,1/14/2014,12:00,Tuesday,Weekday,Food,Bean There Done That,67.82,1321
+32,Orhan Strum,Executive,1/14/2014,12:00,Tuesday,Weekday,Food,Jack's Magical Beans,95.7,8156
+32,Orhan Strum,Executive,1/14/2014,13:14,Tuesday,Weekday,Food,Katerina’s Cafe,29.12,8156
+6,Linnea Bergen,Information Technology,1/14/2014,13:17,Tuesday,Weekday,Food,Hippokampos,36.01,7253
+7,Elsa Orilla,Engineering,1/14/2014,13:17,Tuesday,Weekday,Leisure,Chostus Hotel,109.54,2540
+33,Brand Tempestad,Engineering,1/14/2014,13:21,Tuesday,Weekday,Leisure,Chostus Hotel,113.08,9683
+19,Vira Frente,Engineering,1/14/2014,13:22,Tuesday,Weekday,Food,Katerina’s Cafe,10.03,6895
+10,Ada Campo-Corrente,Executive,1/14/2014,13:24,Tuesday,Weekday,Food,Kalami Kafenion,15.15,8332
+3,Felix Balas,Engineering,1/14/2014,13:24,Tuesday,Weekday,Food,Kalami Kafenion,17.38,9635
+4,Ingrid Barranco,Executive,1/14/2014,13:25,Tuesday,Weekday,Food,Hippokampos,23.69,7688
+16,Isia Vann,Security,1/14/2014,13:32,Tuesday,Weekday,Food,Katerina’s Cafe,20.95,7354
+17,Sven Flecha,Information Technology,1/14/2014,13:32,Tuesday,Weekday,Food,Gelatogalore,27.26,7384
+25,Kanon Herrero,Engineering,1/14/2014,13:32,Tuesday,Weekday,Food,Gelatogalore,32.82,2142
+35,Willem Vasco-Pais,Executive,1/14/2014,13:33,Tuesday,Weekday,Food,Gelatogalore,39.17,2463
+34,Edvard Vann,Security,1/14/2014,13:34,Tuesday,Weekday,Food,Katerina’s Cafe,29.1,4795
+21,Hennie Osvaldo,Security,1/14/2014,13:35,Tuesday,Weekday,Food,Abila Zacharo,15.26,9405
+2,Lars Azada,Engineering,1/14/2014,13:36,Tuesday,Weekday,Food,Guy's Gyros,13.27,1415
+26,Marin Onda,Engineering,1/14/2014,13:37,Tuesday,Weekday,Food,Abila Zacharo,10.24,1310
+15,Loreto Bodrogi,Security,1/14/2014,13:37,Tuesday,Weekday,Food,Hippokampos,19.07,3853
+20,Stenig Fusil,Security,1/14/2014,13:38,Tuesday,Weekday,Food,Abila Zacharo,8.41,6816
+23,Varja Lagos,Security,1/14/2014,13:40,Tuesday,Weekday,Food,Ouzeri Elian,107.32,3484
+5,Isak Baza,Information Technology,1/14/2014,13:41,Tuesday,Weekday,Food,Ouzeri Elian,79.58,6899
+27,Kare Orilla,Engineering,1/14/2014,13:42,Tuesday,Weekday,Food,Kalami Kafenion,23.1,3492
+8,Lucas Alcazar,Information Technology,1/14/2014,13:42,Tuesday,Weekday,Food,Hippokampos,98.81,7889
+14,Lidelse Dedos,Engineering,1/14/2014,13:44,Tuesday,Weekday,Food,Guy's Gyros,16.35,1874
+18,Birgitta Frente,Engineering,1/14/2014,13:49,Tuesday,Weekday,Food,Guy's Gyros,38.26,9617
+9,Gustav Cazar,Engineering,1/14/2014,13:49,Tuesday,Weekday,Food,Gelatogalore,70.98,1877
+11,Axel Calzas,Engineering,1/14/2014,13:51,Tuesday,Weekday,Food,Kalami Kafenion,15.27,1321
+12,Hideki Cocinaro,Security,1/14/2014,13:51,Tuesday,Weekday,Food,Ouzeri Elian,62.3,7108
+30,Felix Resumir,Security,1/14/2014,13:57,Tuesday,Weekday,Food,Hippokampos,17.18,6901
+13,Inga Ferro,Security,1/14/2014,13:58,Tuesday,Weekday,Food,Katerina’s Cafe,33.54,7819
+22,Adra Nubarron,Security,1/14/2014,13:59,Tuesday,Weekday,Food,Guy's Gyros,50.4,1286
+24,Minke Mies,Security,1/14/2014,14:03,Tuesday,Weekday,Food,Abila Zacharo,24.87,4434
+20,Stenig Fusil,Security,1/14/2014,15:49,Tuesday,Weekday,Company,Octavio's Office Supplies,131.73,6816
+2,Lars Azada,Engineering,1/14/2014,19:44,Tuesday,Weekday,Food,Hippokampos,39.64,1415
+12,Hideki Cocinaro,Security,1/14/2014,19:59,Tuesday,Weekday,Food,Guy's Gyros,94.26,7108
+34,Edvard Vann,Security,1/14/2014,20:01,Tuesday,Weekday,Food,Guy's Gyros,23.59,4795
+23,Varja Lagos,Security,1/14/2014,20:05,Tuesday,Weekday,Retail,Albert's Fine Clothing,50.77,3484
+8,Lucas Alcazar,Information Technology,1/14/2014,20:09,Tuesday,Weekday,Food,Katerina’s Cafe,91.8,7889
+20,Stenig Fusil,Security,1/14/2014,20:15,Tuesday,Weekday,Food,Guy's Gyros,18.11,6816
+17,Sven Flecha,Information Technology,1/14/2014,20:19,Tuesday,Weekday,Food,Guy's Gyros,12.96,7384
+35,Willem Vasco-Pais,Executive,1/14/2014,20:22,Tuesday,Weekday,Food,Hippokampos,9.55,2463
+15,Loreto Bodrogi,Security,1/14/2014,20:25,Tuesday,Weekday,Food,Guy's Gyros,10.85,3853
+14,Lidelse Dedos,Engineering,1/14/2014,20:26,Tuesday,Weekday,Food,Katerina’s Cafe,12.65,1874
+13,Inga Ferro,Security,1/14/2014,20:29,Tuesday,Weekday,Food,Guy's Gyros,25.28,7819
+5,Isak Baza,Information Technology,1/14/2014,20:32,Tuesday,Weekday,Food,Ouzeri Elian,11.86,6899
+24,Minke Mies,Security,1/14/2014,20:33,Tuesday,Weekday,Company,Frydos Autosupply n' More,42.72,4434
+27,Kare Orilla,Engineering,1/14/2014,20:34,Tuesday,Weekday,Food,Katerina’s Cafe,11.89,3492
+28,Isande Borrasca,Engineering,1/14/2014,20:41,Tuesday,Weekday,Food,Ouzeri Elian,24.06,9241
+30,Felix Resumir,Security,1/14/2014,20:43,Tuesday,Weekday,Company,Frydos Autosupply n' More,146.74,6901
+10,Ada Campo-Corrente,Executive,1/14/2014,20:48,Tuesday,Weekday,Food,Hippokampos,43.56,8332
+3,Felix Balas,Engineering,1/14/2014,20:50,Tuesday,Weekday,Retail,Albert's Fine Clothing,228.72,9635
+19,Vira Frente,Engineering,1/14/2014,21:04,Tuesday,Weekday,Food,Hippokampos,28.45,6895
+18,Birgitta Frente,Engineering,1/14/2014,21:10,Tuesday,Weekday,Food,Katerina’s Cafe,18.35,9617
+21,Hennie Osvaldo,Security,1/14/2014,21:14,Tuesday,Weekday,Retail,Roberts and Sons,223.81,9405
+7,Elsa Orilla,Engineering,1/14/2014,21:31,Tuesday,Weekday,Food,Hippokampos,22.13,2540
+16,Isia Vann,Security,1/14/2014,21:31,Tuesday,Weekday,Food,Guy's Gyros,26.14,7354
+8,Lucas Alcazar,Information Technology,1/15/2014,7:33,Wednesday,Weekday,Food,Hallowed Grounds,11.98,7889
+17,Sven Flecha,Information Technology,1/15/2014,7:34,Wednesday,Weekday,Food,Brew've Been Served,3.71,7384
+18,Birgitta Frente,Engineering,1/15/2014,7:36,Wednesday,Weekday,Food,Hallowed Grounds,5.28,9617
+20,Stenig Fusil,Security,1/15/2014,7:36,Wednesday,Weekday,Food,Brew've Been Served,15.5,6816
+33,Brand Tempestad,Engineering,1/15/2014,7:40,Wednesday,Weekday,Food,Brew've Been Served,19.87,9683
+12,Hideki Cocinaro,Security,1/15/2014,7:44,Wednesday,Weekday,Food,Hallowed Grounds,12.17,7108
+21,Hennie Osvaldo,Security,1/15/2014,7:45,Wednesday,Weekday,Food,Brew've Been Served,11.47,9405
+25,Kanon Herrero,Engineering,1/15/2014,7:45,Wednesday,Weekday,Food,Coffee Cameleon,19.93,2142
+13,Inga Ferro,Security,1/15/2014,7:48,Wednesday,Weekday,Food,Brew've Been Served,6.58,7819
+22,Adra Nubarron,Security,1/15/2014,7:49,Wednesday,Weekday,Food,Brew've Been Served,11.23,1286
+16,Isia Vann,Security,1/15/2014,7:50,Wednesday,Weekday,Food,Brew've Been Served,19.24,7354
+6,Linnea Bergen,Information Technology,1/15/2014,7:56,Wednesday,Weekday,Food,Coffee Cameleon,5.49,7253
+34,Edvard Vann,Security,1/15/2014,7:57,Wednesday,Weekday,Food,Brew've Been Served,4.92,4795
+23,Varja Lagos,Security,1/15/2014,7:58,Wednesday,Weekday,Food,Brew've Been Served,14.06,3484
+27,Kare Orilla,Engineering,1/15/2014,7:59,Wednesday,Weekday,Food,Hallowed Grounds,14.33,3492
+26,Marin Onda,Engineering,1/15/2014,8:00,Wednesday,Weekday,Food,Hallowed Grounds,15.27,1310
+24,Minke Mies,Security,1/15/2014,8:01,Wednesday,Weekday,Food,Brew've Been Served,49.7,4434
+15,Loreto Bodrogi,Security,1/15/2014,8:02,Wednesday,Weekday,Food,Brew've Been Served,15.58,3853
+30,Felix Resumir,Security,1/15/2014,8:14,Wednesday,Weekday,Food,Brew've Been Served,18.58,6901
+10,Ada Campo-Corrente,Executive,1/15/2014,12:00,Wednesday,Weekday,Food,Brewed Awakenings,3.62,8332
+28,Isande Borrasca,Engineering,1/15/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,5.3,9241
+3,Felix Balas,Engineering,1/15/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,5.34,9635
+5,Isak Baza,Information Technology,1/15/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,11.15,6899
+19,Vira Frente,Engineering,1/15/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,15.24,6895
+11,Axel Calzas,Engineering,1/15/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,18.96,1321
+35,Willem Vasco-Pais,Executive,1/15/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,19.54,2463
+32,Orhan Strum,Executive,1/15/2014,12:00,Wednesday,Weekday,Food,Jack's Magical Beans,84.06,8156
+7,Elsa Orilla,Engineering,1/15/2014,12:00,Wednesday,Weekday,Food,Brewed Awakenings,91.62,2540
+9,Gustav Cazar,Engineering,1/15/2014,12:00,Wednesday,Weekday,Food,Bean There Done That,93.13,1877
+32,Orhan Strum,Executive,1/15/2014,13:08,Wednesday,Weekday,Food,Kalami Kafenion,22.39,8156
+6,Linnea Bergen,Information Technology,1/15/2014,13:10,Wednesday,Weekday,Food,Ouzeri Elian,8.93,7253
+10,Ada Campo-Corrente,Executive,1/15/2014,13:12,Wednesday,Weekday,Food,Hippokampos,36.7,8332
+33,Brand Tempestad,Engineering,1/15/2014,13:12,Wednesday,Weekday,Food,Hippokampos,118.89,9683
+23,Varja Lagos,Security,1/15/2014,13:22,Wednesday,Weekday,Food,Ouzeri Elian,12.9,3484
+2,Lars Azada,Engineering,1/15/2014,13:22,Wednesday,Weekday,Food,Guy's Gyros,14.37,1415
+8,Lucas Alcazar,Information Technology,1/15/2014,13:22,Wednesday,Weekday,Food,Abila Zacharo,31,7889
+5,Isak Baza,Information Technology,1/15/2014,13:24,Wednesday,Weekday,Food,Hippokampos,13,6899
+4,Ingrid Barranco,Executive,1/15/2014,13:26,Wednesday,Weekday,Food,Abila Zacharo,23.51,7688
+22,Adra Nubarron,Security,1/15/2014,13:27,Wednesday,Weekday,Food,Katerina’s Cafe,55.6,1286
+11,Axel Calzas,Engineering,1/15/2014,13:31,Wednesday,Weekday,Food,Ouzeri Elian,36.47,1321
+14,Lidelse Dedos,Engineering,1/15/2014,13:35,Wednesday,Weekday,Food,Kalami Kafenion,26.17,1874
+21,Hennie Osvaldo,Security,1/15/2014,13:39,Wednesday,Weekday,Food,Hippokampos,8.75,9405
+35,Willem Vasco-Pais,Executive,1/15/2014,13:39,Wednesday,Weekday,Food,Gelatogalore,9.61,2463
+16,Isia Vann,Security,1/15/2014,13:41,Wednesday,Weekday,Food,Guy's Gyros,49.34,7354
+7,Elsa Orilla,Engineering,1/15/2014,13:41,Wednesday,Weekday,Food,Hippokampos,82.61,2540
+12,Hideki Cocinaro,Security,1/15/2014,13:42,Wednesday,Weekday,Food,Ouzeri Elian,22.86,7108
+9,Gustav Cazar,Engineering,1/15/2014,13:42,Wednesday,Weekday,Food,Hippokampos,32.4,1877
+25,Kanon Herrero,Engineering,1/15/2014,13:44,Wednesday,Weekday,Food,Guy's Gyros,15.89,2142
+19,Vira Frente,Engineering,1/15/2014,13:45,Wednesday,Weekday,Food,Kalami Kafenion,47.86,6895
+3,Felix Balas,Engineering,1/15/2014,13:45,Wednesday,Weekday,Food,Abila Zacharo,88.83,9635
+17,Sven Flecha,Information Technology,1/15/2014,13:47,Wednesday,Weekday,Food,Abila Zacharo,20.44,7384
+15,Loreto Bodrogi,Security,1/15/2014,13:55,Wednesday,Weekday,Food,Gelatogalore,31.21,3853
+13,Inga Ferro,Security,1/15/2014,13:58,Wednesday,Weekday,Food,Gelatogalore,39.4,7819
+26,Marin Onda,Engineering,1/15/2014,14:00,Wednesday,Weekday,Food,Katerina’s Cafe,12.12,1310
+18,Birgitta Frente,Engineering,1/15/2014,14:00,Wednesday,Weekday,Food,Guy's Gyros,25.58,9617
+27,Kare Orilla,Engineering,1/15/2014,14:02,Wednesday,Weekday,Food,Abila Zacharo,24.53,3492
+24,Minke Mies,Security,1/15/2014,14:02,Wednesday,Weekday,Food,Hippokampos,118.23,4434
+30,Felix Resumir,Security,1/15/2014,14:13,Wednesday,Weekday,Food,Kalami Kafenion,28.82,6901
+28,Isande Borrasca,Engineering,1/15/2014,19:18,Wednesday,Weekday,Food,Ouzeri Elian,28.86,9241
+27,Kare Orilla,Engineering,1/15/2014,19:50,Wednesday,Weekday,Food,Katerina’s Cafe,39.23,3492
+7,Elsa Orilla,Engineering,1/15/2014,19:52,Wednesday,Weekday,Company,Frydos Autosupply n' More,18.91,2540
+23,Varja Lagos,Security,1/15/2014,19:53,Wednesday,Weekday,Food,Guy's Gyros,98.04,3484
+2,Lars Azada,Engineering,1/15/2014,19:55,Wednesday,Weekday,Food,Hippokampos,13.02,1415
+24,Minke Mies,Security,1/15/2014,19:55,Wednesday,Weekday,Food,Guy's Gyros,31.04,4434
+13,Inga Ferro,Security,1/15/2014,19:56,Wednesday,Weekday,Retail,General Grocer,126.2,7819
+25,Kanon Herrero,Engineering,1/15/2014,20:00,Wednesday,Weekday,Food,Katerina’s Cafe,29.84,2142
+16,Isia Vann,Security,1/15/2014,20:02,Wednesday,Weekday,Food,Guy's Gyros,28.75,7354
+33,Brand Tempestad,Engineering,1/15/2014,20:04,Wednesday,Weekday,Company,Frydos Autosupply n' More,235.27,9683
+18,Birgitta Frente,Engineering,1/15/2014,20:05,Wednesday,Weekday,Food,Katerina’s Cafe,11.45,9617
+20,Stenig Fusil,Security,1/15/2014,20:08,Wednesday,Weekday,Food,Guy's Gyros,36.35,6816
+3,Felix Balas,Engineering,1/15/2014,20:10,Wednesday,Weekday,Food,Hippokampos,35.12,9635
+10,Ada Campo-Corrente,Executive,1/15/2014,20:10,Wednesday,Weekday,Retail,Shoppers' Delight,162,8332
+4,Ingrid Barranco,Executive,1/15/2014,20:16,Wednesday,Weekday,Food,Hippokampos,11.8,7688
+11,Axel Calzas,Engineering,1/15/2014,20:23,Wednesday,Weekday,Food,Hippokampos,10.35,1321
+26,Marin Onda,Engineering,1/15/2014,20:23,Wednesday,Weekday,Food,Katerina’s Cafe,39.63,1310
+9,Gustav Cazar,Engineering,1/15/2014,20:24,Wednesday,Weekday,Food,Hippokampos,16.37,1877
+5,Isak Baza,Information Technology,1/15/2014,20:29,Wednesday,Weekday,Food,Ouzeri Elian,23.18,6899
+14,Lidelse Dedos,Engineering,1/15/2014,20:33,Wednesday,Weekday,Company,Frydos Autosupply n' More,18.66,1874
+15,Loreto Bodrogi,Security,1/15/2014,20:59,Wednesday,Weekday,Food,Guy's Gyros,61.43,3853
+6,Linnea Bergen,Information Technology,1/15/2014,21:05,Wednesday,Weekday,Food,Katerina’s Cafe,13.77,7253
+22,Adra Nubarron,Security,1/15/2014,21:05,Wednesday,Weekday,Food,Guy's Gyros,27.01,1286
+19,Vira Frente,Engineering,1/15/2014,21:08,Wednesday,Weekday,Food,Hippokampos,101.14,6895
+32,Orhan Strum,Executive,1/15/2014,21:42,Wednesday,Weekday,Food,Hippokampos,37.16,8156
+12,Hideki Cocinaro,Security,1/16/2014,7:30,Thursday,Weekday,Retail,Kronos Mart,298.83,7108
+16,Isia Vann,Security,1/16/2014,7:34,Thursday,Weekday,Food,Brew've Been Served,8.18,7354
+23,Varja Lagos,Security,1/16/2014,7:36,Thursday,Weekday,Food,Brew've Been Served,19.9,3484
+8,Lucas Alcazar,Information Technology,1/16/2014,7:44,Thursday,Weekday,Food,Hallowed Grounds,13.84,7889
+27,Kare Orilla,Engineering,1/16/2014,7:44,Thursday,Weekday,Food,Hallowed Grounds,17.74,3492
+12,Hideki Cocinaro,Security,1/16/2014,7:44,Thursday,Weekday,Food,Hallowed Grounds,18.2,7108
+17,Sven Flecha,Information Technology,1/16/2014,7:50,Thursday,Weekday,Food,Brew've Been Served,7.31,7384
+26,Marin Onda,Engineering,1/16/2014,7:51,Thursday,Weekday,Food,Hallowed Grounds,9.6,1310
+18,Birgitta Frente,Engineering,1/16/2014,7:51,Thursday,Weekday,Food,Hallowed Grounds,44.98,9617
+22,Adra Nubarron,Security,1/16/2014,7:52,Thursday,Weekday,Food,Brew've Been Served,12.67,1286
+34,Edvard Vann,Security,1/16/2014,7:53,Thursday,Weekday,Food,Brew've Been Served,4.7,4795
+14,Lidelse Dedos,Engineering,1/16/2014,7:54,Thursday,Weekday,Food,Hallowed Grounds,7.22,1874
+20,Stenig Fusil,Security,1/16/2014,7:55,Thursday,Weekday,Food,Brew've Been Served,12.83,6816
+33,Brand Tempestad,Engineering,1/16/2014,7:56,Thursday,Weekday,Food,Brew've Been Served,4.33,9683
+15,Loreto Bodrogi,Security,1/16/2014,8:02,Thursday,Weekday,Food,Brew've Been Served,5.82,3853
+30,Felix Resumir,Security,1/16/2014,8:03,Thursday,Weekday,Food,Brew've Been Served,16.67,6901
+21,Hennie Osvaldo,Security,1/16/2014,8:03,Thursday,Weekday,Food,Hallowed Grounds,72.61,9405
+1,Nils Calixto,Information Technology,1/16/2014,8:05,Thursday,Weekday,Food,Hallowed Grounds,12.19,9551
+24,Minke Mies,Security,1/16/2014,8:09,Thursday,Weekday,Food,Brew've Been Served,17.44,4434
+13,Inga Ferro,Security,1/16/2014,8:19,Thursday,Weekday,Food,Brew've Been Served,16.9,7819
+9,Gustav Cazar,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Bean There Done That,5.56,1877
+10,Ada Campo-Corrente,Executive,1/16/2014,12:00,Thursday,Weekday,Food,Brewed Awakenings,6.39,8332
+7,Elsa Orilla,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Brewed Awakenings,6.53,2540
+35,Willem Vasco-Pais,Executive,1/16/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,6.95,2463
+5,Isak Baza,Information Technology,1/16/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,9.12,6899
+3,Felix Balas,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Bean There Done That,12.33,9635
+32,Orhan Strum,Executive,1/16/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,12.56,8156
+28,Isande Borrasca,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Jack's Magical Beans,14.86,9241
+19,Vira Frente,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Bean There Done That,17.4,6895
+4,Ingrid Barranco,Executive,1/16/2014,12:00,Thursday,Weekday,Food,Brewed Awakenings,17.91,7688
+2,Lars Azada,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Bean There Done That,19.82,1415
+11,Axel Calzas,Engineering,1/16/2014,12:00,Thursday,Weekday,Food,Bean There Done That,98.34,1321
+33,Brand Tempestad,Engineering,1/16/2014,13:17,Thursday,Weekday,Food,Katerina’s Cafe,11.08,9683
+10,Ada Campo-Corrente,Executive,1/16/2014,13:19,Thursday,Weekday,Food,Hippokampos,17.66,8332
+4,Ingrid Barranco,Executive,1/16/2014,13:19,Thursday,Weekday,Food,Katerina’s Cafe,27.82,7688
+32,Orhan Strum,Executive,1/16/2014,13:22,Thursday,Weekday,Food,Hippokampos,26.15,8156
+22,Adra Nubarron,Security,1/16/2014,13:22,Thursday,Weekday,Food,Abila Zacharo,64.71,1286
+8,Lucas Alcazar,Information Technology,1/16/2014,13:23,Thursday,Weekday,Food,Guy's Gyros,31.48,7889
+5,Isak Baza,Information Technology,1/16/2014,13:26,Thursday,Weekday,Food,Hippokampos,36.17,6899
+23,Varja Lagos,Security,1/16/2014,13:27,Thursday,Weekday,Food,Katerina’s Cafe,34.02,3484
+1,Nils Calixto,Information Technology,1/16/2014,13:28,Thursday,Weekday,Food,Guy's Gyros,10.27,9551
+7,Elsa Orilla,Engineering,1/16/2014,13:30,Thursday,Weekday,Food,Hippokampos,10.38,2540
+6,Linnea Bergen,Information Technology,1/16/2014,13:30,Thursday,Weekday,Food,Hippokampos,16.53,7253
+35,Willem Vasco-Pais,Executive,1/16/2014,13:33,Thursday,Weekday,Food,Gelatogalore,12.33,2463
+2,Lars Azada,Engineering,1/16/2014,13:36,Thursday,Weekday,Food,Hippokampos,31.14,1415
+21,Hennie Osvaldo,Security,1/16/2014,13:37,Thursday,Weekday,Food,Gelatogalore,22.19,9405
+34,Edvard Vann,Security,1/16/2014,13:39,Thursday,Weekday,Food,Abila Zacharo,69.27,4795
+13,Inga Ferro,Security,1/16/2014,13:42,Thursday,Weekday,Food,Guy's Gyros,29.7,7819
+11,Axel Calzas,Engineering,1/16/2014,13:43,Thursday,Weekday,Food,Hippokampos,14.89,1321
+20,Stenig Fusil,Security,1/16/2014,13:44,Thursday,Weekday,Food,Guy's Gyros,13.48,6816
+16,Isia Vann,Security,1/16/2014,13:44,Thursday,Weekday,Food,Hippokampos,18.18,7354
+15,Loreto Bodrogi,Security,1/16/2014,13:45,Thursday,Weekday,Food,Ouzeri Elian,12.47,3853
+25,Kanon Herrero,Engineering,1/16/2014,13:45,Thursday,Weekday,Food,Ouzeri Elian,18.27,2142
+12,Hideki Cocinaro,Security,1/16/2014,13:47,Thursday,Weekday,Food,Abila Zacharo,36.02,7108
+27,Kare Orilla,Engineering,1/16/2014,13:48,Thursday,Weekday,Food,Kalami Kafenion,11.83,3492
+18,Birgitta Frente,Engineering,1/16/2014,13:48,Thursday,Weekday,Food,Hippokampos,29.93,9617
+14,Lidelse Dedos,Engineering,1/16/2014,13:48,Thursday,Weekday,Food,Gelatogalore,32.4,1874
+3,Felix Balas,Engineering,1/16/2014,13:48,Thursday,Weekday,Food,Kalami Kafenion,91.38,9635
+17,Sven Flecha,Information Technology,1/16/2014,13:49,Thursday,Weekday,Food,Kalami Kafenion,8.86,7384
+26,Marin Onda,Engineering,1/16/2014,13:54,Thursday,Weekday,Food,Hippokampos,8.07,1310
+30,Felix Resumir,Security,1/16/2014,13:55,Thursday,Weekday,Food,Abila Zacharo,8.43,6901
+9,Gustav Cazar,Engineering,1/16/2014,14:05,Thursday,Weekday,Food,Guy's Gyros,32.8,1877
+24,Minke Mies,Security,1/16/2014,17:07,Thursday,Weekday,Food,Gelatogalore,10.62,4434
+17,Sven Flecha,Information Technology,1/16/2014,19:04,Thursday,Weekday,Food,Guy's Gyros,25.57,7384
+23,Varja Lagos,Security,1/16/2014,19:09,Thursday,Weekday,Food,Guy's Gyros,8.31,3484
+8,Lucas Alcazar,Information Technology,1/16/2014,19:39,Thursday,Weekday,Food,Katerina’s Cafe,10.93,7889
+34,Edvard Vann,Security,1/16/2014,19:40,Thursday,Weekday,Food,Guy's Gyros,37.8,4795
+14,Lidelse Dedos,Engineering,1/16/2014,19:45,Thursday,Weekday,Company,Frydos Autosupply n' More,53.37,1874
+30,Felix Resumir,Security,1/16/2014,20:09,Thursday,Weekday,Food,Guy's Gyros,28.27,6901
+11,Axel Calzas,Engineering,1/16/2014,20:13,Thursday,Weekday,Food,Hippokampos,29.13,1321
+33,Brand Tempestad,Engineering,1/16/2014,20:14,Thursday,Weekday,Food,Guy's Gyros,111.31,9683
+15,Loreto Bodrogi,Security,1/16/2014,20:17,Thursday,Weekday,Food,Guy's Gyros,25.78,3853
+20,Stenig Fusil,Security,1/16/2014,20:17,Thursday,Weekday,Food,Guy's Gyros,30.76,6816
+18,Birgitta Frente,Engineering,1/16/2014,20:23,Thursday,Weekday,Food,Katerina’s Cafe,13.91,9617
+5,Isak Baza,Information Technology,1/16/2014,20:25,Thursday,Weekday,Food,Ouzeri Elian,23.89,6899
+13,Inga Ferro,Security,1/16/2014,20:25,Thursday,Weekday,Retail,Albert's Fine Clothing,91.71,7819
+24,Minke Mies,Security,1/16/2014,20:25,Thursday,Weekday,Retail,Roberts and Sons,155.76,4434
+1,Nils Calixto,Information Technology,1/16/2014,20:28,Thursday,Weekday,Food,Ouzeri Elian,9.91,9551
+21,Hennie Osvaldo,Security,1/16/2014,20:28,Thursday,Weekday,Food,Katerina’s Cafe,30.84,9405
+12,Hideki Cocinaro,Security,1/16/2014,20:35,Thursday,Weekday,Food,Guy's Gyros,11.31,7108
+25,Kanon Herrero,Engineering,1/16/2014,20:36,Thursday,Weekday,Food,Katerina’s Cafe,19.44,2142
+19,Vira Frente,Engineering,1/16/2014,20:42,Thursday,Weekday,Food,Hippokampos,114,6895
+35,Willem Vasco-Pais,Executive,1/16/2014,20:43,Thursday,Weekday,Food,Hippokampos,27.74,2463
+9,Gustav Cazar,Engineering,1/16/2014,20:45,Thursday,Weekday,Retail,Shoppers' Delight,160.69,1877
+22,Adra Nubarron,Security,1/16/2014,20:50,Thursday,Weekday,Retail,Shoppers' Delight,16.84,1286
+27,Kare Orilla,Engineering,1/16/2014,20:51,Thursday,Weekday,Food,Katerina’s Cafe,34.58,3492
+16,Isia Vann,Security,1/16/2014,20:52,Thursday,Weekday,Retail,Roberts and Sons,240.66,7354
+10,Ada Campo-Corrente,Executive,1/16/2014,20:58,Thursday,Weekday,Food,Hippokampos,12.47,8332
+4,Ingrid Barranco,Executive,1/16/2014,21:13,Thursday,Weekday,Food,Hippokampos,20.84,7688
+28,Isande Borrasca,Engineering,1/16/2014,21:16,Thursday,Weekday,Food,Ouzeri Elian,29.99,9241
+17,Sven Flecha,Information Technology,1/17/2014,7:29,Friday,Weekday,Food,Brew've Been Served,52.56,7384
+26,Marin Onda,Engineering,1/17/2014,7:31,Friday,Weekday,Food,Hallowed Grounds,3.25,1310
+8,Lucas Alcazar,Information Technology,1/17/2014,7:33,Friday,Weekday,Food,Hallowed Grounds,14.58,7889
+18,Birgitta Frente,Engineering,1/17/2014,7:39,Friday,Weekday,Food,Hallowed Grounds,15.98,9617
+6,Linnea Bergen,Information Technology,1/17/2014,7:51,Friday,Weekday,Food,Coffee Cameleon,6.81,7253
+20,Stenig Fusil,Security,1/17/2014,7:52,Friday,Weekday,Food,Coffee Cameleon,9.16,6816
+14,Lidelse Dedos,Engineering,1/17/2014,7:52,Friday,Weekday,Food,Hallowed Grounds,18.6,1874
+31,Sten Sanjorge Jr.,Executive,1/17/2014,7:56,Friday,Weekday,Food,Hallowed Grounds,9.72,5010
+16,Isia Vann,Security,1/17/2014,7:57,Friday,Weekday,Food,Brew've Been Served,10.52,7354
+34,Edvard Vann,Security,1/17/2014,7:59,Friday,Weekday,Food,Brew've Been Served,19.39,4795
+23,Varja Lagos,Security,1/17/2014,8:03,Friday,Weekday,Food,Brew've Been Served,13.66,3484
+27,Kare Orilla,Engineering,1/17/2014,8:03,Friday,Weekday,Food,Hallowed Grounds,38.22,3492
+1,Nils Calixto,Information Technology,1/17/2014,8:04,Friday,Weekday,Food,Hallowed Grounds,9.4,9551
+21,Hennie Osvaldo,Security,1/17/2014,8:04,Friday,Weekday,Food,Brew've Been Served,16.62,9405
+2,Lars Azada,Engineering,1/17/2014,8:08,Friday,Weekday,Retail,Kronos Mart,286.24,1415
+24,Minke Mies,Security,1/17/2014,8:13,Friday,Weekday,Food,Coffee Cameleon,14.99,4434
+15,Loreto Bodrogi,Security,1/17/2014,8:15,Friday,Weekday,Food,Brew've Been Served,3.09,3853
+30,Felix Resumir,Security,1/17/2014,8:17,Friday,Weekday,Food,Brew've Been Served,5.29,6901
+13,Inga Ferro,Security,1/17/2014,8:22,Friday,Weekday,Food,Brew've Been Served,15.46,7819
+22,Adra Nubarron,Security,1/17/2014,8:23,Friday,Weekday,Food,Brew've Been Served,51.04,1286
+19,Vira Frente,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Bean There Done That,5.77,6895
+10,Ada Campo-Corrente,Executive,1/17/2014,12:00,Friday,Weekday,Food,Brewed Awakenings,6,8332
+5,Isak Baza,Information Technology,1/17/2014,12:00,Friday,Weekday,Food,Jack's Magical Beans,7.57,6899
+4,Ingrid Barranco,Executive,1/17/2014,12:00,Friday,Weekday,Food,Brewed Awakenings,8.16,7688
+3,Felix Balas,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Bean There Done That,8.21,9635
+11,Axel Calzas,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Bean There Done That,18.72,1321
+28,Isande Borrasca,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Jack's Magical Beans,19.11,9241
+9,Gustav Cazar,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Bean There Done That,19.56,1877
+2,Lars Azada,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Bean There Done That,19.67,1415
+7,Elsa Orilla,Engineering,1/17/2014,12:00,Friday,Weekday,Food,Brewed Awakenings,88.69,2540
+10,Ada Campo-Corrente,Executive,1/17/2014,13:11,Friday,Weekday,Food,Abila Zacharo,68.78,8332
+6,Linnea Bergen,Information Technology,1/17/2014,13:16,Friday,Weekday,Food,Kalami Kafenion,140.78,7253
+32,Orhan Strum,Executive,1/17/2014,13:17,Friday,Weekday,Food,Gelatogalore,15.84,8156
+4,Ingrid Barranco,Executive,1/17/2014,13:18,Friday,Weekday,Food,Guy's Gyros,8.64,7688
+23,Varja Lagos,Security,1/17/2014,13:21,Friday,Weekday,Food,Guy's Gyros,22.18,3484
+34,Edvard Vann,Security,1/17/2014,13:27,Friday,Weekday,Food,Hippokampos,14.57,4795
+31,Sten Sanjorge Jr.,Executive,1/17/2014,13:28,Friday,Weekday,Food,Abila Zacharo,15.95,5010
+20,Stenig Fusil,Security,1/17/2014,13:31,Friday,Weekday,Food,Hippokampos,15.77,6816
+3,Felix Balas,Engineering,1/17/2014,13:33,Friday,Weekday,Food,Gelatogalore,23.23,9635
+35,Willem Vasco-Pais,Executive,1/17/2014,13:37,Friday,Weekday,Food,Kalami Kafenion,105.32,2463
+2,Lars Azada,Engineering,1/17/2014,13:38,Friday,Weekday,Food,Ouzeri Elian,14.01,1415
+15,Loreto Bodrogi,Security,1/17/2014,13:38,Friday,Weekday,Food,Guy's Gyros,39.14,3853
+22,Adra Nubarron,Security,1/17/2014,13:38,Friday,Weekday,Food,Hippokampos,52.31,1286
+21,Hennie Osvaldo,Security,1/17/2014,13:39,Friday,Weekday,Food,Kalami Kafenion,27.7,9405
+26,Marin Onda,Engineering,1/17/2014,13:40,Friday,Weekday,Food,Gelatogalore,37.3,1310
+25,Kanon Herrero,Engineering,1/17/2014,13:41,Friday,Weekday,Food,Abila Zacharo,14.51,2142
+16,Isia Vann,Security,1/17/2014,13:45,Friday,Weekday,Food,Abila Zacharo,79.67,7354
+11,Axel Calzas,Engineering,1/17/2014,13:48,Friday,Weekday,Food,Katerina’s Cafe,13.11,1321
+33,Brand Tempestad,Engineering,1/17/2014,13:49,Friday,Weekday,Leisure,Chostus Hotel,114.22,9683
+14,Lidelse Dedos,Engineering,1/17/2014,13:51,Friday,Weekday,Food,Kalami Kafenion,20.02,1874
+13,Inga Ferro,Security,1/17/2014,13:51,Friday,Weekday,Food,Gelatogalore,34.59,7819
+18,Birgitta Frente,Engineering,1/17/2014,13:52,Friday,Weekday,Food,Hippokampos,108.35,9617
+24,Minke Mies,Security,1/17/2014,13:53,Friday,Weekday,Food,Katerina’s Cafe,35.52,4434
+7,Elsa Orilla,Engineering,1/17/2014,13:54,Friday,Weekday,Leisure,Chostus Hotel,159.62,2540
+30,Felix Resumir,Security,1/17/2014,13:55,Friday,Weekday,Food,Guy's Gyros,32.31,6901
+27,Kare Orilla,Engineering,1/17/2014,13:57,Friday,Weekday,Food,Gelatogalore,21.62,3492
+9,Gustav Cazar,Engineering,1/17/2014,13:58,Friday,Weekday,Food,Hippokampos,21.81,1877
+12,Hideki Cocinaro,Security,1/17/2014,13:58,Friday,Weekday,Food,Kalami Kafenion,27.73,7108
+27,Kare Orilla,Engineering,1/17/2014,19:24,Friday,Weekday,Food,Katerina’s Cafe,22.18,3492
+20,Stenig Fusil,Security,1/17/2014,19:29,Friday,Weekday,Food,Guy's Gyros,19.68,6816
+5,Isak Baza,Information Technology,1/17/2014,19:40,Friday,Weekday,Food,Ouzeri Elian,38.6,6899
+11,Axel Calzas,Engineering,1/17/2014,19:44,Friday,Weekday,Retail,Albert's Fine Clothing,1239.41,1321
+30,Felix Resumir,Security,1/17/2014,19:46,Friday,Weekday,Food,Guy's Gyros,16.83,6901
+34,Edvard Vann,Security,1/17/2014,19:53,Friday,Weekday,Food,Guy's Gyros,35.1,4795
+7,Elsa Orilla,Engineering,1/17/2014,20:03,Friday,Weekday,Food,Hippokampos,8.92,2540
+17,Sven Flecha,Information Technology,1/17/2014,20:05,Friday,Weekday,Retail,Shoppers' Delight,155.01,7384
+26,Marin Onda,Engineering,1/17/2014,20:07,Friday,Weekday,Food,Katerina’s Cafe,21.22,1310
+28,Isande Borrasca,Engineering,1/17/2014,20:07,Friday,Weekday,Food,Ouzeri Elian,70.21,9241
+23,Varja Lagos,Security,1/17/2014,20:16,Friday,Weekday,Food,Guy's Gyros,37.55,3484
+6,Linnea Bergen,Information Technology,1/17/2014,20:20,Friday,Weekday,Food,Katerina’s Cafe,19.09,7253
+13,Inga Ferro,Security,1/17/2014,20:21,Friday,Weekday,Food,Guy's Gyros,8.31,7819
+22,Adra Nubarron,Security,1/17/2014,20:21,Friday,Weekday,Retail,Shoppers' Delight,289.33,1286
+15,Loreto Bodrogi,Security,1/17/2014,20:24,Friday,Weekday,Food,Guy's Gyros,8.54,3853
+8,Lucas Alcazar,Information Technology,1/17/2014,20:24,Friday,Weekday,Food,Katerina’s Cafe,72.13,7889
+1,Nils Calixto,Information Technology,1/17/2014,20:28,Friday,Weekday,Food,Ouzeri Elian,35.81,9551
+12,Hideki Cocinaro,Security,1/17/2014,20:41,Friday,Weekday,Retail,General Grocer,98.03,7108
+16,Isia Vann,Security,1/17/2014,20:41,Friday,Weekday,Company,Frydos Autosupply n' More,260.08,7354
+4,Ingrid Barranco,Executive,1/17/2014,20:54,Friday,Weekday,Food,Hippokampos,11.93,7688
+25,Kanon Herrero,Engineering,1/17/2014,20:58,Friday,Weekday,Food,Katerina’s Cafe,38.21,2142
+33,Brand Tempestad,Engineering,1/17/2014,20:59,Friday,Weekday,Food,Guy's Gyros,29.71,9683
+21,Hennie Osvaldo,Security,1/17/2014,21:06,Friday,Weekday,Food,Katerina’s Cafe,27.49,9405
+24,Minke Mies,Security,1/17/2014,21:07,Friday,Weekday,Food,Guy's Gyros,55.4,4434
+35,Willem Vasco-Pais,Executive,1/17/2014,21:29,Friday,Weekday,Food,Hippokampos,38.19,2463
+3,Felix Balas,Engineering,1/17/2014,21:58,Friday,Weekday,Food,Hippokampos,12.86,9635
+31,Sten Sanjorge Jr.,Executive,1/18/2014,12:03,Saturday,Weekend,Leisure,Chostus Hotel,600,5010
+32,Orhan Strum,Executive,1/18/2014,13:04,Saturday,Weekend,Food,Abila Zacharo,111.93,8156
+7,Elsa Orilla,Engineering,1/18/2014,13:05,Saturday,Weekend,Food,Abila Zacharo,25.59,2540
+19,Vira Frente,Engineering,1/18/2014,13:18,Saturday,Weekend,Food,Ouzeri Elian,33.57,6895
+9,Gustav Cazar,Engineering,1/18/2014,13:21,Saturday,Weekend,Food,Hippokampos,100.11,1877
+6,Linnea Bergen,Information Technology,1/18/2014,13:25,Saturday,Weekend,Food,Abila Zacharo,18.45,7253
+17,Sven Flecha,Information Technology,1/18/2014,13:27,Saturday,Weekend,Food,Guy's Gyros,55.21,7384
+14,Lidelse Dedos,Engineering,1/18/2014,13:28,Saturday,Weekend,Food,Guy's Gyros,27.4,1874
+35,Willem Vasco-Pais,Executive,1/18/2014,13:28,Saturday,Weekend,Food,Kalami Kafenion,38.91,2463
+1,Nils Calixto,Information Technology,1/18/2014,13:32,Saturday,Weekend,Food,Abila Zacharo,16.59,9551
+23,Varja Lagos,Security,1/18/2014,13:34,Saturday,Weekend,Food,Katerina’s Cafe,19.3,3484
+11,Axel Calzas,Engineering,1/18/2014,13:58,Saturday,Weekend,Food,Kalami Kafenion,24.14,1321
+4,Ingrid Barranco,Executive,1/18/2014,14:03,Saturday,Weekend,Food,Katerina’s Cafe,96.36,7688
+18,Birgitta Frente,Engineering,1/18/2014,14:05,Saturday,Weekend,Food,Guy's Gyros,47.89,9617
+13,Inga Ferro,Security,1/18/2014,14:06,Saturday,Weekend,Food,Katerina’s Cafe,24.14,7819
+30,Felix Resumir,Security,1/18/2014,14:17,Saturday,Weekend,Food,Kalami Kafenion,53.36,6901
+22,Adra Nubarron,Security,1/18/2014,14:51,Saturday,Weekend,Leisure,Ahaggo Museum,55.55,1286
+17,Sven Flecha,Information Technology,1/18/2014,14:55,Saturday,Weekend,Leisure,Ahaggo Museum,120.2,7384
+19,Vira Frente,Engineering,1/18/2014,15:20,Saturday,Weekend,Retail,Albert's Fine Clothing,35.66,6895
+14,Lidelse Dedos,Engineering,1/18/2014,15:32,Saturday,Weekend,Company,Frydos Autosupply n' More,361.54,1874
+32,Orhan Strum,Executive,1/18/2014,15:40,Saturday,Weekend,Retail,Shoppers' Delight,258.33,8156
+6,Linnea Bergen,Information Technology,1/18/2014,15:41,Saturday,Weekend,Retail,Roberts and Sons,62.47,7253
+9,Gustav Cazar,Engineering,1/18/2014,15:51,Saturday,Weekend,Company,Frydos Autosupply n' More,103.55,1877
+35,Willem Vasco-Pais,Executive,1/18/2014,15:53,Saturday,Weekend,Company,Frydos Autosupply n' More,120.67,2463
+3,Felix Balas,Engineering,1/18/2014,18:39,Saturday,Weekend,Gas,Frank's Fuel,52.66,9635
+32,Orhan Strum,Executive,1/18/2014,18:59,Saturday,Weekend,Retail,Albert's Fine Clothing,226.49,8156
+23,Varja Lagos,Security,1/18/2014,19:08,Saturday,Weekend,Food,Guy's Gyros,39.68,3484
+18,Birgitta Frente,Engineering,1/18/2014,19:20,Saturday,Weekend,Retail,Roberts and Sons,266.69,9617
+11,Axel Calzas,Engineering,1/18/2014,19:21,Saturday,Weekend,Food,Hippokampos,21.34,1321
+5,Isak Baza,Information Technology,1/18/2014,19:21,Saturday,Weekend,Food,Ouzeri Elian,57.63,6899
+1,Nils Calixto,Information Technology,1/18/2014,19:26,Saturday,Weekend,Food,Ouzeri Elian,61.56,9551
+8,Lucas Alcazar,Information Technology,1/18/2014,19:30,Saturday,Weekend,Food,Katerina’s Cafe,8.14,7889
+14,Lidelse Dedos,Engineering,1/18/2014,19:31,Saturday,Weekend,Food,Katerina’s Cafe,22.74,1874
+24,Minke Mies,Security,1/18/2014,19:32,Saturday,Weekend,Food,Katerina’s Cafe,33.41,4434
+19,Vira Frente,Engineering,1/18/2014,19:35,Saturday,Weekend,Food,Hippokampos,27.21,6895
+34,Edvard Vann,Security,1/18/2014,19:36,Saturday,Weekend,Food,Abila Zacharo,21.29,4795
+35,Willem Vasco-Pais,Executive,1/18/2014,19:36,Saturday,Weekend,Food,Hippokampos,53.21,2463
+3,Felix Balas,Engineering,1/18/2014,19:39,Saturday,Weekend,Food,Kalami Kafenion,71.14,9635
+20,Stenig Fusil,Security,1/18/2014,19:39,Saturday,Weekend,Food,Guy's Gyros,78.36,6816
+10,Ada Campo-Corrente,Executive,1/18/2014,19:42,Saturday,Weekend,Food,Hippokampos,63.21,8332
+4,Ingrid Barranco,Executive,1/18/2014,19:46,Saturday,Weekend,Retail,Roberts and Sons,125.35,7688
+26,Marin Onda,Engineering,1/18/2014,19:54,Saturday,Weekend,Food,Katerina’s Cafe,33.63,1310
+21,Hennie Osvaldo,Security,1/18/2014,20:01,Saturday,Weekend,Food,Katerina’s Cafe,17.37,9405
+22,Adra Nubarron,Security,1/18/2014,20:01,Saturday,Weekend,Food,Hippokampos,49.21,1286
+30,Felix Resumir,Security,1/18/2014,20:07,Saturday,Weekend,Retail,General Grocer,108.49,6901
+16,Isia Vann,Security,1/18/2014,20:09,Saturday,Weekend,Food,Katerina’s Cafe,19.31,7354
+2,Lars Azada,Engineering,1/18/2014,20:11,Saturday,Weekend,Food,Hippokampos,72.5,1415
+15,Loreto Bodrogi,Security,1/18/2014,20:13,Saturday,Weekend,Food,Katerina’s Cafe,9.72,3853
+13,Inga Ferro,Security,1/18/2014,20:15,Saturday,Weekend,Food,Katerina’s Cafe,37.21,7819
+9,Gustav Cazar,Engineering,1/18/2014,20:23,Saturday,Weekend,Food,Hippokampos,29.21,1877
+23,Varja Lagos,Security,1/19/2014,3:13,Sunday,Weekend,Retail,Kronos Mart,87.66,3484
+1,Nils Calixto,Information Technology,1/19/2014,3:45,Sunday,Weekend,Retail,Kronos Mart,194.51,9551
+10,Ada Campo-Corrente,Executive,1/19/2014,3:48,Sunday,Weekend,Retail,Kronos Mart,150.36,8332
+32,Orhan Strum,Executive,1/19/2014,12:41,Sunday,Weekend,Leisure,Desafio Golf Course,150.07,8156
+4,Ingrid Barranco,Executive,1/19/2014,12:57,Sunday,Weekend,Leisure,Desafio Golf Course,145.72,7688
+16,Isia Vann,Security,1/19/2014,13:00,Sunday,Weekend,Food,Katerina’s Cafe,35.01,7354
+19,Vira Frente,Engineering,1/19/2014,13:09,Sunday,Weekend,Food,Gelatogalore,22.36,6895
+34,Edvard Vann,Security,1/19/2014,13:23,Sunday,Weekend,Food,Katerina’s Cafe,70.22,4795
+28,Isande Borrasca,Engineering,1/19/2014,13:26,Sunday,Weekend,Leisure,Ahaggo Museum,26.91,9241
+23,Varja Lagos,Security,1/19/2014,13:27,Sunday,Weekend,Food,Ouzeri Elian,23.65,3484
+25,Kanon Herrero,Engineering,1/19/2014,13:33,Sunday,Weekend,Food,Hippokampos,64.37,2142
+10,Ada Campo-Corrente,Executive,1/19/2014,13:51,Sunday,Weekend,Leisure,Desafio Golf Course,190.91,8332
+24,Minke Mies,Security,1/19/2014,13:53,Sunday,Weekend,Food,Katerina’s Cafe,26.76,4434
+26,Marin Onda,Engineering,1/19/2014,14:01,Sunday,Weekend,Food,Katerina’s Cafe,12.78,1310
+17,Sven Flecha,Information Technology,1/19/2014,14:08,Sunday,Weekend,Food,Ouzeri Elian,45.32,7384
+30,Felix Resumir,Security,1/19/2014,14:20,Sunday,Weekend,Food,Abila Zacharo,47.8,6901
+27,Kare Orilla,Engineering,1/19/2014,14:20,Sunday,Weekend,Food,Katerina’s Cafe,54.2,3492
+19,Vira Frente,Engineering,1/19/2014,15:03,Sunday,Weekend,Retail,General Grocer,70.22,6895
+35,Willem Vasco-Pais,Executive,1/19/2014,15:15,Sunday,Weekend,Leisure,Desafio Golf Course,110.02,2463
+23,Varja Lagos,Security,1/19/2014,15:26,Sunday,Weekend,Company,Frydos Autosupply n' More,56.09,3484
+25,Kanon Herrero,Engineering,1/19/2014,15:39,Sunday,Weekend,Retail,Albert's Fine Clothing,274.66,2142
+31,Sten Sanjorge Jr.,Executive,1/19/2014,15:46,Sunday,Weekend,Leisure,Desafio Golf Course,148.22,5010
+34,Edvard Vann,Security,1/19/2014,15:53,Sunday,Weekend,Company,Frydos Autosupply n' More,209.76,4795
+10,Ada Campo-Corrente,Executive,1/19/2014,19:43,Sunday,Weekend,Food,Hippokampos,48.23,8332
+3,Felix Balas,Engineering,1/19/2014,19:43,Sunday,Weekend,Food,Hippokampos,101.25,9635
+19,Vira Frente,Engineering,1/19/2014,19:44,Sunday,Weekend,Food,Hippokampos,46.32,6895
+11,Axel Calzas,Engineering,1/19/2014,19:44,Sunday,Weekend,Food,Hippokampos,88.27,1321
+22,Adra Nubarron,Security,1/19/2014,19:45,Sunday,Weekend,Food,Guy's Gyros,23.21,1286
+31,Sten Sanjorge Jr.,Executive,1/19/2014,19:45,Sunday,Weekend,Food,Guy's Gyros,25.79,5010
+23,Varja Lagos,Security,1/19/2014,19:45,Sunday,Weekend,Food,Guy's Gyros,58.35,3484
+17,Sven Flecha,Information Technology,1/19/2014,19:45,Sunday,Weekend,Food,Guy's Gyros,65.21,7384
+21,Hennie Osvaldo,Security,1/19/2014,19:45,Sunday,Weekend,Company,Frydos Autosupply n' More,98.04,9405
+5,Isak Baza,Information Technology,1/19/2014,19:48,Sunday,Weekend,Food,Ouzeri Elian,67.98,6899
+1,Nils Calixto,Information Technology,1/19/2014,19:49,Sunday,Weekend,Food,Ouzeri Elian,32.77,9551
+20,Stenig Fusil,Security,1/19/2014,19:49,Sunday,Weekend,Food,Guy's Gyros,100.36,6816
+8,Lucas Alcazar,Information Technology,1/19/2014,19:53,Sunday,Weekend,Food,Katerina’s Cafe,34.03,7889
+25,Kanon Herrero,Engineering,1/19/2014,19:56,Sunday,Weekend,Retail,Shoppers' Delight,30.39,2142
+35,Willem Vasco-Pais,Executive,1/19/2014,19:56,Sunday,Weekend,Food,Hippokampos,63.17,2463
+16,Isia Vann,Security,1/19/2014,20:00,Sunday,Weekend,Food,Guy's Gyros,18.08,7354
+7,Elsa Orilla,Engineering,1/19/2014,20:02,Sunday,Weekend,Retail,Albert's Fine Clothing,254.29,2540
+14,Lidelse Dedos,Engineering,1/19/2014,20:05,Sunday,Weekend,Food,Katerina’s Cafe,33.79,1874
+12,Hideki Cocinaro,Security,1/19/2014,20:14,Sunday,Weekend,Food,Guy's Gyros,36.87,7108
+33,Brand Tempestad,Engineering,1/19/2014,20:16,Sunday,Weekend,Food,Guy's Gyros,37.48,9683
+2,Lars Azada,Engineering,1/19/2014,20:16,Sunday,Weekend,Food,Hippokampos,78.96,1415
+18,Birgitta Frente,Engineering,1/19/2014,20:22,Sunday,Weekend,Food,Katerina’s Cafe,38.9,9617
+15,Loreto Bodrogi,Security,1/19/2014,20:25,Sunday,Weekend,Food,Guy's Gyros,20.94,3853
+24,Minke Mies,Security,1/19/2014,20:30,Sunday,Weekend,Food,Guy's Gyros,31.94,4434
+30,Felix Resumir,Security,1/19/2014,20:51,Sunday,Weekend,Food,Guy's Gyros,39.6,6901

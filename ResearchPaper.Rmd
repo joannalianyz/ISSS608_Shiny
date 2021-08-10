@@ -1,0 +1,121 @@
+---
+title: "Research Paper"
+author: "Joanna"
+date: "8/9/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# 1. Introduction
+
+The goal of the annual Institute of Electrical and Electronics Engineers (IEEE) Visual Analytics Science and Technology (VAST) Challenge is to advance the field of visual analytics through competition. The 2021 IEEE VAST Challenge brings back a classic challenge from 2014 to see how approaches and techniques have developed since the original release of the challenge. The background of the challenge is as below:
+
+In January, 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem. It appears that certain employees of GAStech may be involved in the disappearance.
+
+Our application aims to serve as an interactive tool for users to visually investigate and identify which employee profile is indicative of suspicious behaviour. This paper documents our approach to designing and developing the interactive application targeted at crime investigators. This introduction is followed in Section 2 by an explanation of our motivation and objectives. Section 3 details the data used and methodology selected. Section 4 provides a visual overview of the final product. Section 5 concludes the report and offers ideas for further development.   
+
+# 2. Motivation & Objectives
+
+This project was motivated by our findings that there were suspicious activities within GAStech itself which were worth investigating. This project aims to create a data analytics applications to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech. On a larger scale, this could assist in profiling which can be used for generic crime investigations.
+
+Through our application, users can start to decipher for themselves what defines suspicious behaviour and how can we make use of everyday data to raise red flags on suspicious behaviours. This project aims to understand better the individuals and organizations that are involved in this situation. We do this by exploring the following:
+
+* Conducting exploration data analysis and inferential data analysis on
+    + Credit card expenditure data
+    + Email headers data
+    + Employee categories  
+    
+* Delivering a R-Shiny app that achieve the following through an interactive user interface design: 
+    + Identifying any anomalous or suspicious behavior.
+    + Identifying formal (work-related) or informal (non-work related) relationships.  
+    + Discover any associations based on common interest given in the data.  
+    + Discover relationships between CC expenditure, email headers and employee records.
+    + Decide who are the suspicious GASTech employees * Obtaining a holistic profile on these suspicious employees.
+
+# 3. Methodology
+
+Our methodology is as below:  
+
+* Data preparation using dplyr and other R packages.
+
+* Analysis of VAST 21 data set with background research using some of the following methods:
+    + Exploratory Data Analysis (EDA) methods in R.
+    + Inferential Analysis methods in R.
+    + Network Analysis in R.
+    
+* Creating a R shiny dashboard showing our findings/insights and conclusions:
+    + R Markdown development for functionality checks
+    + R-Shiny app development for user interactivity
+
+## 3.1 Data
+
+We’ll be using data sets from Mini-Challenge 1 [MC1] and Mini-Challenge 2 [MC2].
+
+From [MC1], we will be using the email headers and employee records data. From [MC2], we will be extracting insights based on credit card transactions data.
+
+We will also be joining the two data sets based on individuals to analyzing attributes by features across data sets.
+
+## 3.2 Shiny Architecture
+
+Development of the interactive tool was done on Shiny, and R packages were used to build interactive web apps. Shiny is widely adopted in the data analytics industry because:
+
+* It has a framework that makes it user-friendly to collect input values from a web page, with R code written as output values back to the web page.
+* The input values can be modified by the user at any time, through interaction with customisable widgets. 
+* The output values react to changes in input values, with the resulting outputs being reflected immediately.  
+
+The design of our Shiny web app is as follows:  
+
+1. Main layout - This will consist of two pain parts:
+
+    + A top navigation bar that will help the user to navigate to the various modules that will be present in the blue area.
+    + An input bar where user can decide for themselves who in GASTech is suspicious.  
+    
+    The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user’s decision of their most suspected employees.  
+
+2. First module - EDA. On the side panel, we would include options for interactions. Then on the main panel, we will have histogram and data table.  
+
+    There will be filters applicable for the histogram:  
+    + Department (drop down: Security, Executive, Administration...)
+    + Expenditure type (drop down: Food, Retail, Company...)
+    + Time category: Weekend vs Weekday  
+
+    If we select a histogram bar, the Data Table will be automatically filtered to represent the data reflected in that bar.  
+
+2. Second module -Inferential Analysis. There will be 3 sub-tabs for the 3 types of filters defined in Module 1:
+    + Department
+    + Expenditure Type
+    + Time Category
+    
+    The x axis will reflect the selection in each of the category. ANOVA inferential statistics will be done.
+
+3. Third module – Network Graph.There will be similar filters to what we have for the first 2 modules, with the addition of Email Category (work related vs non-work related).
+
+4. Fourth module - Parallel Plot.  
+
+    To facilitate exploration by users, we have created a user guide as well.
+
+
+## 3.3 Analysis Techniques
+
+### 3.3.1 Histogram
+
+A histogram is a plot that illustrates the underlying frequency distribution of a set of continuous data. This allows the inspection of the data for its underlying distribution (e.g., normal distribution), outliers, skewness, etc
+
+### 3.3.2 Boxplot
+
+A boxplot is a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”). It can tell you about your outliers and what their values are. It can also tell you if your data is symmetrical, how tightly your data is grouped, and if and how your data is skewed. For our app, we will be using boxplots to summarise CC spending across different retail categories across different time frames (weekday vs weekend).
+
+### 3.3.3 Network Graph
+
+Network graphs show interconnections between a set of entities. Each entity is represented by a Node (or vertice). Connections between nodes are represented through links (or edges). In the context of our shiny app, employees represent the nodes while the links represent the email correspondences.
+
+### 3.3.4 Parallel Plot
+
+Parallel Plots are a visualization method for the exploration of categorical data. They focus on the data frequencies instead of individual data points. The technique is built on the axis layout of parallel coordinates, with boxes representing the categories of data (e.g. gender, department, spending patterns etc.) and parallelograms between the axes showing the relations between categories. Our app enables the user to interactively remap the data to up to five levels of categorization.  
+
+# 4. Despcription of Product & Findings
+
+# Conclusion & Further Ideas
