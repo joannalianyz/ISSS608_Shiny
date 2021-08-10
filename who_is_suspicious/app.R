@@ -1,6 +1,8 @@
 library(shiny)
+library(visNetwork)
 
 # Load Data 
+
 
 # Define UI with panel 
 ui <- navbarPage(
@@ -16,7 +18,7 @@ ui <- navbarPage(
         tabPanel("inferential", "module for CC Anova")
     ),
     
-    tabPanel("What emails do they send?", "module for network graph"
+    tabPanel("What emails do they send?", emailUI("email")
     ),
     
     tabPanel("TEST", histogramUI("hist")  ## USING HISTOGRAM AS AN EXAMPLE 
@@ -40,6 +42,8 @@ ui <- navbarPage(
 server <- function(input, output) {
     
     histogramServer("hist")
+    
+    emailServer("email")
     
 }
 
