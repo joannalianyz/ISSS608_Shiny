@@ -36,26 +36,28 @@ parsetUI <- function(id) {
 }
 
 
-parsetServer <- function(id, sus_peeps) {
+parsetServer <- function(id, ui_input) {
   moduleServer(id, function(input, output, session) {
 
     output$parset <- renderParset({
       
       possible_cols <- c(input$lvl1, input$lvl2, input$lvl3)
       
-      selected_employees <- employees %>%
-        mutate("Is Suspicious" = ifelse(Name %in% sus_peeps, 'Suspicious', 'Not Suspcious'))
+      selected_employees <- reactive( {
+        df <- employees %>%
+          mutate("Is Suspicious" = ifelse(Name %in% ui_input$sus_peeps(), 'Suspicious', 'Not Suspcious'))
+        return(df)
+      })
       
       parset(
-        selected_employees ,
+        selected_employees() ,
         dimensions = possible_cols,
         tension = 0.5)
 
     })
 
     output$info <- renderPrint({
-      possible_cols <- c(input$lvl1, input$lvl2, input$lvl3)
-      paste(possible_cols)
+      paste(ui_input$sus_peeps())
 
     })
 

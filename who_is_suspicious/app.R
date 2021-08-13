@@ -29,19 +29,14 @@ ui <- navbarPage(
     tabPanel("What is their profile?", parsetUI("parset")
     ),
     
-    selectInput(
-        inputId = 'sus_peeps', 
-        label = "Who do you think is suspicious?",
-        choices = gastech_employee$Name,
-        selected = c("Isia Vann", "Hennie Osvaldo", "Edvard Vann", "Loreto Bodrogi"), 
-        multiple = TRUE,
-        width = '100%'
-    )
+    susUI('sus')
 )
 
 
 # Define server logic required to draw a histogram
-server <- function(input, output) {
+server <- function(input, output, session) {
+    
+    input_var <- susServer("sus")
     
     histogramServer("hist")
     
@@ -49,7 +44,7 @@ server <- function(input, output) {
 
     emailServer("email")
     
-    parsetServer("parset", input$sus_peeps)
+    parsetServer("parset", input_var)
     
     output$info <- renderPrint({
         paste(input$sus_peeps)
