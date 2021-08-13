@@ -1,8 +1,10 @@
 library(shiny)
 library(visNetwork)
+library(tidyverse)
 
 # Load Data 
 
+gastech_employee <- read_rds('Data/EmployeeRecords_Clean.rds')
 
 # Define UI with panel 
 ui <- navbarPage(
@@ -10,7 +12,7 @@ ui <- navbarPage(
     
     "You be the judge!",
     
-    tabPanel("Starting Point", "Module for starting point"),
+    tabPanel("Starting Point", "Module for starting point", verbatimTextOutput("info")),
     
     navbarMenu(
         "What are they spending?",    
@@ -24,14 +26,14 @@ ui <- navbarPage(
     tabPanel("TEST", histogramUI("hist")  ## USING HISTOGRAM AS AN EXAMPLE 
     ),
     
-    tabPanel("What is their profile?", "Module for Parallel set - profile"
+    tabPanel("What is their profile?", parsetUI("parset")
     ),
     
     selectInput(
-        'sus_peeps', 
-        "Who do you think is suspicious?",
-        choices = c("A","B","C","D"),
-        selected = c("A", "B"), 
+        inputId = 'sus_peeps', 
+        label = "Who do you think is suspicious?",
+        choices = gastech_employee$Name,
+        selected = c("Isia Vann", "Hennie Osvaldo", "Edvard Vann", "Loreto Bodrogi"), 
         multiple = TRUE,
         width = '100%'
     )
@@ -46,6 +48,13 @@ server <- function(input, output) {
     statplotServer("statplot")
 
     emailServer("email")
+    
+    parsetServer("parset", input$sus_peeps)
+    
+    output$info <- renderPrint({
+        paste(input$sus_peeps)
+        
+    })
     
 }
 
