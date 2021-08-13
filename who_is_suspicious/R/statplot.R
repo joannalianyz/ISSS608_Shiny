@@ -10,7 +10,7 @@ GasTech_df$CarID <- as_factor(GasTech_df$CarID)
 
 statplotUI <- function(id) {
   tagList(
-    titlePanel("GPS & credit card data of GASTech employees"),    
+    titlePanel("Credit card spending patterns of GASTech employees"),    
     sidebarLayout(        
       sidebarPanel(            
         selectInput(NS(id, "variable"),
