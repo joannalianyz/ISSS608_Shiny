@@ -1,4 +1,4 @@
-CarID,Name,Employment_Type,Date,Time,Day_of_Week,Weekday/Weekend,Category,Location,Price,Last4ccnum
+CarID,Name,Employment_Type,Date,Time,Day_of_Week,Week,Category,Location,Price,Last4ccnum
 34,Edvard Vann,Security,1/6/2014,7:28,Monday,Weekday,Food,Brew've Been Served,11.34,4795
 12,Hideki Cocinaro,Security,1/6/2014,7:34,Monday,Weekday,Food,Hallowed Grounds,52.22,7108
 20,Stenig Fusil,Security,1/6/2014,7:35,Monday,Weekday,Food,Brew've Been Served,8.33,6816

@@ -2,14 +2,15 @@ library(tidyverse)
 library(clock)
 
 GasTech_df <- read_csv("Data/Final.csv")
+
 GasTech_df$Date <- date_time_parse(GasTech_df$Date,
                                    zone = "",
                                    format = "%m/%d/%Y")
 GasTech_df$CarID <- as_factor(GasTech_df$CarID)
 
-df <- GasTech_df %>% 
-    group_by(Employment_Type, Category, "Weekday/Weekend", Location, Day_of_Week) %>% 
-    summarize(total_spent = sum(Price))
+# df <- GasTech_df %>% 
+#     group_by(Employment_Type, Category, "Weekday/Weekend", Location, Day_of_Week) %>% 
+#     summarize(total_spent = sum(Price))
 
 # Module UI
 histogramUI <- function(id) {
@@ -17,10 +18,18 @@ histogramUI <- function(id) {
         sidebarLayout(
             sidebarPanel( 
                 selectInput(
-                    NS(id, "variable"),
-                    label = "Category to compare:",
-                    choices = c("Employment_Type", "Weekday/Weekend", "Category", "Day_of_Week", "Location"),
-                    selected = "Employment_Type"
+                    NS(id, "employment"),
+                    label = "Employment Type",
+                    choices = c("Security", "Engineering", "Information Technology", "Facilities", "Executive" ),
+                    selected = "Security",
+                    multiple = TRUE
+                ),
+                
+                selectInput(
+                    NS(id, "week"),
+                    label = "Weekday vs Weekend",
+                    choices = c("Weekday", "Weekend"),
+                    selected = "Weekday"
                 ),
                     
                 sliderInput(
@@ -47,12 +56,15 @@ histogramUI <- function(id) {
 histogramServer <- function(id) {
     moduleServer(id, function(input, output, session) {
         
-        data <- reactive(df[[input$variable]])
-        
         output$hist <- renderPlot({
-            hist(df$total_spent, 
+            
+            data <- GasTech_df %>%
+                filter(Week == input$week) %>% 
+                filter(Employment_Type %in% input$employment)
+            
+            hist(data$Price, 
                  breaks = input$bins, 
-                 main = input$variable)
+                 main = input$week)
         }, res = 96)
     })
 }
