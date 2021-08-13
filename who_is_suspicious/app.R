@@ -15,7 +15,7 @@ ui <- navbarPage(
     navbarMenu(
         "What are they spending?",    
         tabPanel("EDA", "module for CC histogram and DT"),  
-        tabPanel("inferential", "module for CC Anova")
+        tabPanel("inferential", statplotUI('statplot'))
     ),
     
     tabPanel("What emails do they send?", emailUI("email")
@@ -43,6 +43,8 @@ server <- function(input, output) {
     
     histogramServer("hist")
     
+    statplotServer("statplot")
+
     emailServer("email")
     
 }
