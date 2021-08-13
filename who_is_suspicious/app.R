@@ -16,14 +16,11 @@ ui <- navbarPage(
     
     navbarMenu(
         "What are they spending?",    
-        tabPanel("EDA", "module for CC histogram and DT"),  
+        tabPanel("EDA", histogramUI("hist")),  
         tabPanel("inferential", statplotUI('statplot'))
     ),
     
     tabPanel("What emails do they send?", emailUI("email")
-    ),
-    
-    tabPanel("TEST", histogramUI("hist")  ## USING HISTOGRAM AS AN EXAMPLE 
     ),
     
     tabPanel("What is their profile?", parsetUI("parset")
