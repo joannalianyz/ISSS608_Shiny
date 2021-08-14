@@ -53,8 +53,13 @@ loadServer <- function(id) {
     
     # The user's data, parsed into a data frame
     dataframe <- reactive({
-      read.csv(userFile()$datapath,
-               quote = "\"")
+      if (is.null(input$upload)) {
+        email_headers
+      } else {
+        read.csv(userFile()$datapath,
+                 quote = "\"")
+      }
+
     })
     
     
