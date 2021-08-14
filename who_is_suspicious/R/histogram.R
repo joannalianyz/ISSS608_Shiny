@@ -8,10 +8,6 @@ GasTech_df$Date <- date_time_parse(GasTech_df$Date,
                                    format = "%m/%d/%Y")
 GasTech_df$CarID <- as_factor(GasTech_df$CarID)
 
-# df <- GasTech_df %>% 
-#     group_by(Employment_Type, Category, "Weekday/Weekend", Location, Day_of_Week) %>% 
-#     summarize(total_spent = sum(Price))
-
 # Module UI
 histogramUI <- function(id) {
     tagList(
@@ -22,6 +18,14 @@ histogramUI <- function(id) {
                     label = "Employment Type",
                     choices = c("Security", "Engineering", "Information Technology", "Facilities", "Executive" ),
                     selected = "Security",
+                    multiple = TRUE
+                ),
+                
+                selectInput(
+                    NS(id, "category"),
+                    label = "Category of spending",
+                    choices = c("Company", "Food", "Gas", "Leisure", "Retail" ),
+                    selected = "Food",
                     multiple = TRUE
                 ),
                 
@@ -39,14 +43,16 @@ histogramUI <- function(id) {
                     max = 20,
                     value= c(10)
                 ),
+                
                 checkboxInput(
-                    inputId = "show_data",
+                    NS(id,"showDT"),
                     label = "Show data table",
-                    value = TRUE
-                )
-            ), 
+                    value = TRUE)
+                ),
+                
             mainPanel(
-                plotOutput(NS(id, "hist"))
+                plotOutput(NS(id, "hist")),
+                DT::dataTableOutput(NS(id,"cctable"))
             )
         )
     )
@@ -60,12 +66,26 @@ histogramServer <- function(id) {
             
             data <- GasTech_df %>%
                 filter(Week == input$week) %>% 
-                filter(Employment_Type %in% input$employment)
+                filter(Employment_Type %in% input$employment) %>%
+                filter(Category %in% input$category)
             
             hist(data$Price, 
                  breaks = input$bins, 
                  main = input$week)
         }, res = 96)
+        
+        output$cctable <- DT::renderDataTable({
+            
+            data <- GasTech_df %>%
+                filter(Week == input$week) %>% 
+                filter(Employment_Type %in% input$employment) %>%
+                filter(Category %in% input$category)
+            
+            if(input$showDT){
+                DT::datatable(data = data %>% select(1:10),
+                              options= list(pageLength = 10),
+                              rownames = FALSE)    
+        }
     })
-}
-
+    }
+)}
