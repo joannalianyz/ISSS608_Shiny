@@ -1,13 +1,25 @@
 ---
-title: "Research Paper"
-author: "Joanna"
-date: "8/9/2021"
-output: html_document
+output: 
+  bookdown::pdf_book:
+    template: ResearchPaper.tex
+    keep_tex: true
+title: Who is suspicious?
+
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+# Abstract
+
+Criminal profiling is used as a technique used to identify the perpetrator of a crime by identifying the personality and behavioral characteristics of the offender based upon an analysis of the crime committed. The sensational and dramatic elements of profiling is often portrayed in movies, television shows, and books but how does it fare as an investigative tool against crime in real life?
+
+Well, more often than not, there has been doubts within the crime-fighting community about the viability of profiling as an investigative tool. Why? This is because there are views hat a criminal profile only gives a broad indication of the type of person who may have committed the crime. It does not indicate a specific individual who happens to fit the profile. The profiler is therefore unable to say whether it is more probable than not that a specific offender did, in fact, commit the crime. Nevertheless, criminal profiling has proven to be helpful in solving some criminal cases.
+
+Definitely though, more research has to be done before criminal profiling can truly become a useful part of the criminal investigation process. This is a fascinating topic and hence, through our project, we aim to use a range of data visualisation techniques to develop an R Shiny application to maximise the insights obtained from studying the different aspects of an individual's daily life e.g.credit card transactions and email communications in order to successfully profile an individual. The analytics and design choices made in the development of the application and initial findings and future work are discussed.
+
+Keywords— Profiling, spending patterns, Analysis of credit card transations, Interactive Data Visualisation, network graphs, R Shiny
 
 # 1. Introduction
 
@@ -15,7 +27,7 @@ The goal of the annual Institute of Electrical and Electronics Engineers (IEEE) 
 
 In January, 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem. It appears that certain employees of GAStech may be involved in the disappearance.
 
-Our application aims to serve as an interactive tool for users to visually investigate and identify which employee profile is indicative of suspicious behaviour. This paper documents our approach to designing and developing the interactive application targeted at crime investigators. This introduction is followed in Section 2 by an explanation of our motivation and objectives. Section 3 details the data used and methodology selected. Section 4 provides a visual overview of the final product. Section 5 concludes the report and offers ideas for further development.   
+Aligning with our intent to create an application that aims to aid the profiling process, our application will serve as an interactive tool for users to visually investigate and identify which employee profile is indicative of suspicious behaviour. This paper documents our approach to designing and developing the interactive application targeted at crime investigators. This introduction is followed in Section 2 by an explanation of our motivation and objectives. Section 3 details the data used and methodology selected. Section 4 provides a visual overview of the final product. Section 5 concludes the report and offers ideas for further development.   
 
 # 2. Motivation & Objectives
 
@@ -120,4 +132,9 @@ Parallel Plots are a visualization method for the exploration of categorical dat
 
 # 4. Despcription of Product & Findings
 
-# Conclusion & Further Ideas
+# 5. Conclusion & Further Ideas
+
+This paper set out the development of a web application targeted at exploring how we could use visually motivated tools to  facilitate the profiling process. The project was motivated by our realisation through the VAST 2021 project that there were suspicious behaviours demonstrated by some individuals which were worth investigating.
+
+The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
+
