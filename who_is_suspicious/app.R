@@ -14,19 +14,27 @@ ui <- navbarPage(
     
     tabPanel("Starting Point", "Module for starting point", verbatimTextOutput("info")),
     
-    navbarMenu(
-        "What are they spending?",    
-        tabPanel("EDA", histogramUI("hist")),  
-        tabPanel("inferential", statplotUI('statplot'))
-    ),
+    tabPanel(
+        "What are they spending?", 
+        tabsetPanel(
+            tabPanel("Histogram", histogramUI("hist")),  
+            tabPanel("Inferential", statplotUI('statplot'))
+        )
+    ), 
     
-    tabPanel("What emails do they send?", emailUI("email")
+    tabPanel(
+        "What emails do they send?", 
+        tabsetPanel(
+            tabPanel("Network Viz", emailUI("email")),  
+            tabPanel("Load Email Headers", loadUI('load'))
+        )
     ),
     
     tabPanel("What is their profile?", parsetUI("parset")
     ),
     
-    susUI('sus')
+    susUI('sus'), 
+    verbatimTextOutput("info")
 )
 
 
@@ -40,6 +48,8 @@ server <- function(input, output, session) {
     statplotServer("statplot")
 
     emailServer("email")
+    
+    loadServer("load")
     
     parsetServer("parset", input_var)
     

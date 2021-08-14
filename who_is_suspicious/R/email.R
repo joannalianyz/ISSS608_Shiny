@@ -21,59 +21,41 @@ layout_list <- c("layout_with_fr", 'layout_nicely', 'layout_with_sugiyama', "lay
 names(layout_list) <- c("Fruchterman Reingold", "Nicely", "Sugiyama", "Circle")
 
 ## app ----
+
 emailUI <- function(id) {
   tagList(
-    tabsetPanel(
-      tabPanel(
-        "Network Viz",
-        sidebarLayout(
-          sidebarPanel(
-            selectInput(
-              inputId = NS(id, 'dept'), 
-              label = "Department", 
-              choices = unique(gastech_nodes$group), 
-              selected = unique(gastech_nodes$group), 
-              multiple= TRUE
-            ),
-            selectInput(
-              inputId = NS(id, 'email_type'), 
-              label = "Email Type", 
-              choices = unique(email_headers$EmailType), 
-              multiple=FALSE
-            ),
-            sliderInput(
-              inputId = NS(id, 'freq'), 
-              label = "Weight", 
-              min = 1,
-              max = 20,
-              value = 5,
-            ),
-            selectInput(
-              inputId = NS(id, 'layout'), 
-              label = "Network Graph Layout", 
-              choices = names(layout_list), 
-              multiple=FALSE
-            )
-            
-          ),
-          mainPanel(visNetworkOutput(NS(id, "email")))
+    titlePanel("Credit card spending patterns of GASTech employees"),    
+    sidebarLayout(
+      sidebarPanel(
+        selectInput(
+          inputId = NS(id, 'dept'), 
+          label = "Department", 
+          choices = unique(gastech_nodes$group), 
+          selected = unique(gastech_nodes$group), 
+          multiple= TRUE
+        ),
+        selectInput(
+          inputId = NS(id, 'email_type'), 
+          label = "Email Type", 
+          choices = unique(email_headers$EmailType), 
+          multiple=FALSE
+        ),
+        sliderInput(
+          inputId = NS(id, 'freq'), 
+          label = "Weight", 
+          min = 1,
+          max = 20,
+          value = 5,
+        ),
+        selectInput(
+          inputId = NS(id, 'layout'), 
+          label = "Network Graph Layout", 
+          choices = names(layout_list), 
+          multiple=FALSE
         )
-      ),
-      
-      tabPanel(
-        "Loading Emails",
-        downloadButton(NS(id,"downloadData"), "Download"), 
         
-        fileInput("file", "Data", 
-                  buttonLabel = "Upload..."),
-        textInput("delim", 
-                  "Delimiter (leave blank to guess)", 
-                  "")
       ),
-      
-      tabPanel(
-        "User Guide"
-      )
+      mainPanel(visNetworkOutput(NS(id, "email")))
     )
   )
 }
@@ -106,25 +88,6 @@ emailServer <- function(id) {
         visLayout(randomSeed = 123)
     })
     
-    output$downloadData <- downloadHandler(
-      
-      filename = function() {
-        "email_headers.csv"
-      },
-      
-      content = function(file) {
-        write.csv(email_headers, file, row.names = FALSE)
-      }
-    )
-    
   })
   
 }
-
-# Define server logic required to draw a histogram
-# server <- function(input, output) {
-#   
-
-#   
-#   
-# }
