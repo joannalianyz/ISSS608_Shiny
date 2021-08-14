@@ -15,15 +15,10 @@ statplotUI <- function(id) {
       sidebarPanel(            
         selectInput(NS(id, "variable"),
                     label = "Category to compare:",
-                    choices = c("Employment_Type", "Weekday/Weekend", "Category", "Day_of_Week", "Location"),
+                    choices = c("Employment_Type", "Category", "Day_of_Week"),
                     selected = "Employment_Type"),
-        
-        sliderInput(NS(id, "prices"),
-                    label = "Price range:",
-                    min = 0,
-                    max = 10000,
-                    value= c(1000)),
       ),
+      
       mainPanel(
         plotOutput(NS(id, "statplot"))
       )
@@ -35,14 +30,19 @@ statplotUI <- function(id) {
 statplotServer <- function(id) {
   moduleServer(id, function(input, output, session) {
     
+    Q <- quantile(GasTech_df$Price, probs=c(.25, .75), na.rm = FALSE)
+    iqr <- IQR(GasTech_df$Price)
+    data <- subset(GasTech_df, GasTech_df$Price > (Q[1] - 1.5*iqr) & GasTech_df$Price < (Q[2]+1.5*iqr))
+    
     output$statplot <- renderPlot({
       ggbetweenstats(
-        data = GasTech_df,
+        data = data,
         x = !!sym(input$variable),
-        y = !!sym(input$prices),
+        y = Price,
         title = paste("Distribution of CC spend across",input$variable)
       )
     })
     
   })
 }
+
