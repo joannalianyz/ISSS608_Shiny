@@ -44,14 +44,14 @@ server <- function(input, output, session) {
     
     statplotServer("statplot")
 
-    emailServer("email")
+    emailServer("email", load)
     
-    loadServer("load")
+    load <- loadServer("load")
     
     parsetServer("parset", input_var)
     
     output$info <- renderPrint({
-        paste(input$sus_peeps)
+        paste(unique(load()$EmailType))
         
     })
     
