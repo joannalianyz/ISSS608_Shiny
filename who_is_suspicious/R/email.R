@@ -13,8 +13,7 @@ gastech_nodes <- read_rds("data/email/gastech_employees.rds") %>%
 
 # Edges 
 gastech_edges <- read_rds("data/email/gastech_emails.rds")%>% 
-  rename(from = source, to = target)  %>% 
-  left_join(email_headers, by='Subject') 
+  rename(from = source, to = target)  
 
 # layout 
 layout_list <- c("layout_with_fr", 'layout_nicely', 'layout_with_sugiyama', "layout_in_circle")
@@ -37,7 +36,7 @@ emailUI <- function(id) {
         selectInput(
           inputId = NS(id, 'email_type'), 
           label = "Email Type", 
-          choices = unique(email_headers$EmailType), 
+          choices = "", 
           multiple=FALSE
         ),
         sliderInput(
@@ -55,21 +54,28 @@ emailUI <- function(id) {
         )
         
       ),
-      mainPanel(visNetworkOutput(NS(id, "email")))
+      mainPanel(visNetworkOutput(NS(id, "email")), verbatimTextOutput(NS(id, "info2"))
+      )
     )
   )
 }
 
 
-emailServer <- function(id) {
+emailServer <- function(id, email_df) {
   moduleServer(id, function(input, output, session) {
+    
+    observe({
+      updateSelectInput(session, "email_type",
+                        choices = email_df()$EmailType
+      )})
     
     output$email <- renderVisNetwork({
       
       selected_nodes <- gastech_nodes %>%
         filter(group %in% input$dept)
       
-      selected_edges <- gastech_edges %>%
+      selected_edges <- gastech_edges %>% 
+        left_join(email_df(), by='Subject') %>%
         filter(EmailType %in% input$email_type) %>%
         filter(from %in% selected_nodes$id) %>%
         filter(to %in% selected_nodes$id ) %>%
@@ -87,7 +93,10 @@ emailServer <- function(id) {
                    nodesIdSelection = TRUE) %>% 
         visLayout(randomSeed = 123)
     })
-    
+    output$info2 <- renderPrint({
+      paste(unique(email_df()$EmailType))
+      
+    })
   })
   
 }

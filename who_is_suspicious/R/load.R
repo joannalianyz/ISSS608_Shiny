@@ -88,8 +88,8 @@ loadServer <- function(id) {
         ggtitle("Email Subject Word Count by Each Email Type")
       
     })
-      
-    
+    return(dataframe)  
+    # return(list(email_df = dataframe))
   })
   
 }
