@@ -54,7 +54,7 @@ emailUI <- function(id) {
         )
         
       ),
-      mainPanel(visNetworkOutput(NS(id, "email")), verbatimTextOutput(NS(id, "info2"))
+      mainPanel(visNetworkOutput(NS(id, "email"))
       )
     )
   )
@@ -92,10 +92,6 @@ emailServer <- function(id, email_df) {
         visOptions(highlightNearest = list(enabled = T, degree = 1, hover = T),
                    nodesIdSelection = TRUE) %>% 
         visLayout(randomSeed = 123)
-    })
-    output$info2 <- renderPrint({
-      paste(unique(email_df()$EmailType))
-      
     })
   })
   
