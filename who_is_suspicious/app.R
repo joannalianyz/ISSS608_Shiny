@@ -2,9 +2,6 @@ library(shiny)
 library(visNetwork)
 library(tidyverse)
 
-# Load Data 
-
-gastech_employee <- read_rds('Data/EmployeeRecords_Clean.rds')
 
 # Define UI with panel 
 ui <- navbarPage(

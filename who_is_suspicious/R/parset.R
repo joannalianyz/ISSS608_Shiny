@@ -3,8 +3,16 @@ library(parsetR)
 library(shiny)
 
 ## Load Data ----
-employees <- read_rds('Data/EmployeeRecords_Clean.rds')
-cat_cols <- c("Is Suspicious", "Gender", "Department", "Citizenship")
+employees <- read_rds('Data/EmployeeRecords_Clean.rds') %>% 
+  select(-c(Age)) %>%
+  rename(Age = Age_bin, 
+         `Years After Discharge` = YearsAftDischarge_bin, 
+         `Year in Employment` = EmploymentYears_bin)
+cat_cols <- c("Is Suspicious", "Gender", "Department", "Citizenship", "Age",
+              "Year in Employment", "Years After Discharge",
+              "Total Expenditure During Weekdays", "Total Expenditure During Weekends",
+              "Total Expenditure For Food", "Total Expenditure For Leisure", "Total Expenditure For Retail", 
+              "Total Expenditure For Company", "Total Expenditure For Gas")
 
 ## app ----
 parsetUI <- function(id) {
@@ -27,8 +35,7 @@ parsetUI <- function(id) {
                     selected = "Gender")
       ),
       mainPanel(
-        parsetOutput(NS(id, "parset")),
-        verbatimTextOutput(NS(id, "info"))
+        parsetOutput(NS(id, "parset"))
         
       )
     )
@@ -52,12 +59,8 @@ parsetServer <- function(id, ui_input) {
       parset(
         selected_employees() ,
         dimensions = possible_cols,
-        tension = 0.5)
-
-    })
-
-    output$info <- renderPrint({
-      paste(ui_input$sus_peeps())
+        tension = 0.5,
+        width = "80%")
 
     })
 
