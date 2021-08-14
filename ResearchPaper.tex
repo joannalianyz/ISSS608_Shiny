@@ -1,0 +1,411 @@
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Research Paper},
+  pdfauthor={Joanna},
+  pdfborder={0 0 0},
+  breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs}
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\title{Research Paper}
+\author{Joanna}
+\date{8/9/2021}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+\hypertarget{abstract}{%
+\section{Abstract}\label{abstract}}
+
+Criminal profiling is used as a technique used to identify the perpetrator of a crime by identifying the personality and behavioral characteristics of the offender based upon an analysis of the crime committed. The sensational and dramatic elements of profiling is often portrayed in movies, television shows, and books but how does it fare as an investigative tool against crime in real life?
+
+Well, more often than not, there has been doubts within the crime-fighting community about the viability of profiling as an investigative tool. Why? This is because there are views hat a criminal profile only gives a broad indication of the type of person who may have committed the crime. It does not indicate a specific individual who happens to fit the profile. The profiler is therefore unable to say whether it is more probable than not that a specific offender did, in fact, commit the crime. Nevertheless, criminal profiling has proven to be helpful in solving some criminal cases.
+
+Definitely though, more research has to be done before criminal profiling can truly become a useful part of the criminal investigation process. This is a fascinating topic and hence, through our project, we aim to use a range of data visualisation techniques to develop an R Shiny application to maximise the insights obtained from studying the different aspects of an individual's daily life e.g.credit card transactions and email communications in order to successfully profile an individual. The analytics and design choices made in the development of the application and initial findings and future work are discussed.
+
+Keywords--- Profiling, spending patterns, Analysis of credit card transations, Interactive Data Visualisation, network graphs, R Shiny
+
+\hypertarget{introduction}{%
+\section{1. Introduction}\label{introduction}}
+
+The goal of the annual Institute of Electrical and Electronics Engineers (IEEE) Visual Analytics Science and Technology (VAST) Challenge is to advance the field of visual analytics through competition. The 2021 IEEE VAST Challenge brings back a classic challenge from 2014 to see how approaches and techniques have developed since the original release of the challenge. The background of the challenge is as below:
+
+In January, 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem. It appears that certain employees of GAStech may be involved in the disappearance.
+
+Aligning with our intent to create an application that aims to aid the profiling process, our application will serve as an interactive tool for users to visually investigate and identify which employee profile is indicative of suspicious behaviour. This paper documents our approach to designing and developing the interactive application targeted at crime investigators. This introduction is followed in Section 2 by an explanation of our motivation and objectives. Section 3 details the data used and methodology selected. Section 4 provides a visual overview of the final product. Section 5 concludes the report and offers ideas for further development.
+
+\hypertarget{motivation-objectives}{%
+\section{2. Motivation \& Objectives}\label{motivation-objectives}}
+
+This project was motivated by our findings that there were suspicious activities within GAStech itself which were worth investigating. This project aims to create a data analytics applications to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech. On a larger scale, this could assist in profiling which can be used for generic crime investigations.
+
+Through our application, users can start to decipher for themselves what defines suspicious behaviour and how can we make use of everyday data to raise red flags on suspicious behaviours. This project aims to understand better the individuals and organizations that are involved in this situation. We do this by exploring the following:
+
+\begin{itemize}
+\tightlist
+\item
+  Conducting exploration data analysis and inferential data analysis on
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Credit card expenditure data
+  \item
+    Email headers data
+  \item
+    Employee categories
+  \end{itemize}
+\item
+  Delivering a R-Shiny app that achieve the following through an interactive user interface design:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Identifying any anomalous or suspicious behavior.
+  \item
+    Identifying formal (work-related) or informal (non-work related) relationships.\\
+  \item
+    Discover any associations based on common interest given in the data.\\
+  \item
+    Discover relationships between CC expenditure, email headers and employee records.
+  \item
+    Decide who are the suspicious GASTech employees * Obtaining a holistic profile on these suspicious employees.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{methodology}{%
+\section{3. Methodology}\label{methodology}}
+
+Our methodology is as below:
+
+\begin{itemize}
+\item
+  Data preparation using dplyr and other R packages.
+\item
+  Analysis of VAST 21 data set with background research using some of the following methods:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Exploratory Data Analysis (EDA) methods in R.
+  \item
+    Inferential Analysis methods in R.
+  \item
+    Network Analysis in R.
+  \end{itemize}
+\item
+  Creating a R shiny dashboard showing our findings/insights and conclusions:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    R Markdown development for functionality checks
+  \item
+    R-Shiny app development for user interactivity
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{data}{%
+\subsection{3.1 Data}\label{data}}
+
+We'll be using data sets from Mini-Challenge 1 {[}MC1{]} and Mini-Challenge 2 {[}MC2{]}.
+
+From {[}MC1{]}, we will be using the email headers and employee records data. From {[}MC2{]}, we will be extracting insights based on credit card transactions data.
+
+We will also be joining the two data sets based on individuals to analyzing attributes by features across data sets.
+
+\hypertarget{shiny-architecture}{%
+\subsection{3.2 Shiny Architecture}\label{shiny-architecture}}
+
+Development of the interactive tool was done on Shiny, and R packages were used to build interactive web apps. Shiny is widely adopted in the data analytics industry because:
+
+\begin{itemize}
+\tightlist
+\item
+  It has a framework that makes it user-friendly to collect input values from a web page, with R code written as output values back to the web page.
+\item
+  The input values can be modified by the user at any time, through interaction with customisable widgets.
+\item
+  The output values react to changes in input values, with the resulting outputs being reflected immediately.
+\end{itemize}
+
+The design of our Shiny web app is as follows:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Main layout - This will consist of two pain parts:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    A top navigation bar that will help the user to navigate to the various modules that will be present in the blue area.
+  \item
+    An input bar where user can decide for themselves who in GASTech is suspicious.
+  \end{itemize}
+
+  The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user's decision of their most suspected employees.
+\item
+  First module - EDA. On the side panel, we would include options for interactions. Then on the main panel, we will have histogram and data table to visualise the distribution of credit card spending amongst the GasTech employees.
+
+  The filters applicable for interactions for the histogram include:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Employment type (Security, Executive, Administration\ldots{})
+  \item
+    Expenditure type (Food, Retail, Company\ldots{})
+  \item
+    Time category: Weekend vs Weekday
+  \end{itemize}
+
+  Depending on our selection of the various filters, the Data Table will be automatically filtered to represent the data corresponding to the filters.
+\item
+  Second module -Inferential Analysis. On the side panel, we would include options for interactions. Then on the main panel, we will have violin plots to showcase the statistical analysis of credit card spending.
+
+  The filters applicable for interactions for the violin plots include:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Employment Type (Security, Executive, Administration\ldots{})
+  \item
+    Expenditure Type (Food, Retail, Company\ldots{})
+  \item
+    Time Category: Day of week
+  \end{itemize}
+
+  Appropriate statistical tests will be conducted as well. For the purposes of constructing the violin plots, outlier points will be excluded, i.e.~credit card transaction which have price values that are outliers will not be included.
+\item
+  Third module -- Network Graph.There will be similar filters to what we have for the first 2 modules, with the addition of Email Category (work related vs non-work related).
+\item
+  Fourth module - Parallel Plot.
+
+  To facilitate exploration by users, we have created a user guide as well.
+\end{enumerate}
+
+\hypertarget{analysis-techniques}{%
+\subsection{3.3 Analysis Techniques}\label{analysis-techniques}}
+
+\hypertarget{histogram}{%
+\subsubsection{3.3.1 Histogram}\label{histogram}}
+
+A histogram is a plot that illustrates the underlying frequency distribution of a set of continuous data. This allows the inspection of the data for its underlying distribution (e.g., normal distribution), outliers, skewness, etc
+
+\hypertarget{violin}{%
+\subsubsection{3.3.2 Violin}\label{violin}}
+
+A violin plot depicts distributions of numeric data for one or more groups using density curves. The width of each curve corresponds with the approximate frequency of data points in each region. Densities are frequently accompanied by an overlaid chart type, such as box plot, to provide additional information.
+
+\hypertarget{network-graph}{%
+\subsubsection{3.3.3 Network Graph}\label{network-graph}}
+
+Network graphs show interconnections between a set of entities. Each entity is represented by a Node (or vertice). Connections between nodes are represented through links (or edges). In the context of our shiny app, employees represent the nodes while the links represent the email correspondences.
+
+\hypertarget{parallel-plot}{%
+\subsubsection{3.3.4 Parallel Plot}\label{parallel-plot}}
+
+Parallel Plots are a visualization method for the exploration of categorical data. They focus on the data frequencies instead of individual data points. The technique is built on the axis layout of parallel coordinates, with boxes representing the categories of data (e.g.~gender, department, spending patterns etc.) and parallelograms between the axes showing the relations between categories. Our app enables the user to interactively remap the data to up to five levels of categorization.
+
+\hypertarget{despcription-of-product-findings}{%
+\section{4. Despcription of Product \& Findings}\label{despcription-of-product-findings}}
+
+\hypertarget{conclusion-further-ideas}{%
+\section{Conclusion \& Further Ideas}\label{conclusion-further-ideas}}
+
+This paper set out the development of a web application targeted at exploring how we could use visually motivated tools to facilitate the profiling process. The project was motivated by our realisation through the VAST 2021 project that there were suspicious behaviours demonstrated by some individuals which were worth investigating.
+
+The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
+
+compare the current view with the finding for a different
+media channel (i.e.~represented as a reference line) to
+make comparisons easier as users may not be able to
+retain earlier views in their memory.
+
+\documentclass{acm_proc_article-sp}
+\usepackage[utf8]{inputenc}
+
+\renewcommand{\paragraph}[1]{\vskip 6pt\noindent\textbf{#1 }}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{url}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(subtitle)$
+\subtitle{$subtitle$}
+$endif$
+
+
+% Add imagehandling
+$if(graphics)$
+\usepackage{graphicx}
+% Redefine \includegraphics so that, unless explicit options are
+% given, the image width will not exceed the width of the page.
+% Images get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\ScaleIfNeeded{%
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+{%
+ \catcode`\@=11\relax%
+ \gdef\includegraphics{\@ifnextchar[{\Oldincludegraphics}{\Oldincludegraphics[width=\ScaleIfNeeded]}}%
+}%
+$endif$
+
+\numberofauthors{2}
+\author{
+$for(author)$
+\alignauthor $author.name$ \\
+        \affaddr{$author.affiliation$}\\
+       \email{$author.email$}
+\and $endfor$
+}
+
+\date{$date$}
+
+%Remove copyright shit
+\permission{}
+\conferenceinfo{} {}
+\CopyrightYear{}
+\crdata{}
+
+% Pandoc syntax highlighting
+$if(highlighting-macros)$
+$highlighting-macros$
+$endif$
+
+% Pandoc citation processing
+$if(csl-refs)$
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+% for Pandoc 2.8 to 2.10.1
+\newenvironment{cslreferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+% For Pandoc 2.11+
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc} % for calculating minipage widths
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+$endif$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
+\begin{document}
+$if(title)$
+\maketitle
+$endif$
+
+$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$
+
+$body$
+\setlength{\parindent}{0in}
+
+\end{document}
+
+\end{document}
