@@ -75,21 +75,23 @@ The design of our Shiny web app is as follows:
     
     The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user’s decision of their most suspected employees.  
 
-2. First module - EDA. On the side panel, we would include options for interactions. Then on the main panel, we will have histogram and data table.  
+2. First module - EDA. On the side panel, we would include options for interactions. Then on the main panel, we will have histogram and data table to visualise the distribution of credit card spending amongst the GasTech employees.  
 
-    There will be filters applicable for the histogram:  
-    + Department (drop down: Security, Executive, Administration...)
-    + Expenditure type (drop down: Food, Retail, Company...)
+    The filters applicable for interactions for the histogram include:  
+    + Employment type (Security, Executive, Administration...)
+    + Expenditure type (Food, Retail, Company...)
     + Time category: Weekend vs Weekday  
 
-    If we select a histogram bar, the Data Table will be automatically filtered to represent the data reflected in that bar.  
+    Depending on our selection of the various filters, the Data Table will be automatically filtered to represent the data corresponding to the filters.  
 
-2. Second module -Inferential Analysis. There will be 3 sub-tabs for the 3 types of filters defined in Module 1:
-    + Department
-    + Expenditure Type
-    + Time Category
+2. Second module -Inferential Analysis. On the side panel, we would include options for interactions. Then on the main panel, we will have violin plots to showcase the statistical analysis of credit card spending.
+        
+    The filters applicable for interactions for the violin plots include:         
+    + Employment Type (Security, Executive, Administration...)
+    + Expenditure Type (Food, Retail, Company...)
+    + Time Category: Day of week
     
-    The x axis will reflect the selection in each of the category. ANOVA inferential statistics will be done.
+    Appropriate statistical tests will be conducted as well. For the purposes of constructing the violin plots, outlier points will be excluded, i.e. credit card transaction which have price values that are outliers will not be included.
 
 3. Third module – Network Graph.There will be similar filters to what we have for the first 2 modules, with the addition of Email Category (work related vs non-work related).
 
@@ -104,9 +106,9 @@ The design of our Shiny web app is as follows:
 
 A histogram is a plot that illustrates the underlying frequency distribution of a set of continuous data. This allows the inspection of the data for its underlying distribution (e.g., normal distribution), outliers, skewness, etc
 
-### 3.3.2 Boxplot
+### 3.3.2 Violin
 
-A boxplot is a standardized way of displaying the distribution of data based on a five number summary (“minimum”, first quartile (Q1), median, third quartile (Q3), and “maximum”). It can tell you about your outliers and what their values are. It can also tell you if your data is symmetrical, how tightly your data is grouped, and if and how your data is skewed. For our app, we will be using boxplots to summarise CC spending across different retail categories across different time frames (weekday vs weekend).
+A violin plot depicts distributions of numeric data for one or more groups using density curves. The width of each curve corresponds with the approximate frequency of data points in each region. Densities are frequently accompanied by an overlaid chart type, such as box plot, to provide additional information.
 
 ### 3.3.3 Network Graph
 
