@@ -5,11 +5,11 @@ library(tidyverse)
 
 # Define UI with panel 
 ui <- navbarPage(
-    # theme = bslib::bs_theme(bootswatch = "flatly"), to select a nice theme in the future
+    theme = bslib::bs_theme(bootswatch = "flatly"), # to select a nice theme in the future
     
     "You be the judge!",
     
-    tabPanel("Starting Point", "Module for starting point", verbatimTextOutput("info")),
+    tabPanel("Starting Point", aboutUI("about")),
     
     tabPanel(
         "What are they spending?", 
@@ -49,11 +49,6 @@ server <- function(input, output, session) {
     load <- loadServer("load")
     
     parsetServer("parset", input_var)
-    
-    output$info <- renderPrint({
-        paste(unique(load()$EmailType))
-        
-    })
     
 }
 

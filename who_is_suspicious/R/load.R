@@ -8,6 +8,7 @@ email_headers <- read_csv("data/email/email_headers.csv")
 
 loadUI <- function(id) {
   tagList(
+    h4(tags$b("Download/Upload Email Headers: You decide what Email Type it is")), 
     sidebarLayout(
       sidebarPanel(
         tags$b("Download email headers to edit"), br(), 

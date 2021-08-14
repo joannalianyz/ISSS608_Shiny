@@ -16,7 +16,7 @@ names(choices) <- choices_names
 
 statplotUI <- function(id) {
   tagList(
-    titlePanel("Credit card spending patterns of GASTech employees"),    
+    h4(tags$b("Credit card spending patterns of GASTech employees")),    
     sidebarLayout(        
       sidebarPanel(            
         selectInput(NS(id, "variable"),

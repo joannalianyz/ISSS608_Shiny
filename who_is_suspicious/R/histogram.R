@@ -11,6 +11,7 @@ GasTech_df$CarID <- as_factor(GasTech_df$CarID)
 # Module UI
 histogramUI <- function(id) {
     tagList(
+        h4(tags$b("Histogram/Datatable of Credit Card expenditure of GASTech Employees")),
         sidebarLayout(
             sidebarPanel( 
                 selectInput(

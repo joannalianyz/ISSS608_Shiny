@@ -23,7 +23,7 @@ names(layout_list) <- c("Fruchterman Reingold", "Nicely", "Sugiyama", "Circle")
 
 emailUI <- function(id) {
   tagList(
-    titlePanel("Credit card spending patterns of GASTech employees"),    
+    h4(tags$b("Network Viz of Email Correspondance of GASTech employees")),    
     sidebarLayout(
       sidebarPanel(
         selectInput(

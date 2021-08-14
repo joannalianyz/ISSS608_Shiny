@@ -17,6 +17,7 @@ cat_cols <- c("Is Suspicious", "Gender", "Department", "Citizenship", "Age",
 ## app ----
 parsetUI <- function(id) {
   tagList(
+    h4(tags$b("Parallel Set View of Profile of GASTech Employees")),
     sidebarLayout(
       sidebarPanel(
         selectInput(NS(id, "lvl1"),
@@ -32,7 +33,17 @@ parsetUI <- function(id) {
         selectInput(NS(id, "lvl3"),
                     label = "Category Lvl3",
                     choices = cat_cols,
-                    selected = "Gender")
+                    selected = "Gender"),
+        
+        selectInput(NS(id, "lvl4"),
+                    label = "Category Lvl4",
+                    choices = cat_cols,
+                    selected = "Age"),
+        
+        selectInput(NS(id, "lvl5"),
+                    label = "Category Lvl5",
+                    choices = cat_cols,
+                    selected = "Citizenship")
       ),
       mainPanel(
         parsetOutput(NS(id, "parset"))
@@ -48,7 +59,7 @@ parsetServer <- function(id, ui_input) {
 
     output$parset <- renderParset({
       
-      possible_cols <- c(input$lvl1, input$lvl2, input$lvl3)
+      possible_cols <- c(input$lvl1, input$lvl2, input$lvl3, input$lvl4, input$lvl5)
       
       selected_employees <- reactive( {
         df <- employees %>%
