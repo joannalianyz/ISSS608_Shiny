@@ -209,7 +209,7 @@ Network Visualization for Security Department - Non-Work Correspondence:
 
 ![](IMG/networkviz_security_nonwork.JPG)
 
-If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team, however if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. There are some members who only receive emails while some members where there are exchange of emails. 
+If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team, however if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. There are some members who only receive emails while for some members, there are exchange of emails. 
 
 Let us scrutinize the non work email correspondence of Isia Vann with the rest of the organization: 
 
