@@ -1,0 +1,13 @@
+name: who_is_suspicious
+title: who_is_suspicious
+username:
+account: whoissuspicious
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4493876
+bundleId: 4925227
+url: https://whoissuspicious.shinyapps.io/who_is_suspicious/
+when: 1629026357.74187
+lastSyncTime: 1629026357.74187
+asMultiple: FALSE
+asStatic: FALSE
