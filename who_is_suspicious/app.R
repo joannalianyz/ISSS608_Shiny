@@ -2,31 +2,36 @@ library(shiny)
 library(visNetwork)
 library(tidyverse)
 
-# Load Data 
-
-gastech_employee <- read_rds('Data/EmployeeRecords_Clean.rds')
 
 # Define UI with panel 
 ui <- navbarPage(
-    # theme = bslib::bs_theme(bootswatch = "flatly"), to select a nice theme in the future
+    theme = bslib::bs_theme(bootswatch = "flatly"), # to select a nice theme in the future
     
     "You be the judge!",
     
-    tabPanel("Starting Point", "Module for starting point", verbatimTextOutput("info")),
+    tabPanel("Starting Point", aboutUI("about")),
     
-    navbarMenu(
-        "What are they spending?",    
-        tabPanel("EDA", histogramUI("hist")),  
-        tabPanel("inferential", statplotUI('statplot'))
-    ),
+    tabPanel(
+        "What are they spending?", 
+        tabsetPanel(
+            tabPanel("Histogram", histogramUI("hist")),  
+            tabPanel("Inferential", statplotUI('statplot'))
+        )
+    ), 
     
-    tabPanel("What emails do they send?", emailUI("email")
+    tabPanel(
+        "What emails do they send?", 
+        tabsetPanel(
+            tabPanel("Network Viz", emailUI("email")),  
+            tabPanel("Load Email Headers", loadUI('load'))
+        )
     ),
     
     tabPanel("What is their profile?", parsetUI("parset")
     ),
     
-    susUI('sus')
+    susUI('sus'), 
+    verbatimTextOutput("info")
 )
 
 
@@ -39,14 +44,11 @@ server <- function(input, output, session) {
     
     statplotServer("statplot")
 
-    emailServer("email")
+    emailServer("email", load)
+    
+    load <- loadServer("load")
     
     parsetServer("parset", input_var)
-    
-    output$info <- renderPrint({
-        paste(input$sus_peeps)
-        
-    })
     
 }
 

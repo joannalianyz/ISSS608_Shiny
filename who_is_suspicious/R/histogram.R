@@ -1,7 +1,7 @@
 library(tidyverse)
 library(clock)
 
-GasTech_df <- read_csv("Data/Final.csv")
+GasTech_df <- read_rds("Data/final_cc_employee.rds") 
 
 GasTech_df$Date <- date_time_parse(GasTech_df$Date,
                                    zone = "",
@@ -11,6 +11,7 @@ GasTech_df$CarID <- as_factor(GasTech_df$CarID)
 # Module UI
 histogramUI <- function(id) {
     tagList(
+        h4(tags$b("Histogram/Datatable of Credit Card expenditure of GASTech Employees")),
         sidebarLayout(
             sidebarPanel( 
                 selectInput(
@@ -34,6 +35,22 @@ histogramUI <- function(id) {
                     label = "Weekday vs Weekend",
                     choices = c("Weekday", "Weekend"),
                     selected = "Weekday"
+                ),
+                
+                sliderInput(
+                    NS(id, "emp_yrs"),
+                    label = "No. of Years in Employment:",
+                    min = 1,
+                    max = 24,
+                    value= c(1, 24)
+                ),
+                
+                sliderInput(
+                    NS(id, "age"),
+                    label = "Age:",
+                    min = 22,
+                    max = 66,
+                    value= c(22,66)
                 ),
                     
                 sliderInput(
@@ -67,7 +84,9 @@ histogramServer <- function(id) {
             data <- GasTech_df %>%
                 filter(Week == input$week) %>% 
                 filter(Employment_Type %in% input$employment) %>%
-                filter(Category %in% input$category)
+                filter(Category %in% input$category) %>% 
+                filter(EmploymentYears >= strtoi(input$emp_yrs)[1] &  EmploymentYears <= strtoi(input$emp_yrs)[2] ) %>%
+                filter(Age >= strtoi(input$age)[1] &  Age <= strtoi(input$age)[2] )
             
             hist(data$Price, 
                  breaks = input$bins, 
@@ -79,7 +98,9 @@ histogramServer <- function(id) {
             data <- GasTech_df %>%
                 filter(Week == input$week) %>% 
                 filter(Employment_Type %in% input$employment) %>%
-                filter(Category %in% input$category)
+                filter(Category %in% input$category) %>% 
+                filter(EmploymentYears >= strtoi(input$emp_yrs)[1] &  EmploymentYears <= strtoi(input$emp_yrs)[2] ) %>%
+                filter(Age >= strtoi(input$age)[1] &  Age <= strtoi(input$age)[2] )
             
             if(input$showDT){
                 DT::datatable(data = data %>% select(1:10),
