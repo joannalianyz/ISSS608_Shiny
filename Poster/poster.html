@@ -22,6 +22,8 @@ Google fonts api stuff
 <title>Who is suspicious?</title>
 
 
+<script src="poster_files/accessible-code-block-0.0.1/empty-anchor.js"></script>
+
 
 
 
@@ -302,46 +304,45 @@ font-size: 20pt;
 </div>
 <div id="approach" class="section level1">
 <h1>Approach</h1>
-<p>We will:
-* Conduct data preparation using dplyr and other R packages.
-* Analyse VAST 21 data set with background research using:
-+ Exploratory Data Analysis (EDA) methods in R.
-+ Inferential Analysis methods in R.
-+ Network Analysis in R.
-* Creating a R shiny dashboard showing our findings/insights.</p>
+<ul>
+<li>Conduct data preparation using dplyr and other R packages.</li>
+<li>Analyse VAST 21 data set with background research using:
+<ul>
+<li>Exploratory Data Analysis (EDA) methods in R.</li>
+<li>Inferential Analysis methods in R</li>
+<li>Network Analysis in R.</li>
+</ul></li>
+<li>Creating a R shiny dashboard showing our findings/insights</li>
+</ul>
 </div>
 <div id="results" class="section level1">
 <h1>Results</h1>
-<p>We identify four GAStech employees who have familial relationships with members of POK and hence are the most suspicious people in GAStech:</p>
-<ul>
-<li>Hennie Osvaldo</li>
-<li>Isia Vann</li>
-<li>Edvard Vann</li>
-<li>Loreto Bodrogi</li>
-</ul>
-<p>From here we can observe that these four people have many similarities. They are all males in their twenties and all from the security department, probably with a lot of drive and impulse to possibly plot an internal kidnapping. In our subsequent analysis, we will scrutinize closely the data with these characteristics.</p>
+<p>We identify four GAStech employees who have familial relationships with members of POK and hence are the most suspicious people in GAStech: Hennie Osvaldo, Isia Vann, Edvard Vann and Loreto Bodrogi.
+From here we can observe that these four people have many similarities. They are all males in their twenties and all from the security department, probably with a lot of drive and impulse to possibly plot an internal kidnapping. In our subsequent analysis, we will scrutinize closely the data with these characteristics.</p>
 <div id="credit-card-expenditure" class="section level3">
 <h3>Credit Card Expenditure</h3>
 <p>We see from the unfiltered credit card data that there are outliers and statistical analysis confirms these are worth investigating.
 <img src="poster_files/figure-html/anova_department.JPG" /></p>
 <p>The following are just some suspicious oberservations that we make:</p>
 <ul>
-<li>Nils Calixto made a purchase of $10,000 at Frydos Autosupply n’ More just two days before the kidnapping. If we compare to the other purchases within the same cateogory, most transactions fall below $500.</li>
+<li>Nils Calixto made a purchase of $10,000 at Frydos Autosupply n’ More just two days before the kidnapping. Compare to the other purchases within the same cateogory, most transactions fall below $500.</li>
 <li>Axel Calzas made a purchase of $1239.41 at Albert’s Fine Clothing just 3 days before the kidnapping. Most purchases made are around $300.</li>
-<li>Sten Sanjorge Jr made a purchase of $600 at the Chostus Hotel just 3 nights before the kidnapping incident. He was initially counted as one of the kidnapped victims but it turns out that he was just returning to Tethys.</li>
+<li>Sten Sanjorge Jr made a purchase of $600 at the Chostus Hotel just 3 nights before the kidnapping incident.</li>
 </ul>
 </div>
 <div id="email-correspondence" class="section level3">
 <h3>Email Correspondence</h3>
-<p>We focused straight into the correspondence within the security team and compare the differences between Work and Non Work correspondences.
-Network Visualization for Security Department - Work Correspondence:</p>
-<p><img src="poster_files/figure-html/networkviz_security_work.JPG" /></p>
-<p>Network Visualization for Security Department - Non-Work Correspondence:</p>
-<p><img src="poster_files/figure-html/networkviz_security_nonwork.JPG" /></p>
+<p>We focused straight into the correspondence within the security team and compare the differences between the network visualization of Work and Non Work correspondences.</p>
+<p><img src="poster_files/figure-html/network.png" /></p>
 <p>If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team, however if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence.</p>
 <p>Let us scrutinize the non work email correspondence of Isia Vann with the rest of the organization:</p>
 <p><img src="poster_files/figure-html/networkviz_security_iVann.JPG" /></p>
 <p>We find another member closely related to our current suspicious candidates - Inga Ferro who is in correspondance with at least 3 of the original suspicious candidates.As for Axel Calzas, we eliminate him as a suspicious person as he does not have non-work correspondence, and any work related emails are department of company based.</p>
+</div>
+<div id="suspicious-members-profile" class="section level3">
+<h3>Suspicious Members Profile</h3>
+<p>Finally, based on the suspicious employees that we have identified, here is the profile observed from the parallel set plot.</p>
+<p><img src="poster_files/figure-html/parset_final.JPG" /></p>
 </div>
 </div>
 <div id="future-work" class="section level1">
@@ -358,10 +359,13 @@ Network Visualization for Security Department - Work Correspondence:</p>
 <div id="references" class="section level1">
 <h1>References</h1>
 <ul>
-<li>Cherie Wong, D. D. (2020). A Visual Exploration of Media Consumption in Singapore.</li>
-<li>Hendricksen, J. (2013). Profiler: Deriving a digital profile from open source information.</li>
-<li>Tushar Sonawanev, S. S. (2015). Crime Pattern Analysis, Visualization And Prediction Using Data Mining.</li>
-<li>Wheeler, A. P. (2017). Crime Data Visualization for the Future.</li>
+<li>Hendricksen, J. (2013). <em>Deriving a digital profile from open source information.</em> Radboud Universitieit Nijimegen.</li>
+<li>Srikanth, H. S. T. (2021). Crime Pattern Analysis, Visualization and Pridiction Using Data Mining. <em>International Journal for Research in Applied Science and Engineering Technology</em>, 9(VIII), 397–401. <a href="https://doi.org/10.22214/ijraset.2021.37323" class="uri">https://doi.org/10.22214/ijraset.2021.37323</a></li>
+<li>Wheeler, A. P. (2017). <em>Crime Data Visualization for the Future.</em> School of Economic, Political, and Policy Sciences – Criminology Program.<br />
+</li>
+<li>Wong, C., Dunsford, D. R., &amp; Nair, V. (2020). <em>A Visual Exploration of Media Consumption in Singapore.</em> <a href="Https://Wiki.Smu.Edu.Sg/1920t2isss608" class="uri">Https://Wiki.Smu.Edu.Sg/1920t2isss608</a>. <a href="https://wiki.smu.edu.sg/1920t2isss608/Group02_research_paper" class="uri">https://wiki.smu.edu.sg/1920t2isss608/Group02_research_paper</a></li>
+<li>Lian, J. (2021, July 18). <em>Visual Analytics: Assignment - MC2.</em> <a href="https://isss608vizanalysis.netlify.app/posts/2021-07-18-assignment-mc2/" class="uri">https://isss608vizanalysis.netlify.app/posts/2021-07-18-assignment-mc2/</a></li>
+<li>Ng, Y. N. (2021, July 25). <em>MC1: Findings and Discoveries.</em> <a href="https://yenngee-dataviz.netlify.app/post/2021-07-16-mc1-findings/#3-connections-and-relationships" class="uri">https://yenngee-dataviz.netlify.app/post/2021-07-16-mc1-findings/#3-connections-and-relationships</a></li>
 </ul>
 </div>
 </div>
