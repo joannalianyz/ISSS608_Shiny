@@ -25,7 +25,7 @@ In January 2014, the leaders of GAStech are celebrating their new-found fortune 
 
 # Motivation
 
-This project is motivated by findings that there were suspicious activities within GAStech itself which were worth investigating. This project aims to create a data analytics applications to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech. We do this by exploring the following:
+This project is motivated by findings that there were suspicious activities within GAStech itself which were worth investigating. This project aims to create a data analytics application to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech. We do this by exploring the following:
 
 * Conducting exploration data analysis and inferential data analysis on existing data sets (e.g. credit card transactions, email communications).
     
@@ -60,7 +60,7 @@ We identify four GAStech employees have familial relationships with members of P
 
 Using the ParSet view to see their profile: 
 
-![](poster_files/figure-html/parset_4peeps.JPG)
+![](poster_files/figure-html/parset_4peeps_reducedsize.PNG)
 
 These four people are observed to have many similarities. They are all males in their twenties and all from the security department, probably with a lot of drive and impulse to possibly plot an internal kidnapping. In our subsequent analysis, we scrutinize closely the data with these characteristics. 
 
@@ -71,14 +71,6 @@ Looking at credit card transactions, we add all options so that the data is not 
 ![](poster_files/figure-html/anova_department.JPG)
 
 Excluding the outliers, the analysis tells us that there is insufficient statistical evidence to reject the null hypothesis that mean of the transactions between the departments are the same. In fact, the means of the transactions hover between $25-60 which suggests the outliers that we spotted is worth investigating into.
-
-Histogram for Weekday: 
-
-![](poster_files/figure-html/cc_max_range.JPG)
-
-Histogram for Weekend: 
-
-![](poster_files/figure-html/cc_max_range_weekend.PNG)
 
 We make the following observations: 
 * Nils Calixto 
@@ -107,15 +99,13 @@ Network Visualization for Security Department - Non-Work Correspondence:
 
 ![](poster_files/figure-html/networkviz_security_nonwork.JPG)
 
-If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team, however if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. There are some members who only receive emails while for some members, where there are exchange of emails. 
-
-Let us scrutinize the non work email correspondence of Isia Vann with the rest of the organization: 
+If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team. However if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. Let us scrutinize the non work email correspondence of Isia Vann with the rest of the organization: 
 
 ![](poster_files/figure-html/networkviz_security_iVann.JPG)
 
 We find another member closely related to our current suspicious candidates - Inga Ferro who is in correspondance with at least 3 of the original suspicious candidates which makes this person suspicious as well. 
 
-When we select Axel Calzas, we realize that this person do not have non-work correspondence, and any work related emails are department of company based. This eliminates the suspicious off and we removed the name. 
+As for Axel Calzas, we realize that this person does not have non-work correspondence, and any work related emails are department of company based. This eliminates the suspicious off and we removed the name.
 
 ## Parset Final 
 
@@ -126,7 +116,7 @@ Here is the final profile of our judgement of suspicious employees in GASTech:
 
 # Future Work
 
-The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
+The range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
 
 * Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals. E.g. users could be given the option to highlight certain transactions in the violin plot and that simultaneously triggers the network visualisation tab to showcase any connections between the individual who made that transaction.
 
