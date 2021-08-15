@@ -1,7 +1,7 @@
 library(shiny)
 library(visNetwork)
 library(tidyverse)
-
+library(igraph)
 
 # Define UI with panel 
 ui <- navbarPage(
