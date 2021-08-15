@@ -5,9 +5,9 @@ account: whoissuspicious
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4493876
-bundleId: 4925227
+bundleId: 4925538
 url: https://whoissuspicious.shinyapps.io/who_is_suspicious/
-when: 1629026357.74187
-lastSyncTime: 1629026357.74187
+when: 1629033282.07747
+lastSyncTime: 1629033282.07747
 asMultiple: FALSE
 asStatic: FALSE
