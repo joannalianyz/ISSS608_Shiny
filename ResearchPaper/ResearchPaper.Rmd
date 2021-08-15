@@ -24,6 +24,15 @@ In January, 2014, the leaders of GAStech are celebrating their new-found fortune
 
 Aligning with our intent to create an application that aims to aid the profiling process, our application will serve as an interactive tool for users to visually investigate and identify which employee profile is indicative of suspicious behaviour. This paper documents our approach to designing and developing the interactive application targeted at crime investigators. This introduction is followed in Section 2 by an explanation of our motivation and objectives. Section 3 details the data used and methodology selected. Section 4 provides a visual overview of the final product. Section 5 concludes the report and offers ideas for further development.   
 
+# Literature Review
+
+In a paper by Andrew P. Wheeler entitled “Crime Data Visualization for the Future”, the author discusses that data visualization is necessary to be able to understand complex, quantitative information and he illustrates his point by using criminal data available in Dallas, Texas. This data includes homicide rates, timing at which burglaries occurred, GPS data from police cars etc. The main point the author would like to emphasize is that visualization methods help us to develop a deep understanding of the information we are analyzing along with being cognizant of how to effectively present that information in informative summaries. 
+
+Another paper, “Crime Pattern Analysis, Visualization And Prediction Using Data Mining” shared by Tushar Sonawanev and Shirin Shaikh explores using different analysis and visualization tools to better illustrate criminal patterns as they believe that crime mapping will help the law enforcement bodies to plan strategies for prevention of crime. The authors believe that an ideal crime analysis tool should be able to identify crime patterns quickly and in an efficient manner for future crime pattern detection and action. However, the reality at present is that there are many challenges faced in using the current tools available.
+
+We are aligned with the sentiments of the two papers mentioned above and they have inspired our approach to this project. The motivation and objectives of our project are elaborated on in the next section.
+
+
 # Motivation & Objectives
 
 This project was motivated by our findings that there were suspicious activities within GAStech itself which were worth investigating. This project aims to create a data analytics applications to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech. On a larger scale, this could assist in profiling which can be used for generic crime investigations.
@@ -210,9 +219,18 @@ This paper set out the development of a web application targeted at exploring ho
 
 The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
 
-* Additional user interaction features within each tab in the app. E.g. users could be given the option to highlight certain transactions in the histogram or the violin plot which can speed up the detection of suspicious individuals.
+* Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals. E.g. users could be given the option to highlight certain transactions in the violin plot and that simultaneously triggers the network visualisation tab to showcase any connections between the individual who made that transaction.
+
+* The GPS dataset can be utilised further. An additional tab exploring the daily commutes of the employees could be used to further illustrate the daily routiness and the relationships between the employees.
 
 # References
+
+*Cherie Wong, D. D. (2020). A Visual Exploration of Media Consumption in Singapore. 
+*Hendricksen, J. (2013). Profiler: Deriving a digital profile from open source information. 
+*Tushar Sonawanev, S. S. (2015). Crime Pattern Analysis, Visualization And Prediction Using Data Mining . 
+*Wheeler, A. P. (2017). Crime Data Visualization for the Future. 
+
+
 
 ---
 references:
