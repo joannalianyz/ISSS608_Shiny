@@ -4,7 +4,7 @@ library(tidytext)
 
 ## Load Data ----
 
-email_headers <- read_csv("data/email/email_headers.csv")
+email_headers <- read_csv("Data/email/email_headers.csv")
 
 loadUI <- function(id) {
   tagList(
