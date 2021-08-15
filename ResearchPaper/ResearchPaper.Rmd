@@ -8,7 +8,7 @@ author:
     email: ngyenngee@hotmaill.com
     affiliation: Singapore Management University
 abstract: |
-  Criminal profiling is used as a technique used to identify the perpetrator of a crime by identifying the personality and behavioral characteristics of the offender based upon an analysis of the crime committed. The sensational and dramatic elements of profiling is often portrayed in movies, television shows, and books but how does it fare as an investigative tool against crime in real life? Well, more often than not, there has been doubts within the crime-fighting community about the viability of profiling as an investigative tool. Why? This is because there are views hat a criminal profile only gives a broad indication of the type of person who may have committed the crime. It does not indicate a specific individual who happens to fit the profile. The profiler is therefore unable to say whether it is more probable than not that a specific offender did, in fact, commit the crime. Nevertheless, criminal profiling has proven to be helpful in solving some criminal cases.
+  Criminal profiling is used as a technique used to identify the perpetrator of a crime by identifying the personality and behavioral characteristics of the offender based upon an analysis of the crime committed. The sensational and dramatic elements of profiling is often portrayed in movies, television shows, and books but how does it fare as an investigative tool against crime in real life? Well, more often than not, there has been doubts within the crime-fighting community about the viability of profiling as an investigative tool. Why? This is because there are views that a criminal profile only gives a broad indication of the type of person who may have committed the crime. It does not indicate a specific individual who happens to fit the profile. The profiler is therefore unable to say whether it is more probable than not that a specific offender did, in fact, commit the crime. Nevertheless, criminal profiling has proven to be helpful in solving some criminal cases.
 
   Definitely though, more research has to be done before criminal profiling can truly become a useful part of the criminal investigation process. This is a fascinating topic and hence, through our project, we aim to use a range of data visualisation techniques to develop an R Shiny application to maximise the insights obtained from studying the different aspects of an individual's daily life e.g.credit card transactions and email communications in order to successfully profile an individual. The analytics and design choices made in the development of the application and initial findings and future work are discussed.
 bibliography: sigproc.bib
@@ -40,7 +40,8 @@ Through our application, users can start to decipher for themselves what defines
     + Identifying formal (work-related) or informal (non-work related) relationships.  
     + Discover any associations based on common interest given in the data.  
     + Discover relationships between CC expenditure, email headers and employee records.
-    + Decide who are the suspicious GASTech employees * Obtaining a holistic profile on these suspicious employees.
+    + Decide who are the suspicious GASTech employees 
+    + Obtaining a holistic profile on these suspicious employees.
 
 # Methodology
 
@@ -83,7 +84,7 @@ The design of our Shiny web app is as follows:
     
     The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user’s decision of their most suspected employees.  
 
-2. First module - What are the employees spending on? We will conduct EDA and inferential analysis on the credit card transaction data. On the side panel, we will have 2 tabs - 1 for EDA (a histogram and a data table) and 1 for inferential analysis.
+2. First module - What are the employees spending on? We will conduct EDA and inferential analysis on the credit card transaction data. On the side panel, we will have 2 tabs - 1 for EDA (a histogram and a data table) and 1 (a violin plot) for inferential analysis.
 
     For each of the tabs, we will include options and filters for user interaction.
 
@@ -96,7 +97,7 @@ The design of our Shiny web app is as follows:
     
 ![](IMG/2.PNG)
 ![](IMG/3.PNG)
-    Depending on our selection of the various filters, the visualisatins in the main panel will be automatically filtered to represent the data corresponding to the filters.  
+    Depending on our selection of the various filters, the visualisations in the main panel will be automatically filtered to represent the data corresponding to the filters. For the purpose of our project, we have excluded anomalous transactions when constucting the violin plots. The full range of transactions can nontheless still be viewed through the histogram and the data table.
 
 2. Second module – What emails do they send? We utilise a Network Graph for this visualisation.There will be a filter for the department that the employee belongs to, with the addition of Email Category (work related vs non-work related).
 
@@ -106,8 +107,7 @@ The design of our Shiny web app is as follows:
 
 ![](IMG/5.PNG)
 
-    To facilitate exploration by users, we have created a user guide as well.
-
+To facilitate exploration by users, we have created a user guide as well.
 
 ## Analysis Techniques
 
@@ -164,7 +164,7 @@ We make the following observations:
 * Nils Calixto 
   + Made a purchase of $10,000 at Frydos Autosupply n' More just two days before the kidnapping.
   + Other transactions are charged to the decimal place, but this particular transaction is very neat at $10,000. 
-  + if we compare to the other purchases within the same cateogory, most transactions fall below $500 
+  + if we compare to the other purchases within the same cateogory, most transactions fall below $500. 
   + This single transaction make Nils Calixto very suspicious. 
 * Axel Calzas 
   + Made a purchase of $1239.41 at Albert's Fine Clothing just 3 days before the kidnapping. 
@@ -210,6 +210,7 @@ This paper set out the development of a web application targeted at exploring ho
 
 The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
 
+* Additional user interaction features within each tab in the app. E.g. users could be given the option to highlight certain transactions in the histogram or the violin plot which can speed up the detection of suspicious individuals.
 
 # References
 
