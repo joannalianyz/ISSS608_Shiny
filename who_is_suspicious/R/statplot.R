@@ -10,7 +10,7 @@ GasTech_df$CarID <- as_factor(GasTech_df$CarID)
 
 choices <- c("Employment_Type", "Category", "Day_of_Week", 'Citizenship', 'Gender', 
              'Age_bin', 'EmploymentYears_bin', 'YearsAftDischarge_bin')
-choices_names <- c("Department", "Food Category", "Day of Week", "Citizenship", 'Gender', 
+choices_names <- c("Department", "Category", "Day of Week", "Citizenship", 'Gender', 
                    "Age", "Years in Employment", "Years After Military Discharge")
 names(choices) <- choices_names
 
