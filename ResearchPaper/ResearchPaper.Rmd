@@ -1,5 +1,5 @@
 ---
-title: Who is suspicious?
+title: Who are the suspicious employees in GASTech? 
 author:
   - name: Joanna Lian
     email: joannalianyz@gmail.com
@@ -8,7 +8,7 @@ author:
     email: ngyenngee@hotmaill.com
     affiliation: Singapore Management University
 abstract: |
-  Through our project, we aim to use a range of data visualisation techniques to develop an R Shiny application to maximise the insights obtained from studying the different aspects of an individual's daily life e.g.credit card transactions and email communications in order to successfully profile an individual. The analytics and design choices made in the development of the application and initial findings and future work are discussed.
+  Through our project, we aim to use a range of data visualisation techniques to develop an R Shiny application to maximise the insights obtained from studying the different aspects of an individual's daily life e.g.credit card transactions and email communications in order to successfully profile an individual. Given the setting, the application aims to help the user determine if an individual in the company is suspicious or not through the analytics tools developed in the application. The analytics and design choices made in the development of the application and initial findings and future work are discussed.
 bibliography: sigproc.bib
 csl: acm-sig-proceedings.csl
 output: rticles::acm_article
@@ -18,17 +18,17 @@ output: rticles::acm_article
 
 The goal of the annual Institute of Electrical and Electronics Engineers (IEEE) Visual Analytics Science and Technology (VAST) Challenge is to advance the field of visual analytics through competition. The 2021 IEEE VAST Challenge brings back a classic challenge from 2014 to see how approaches and techniques have developed since the original release of the challenge. The background of the challenge is as below:
 
-In January, 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem. It appears that certain employees of GAStech may be involved in the disappearance.
+In January 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem. It appears that certain employees of GAStech may be involved in the disappearance.
 
 Aligning with our intent to create an application that aims to aid the profiling process, our application will serve as an interactive tool for users to visually investigate and identify which employee profile is indicative of suspicious behaviour. This paper documents our approach to designing and developing the interactive application targeted at crime investigators. This introduction is followed in Section 2 by an explanation of our motivation and objectives. Section 3 details the data used and methodology selected. Section 4 provides a visual overview of the final product. Section 5 concludes the report and offers ideas for further development.   
 
 # Literature Review
 
-In a paper by Andrew P. Wheeler entitled “Crime Data Visualization for the Future”, the author discusses that data visualization is necessary to be able to understand complex, quantitative information and he illustrates his point by using criminal data available in Dallas, Texas. This data includes homicide rates, timing at which burglaries occurred, GPS data from police cars etc. The main point the author would like to emphasize is that visualization methods help us to develop a deep understanding of the information we are analyzing along with being cognizant of how to effectively present that information in informative summaries. 
+Our project is a continuous and combination of previous analysis works from Lian (2021) and Ng (2021). The questions that we answered lead us to want to understand more about profiling of criminals. In a paper by Andrew P. Wheeler entitled “Crime Data Visualization for the Future”, the author discusses that data visualization is necessary to be able to understand complex, quantitative information and he illustrates his point by using criminal data available in Dallas, Texas. This data includes homicide rates, timing at which burglaries occurred, GPS data from police cars etc. The main point the author would like to emphasize is that visualization methods help us to develop a deep understanding of the information we are analyzing along with being cognizant of how to effectively present that information in informative summaries. 
 
 Another paper, “Crime Pattern Analysis, Visualization And Prediction Using Data Mining” shared by Tushar Sonawanev and Shirin Shaikh explores using different analysis and visualization tools to better illustrate criminal patterns as they believe that crime mapping will help the law enforcement bodies to plan strategies for prevention of crime. The authors believe that an ideal crime analysis tool should be able to identify crime patterns quickly and in an efficient manner for future crime pattern detection and action. However, the reality at present is that there are many challenges faced in using the current tools available.
 
-We are aligned with the sentiments of the two papers mentioned above and they have inspired our approach to this project. The motivation and objectives of our project are elaborated on in the next section.
+Inspired by Wong et al. (2020) application design, we are aligned with the sentiments of the two papers mentioned above and some of the suitable designs as a basis to form our project. The motivation and objectives of our project are elaborated on in the next section.
 
 
 # Motivation & Objectives
@@ -83,46 +83,58 @@ Development of the interactive tool was done on Shiny, and R packages were used 
 * The input values can be modified by the user at any time, through interaction with customisable widgets. 
 * The output values react to changes in input values, with the resulting outputs being reflected immediately.  
 
-The design of our Shiny web app is as follows:  
+The main layout of our Shiny web app will consist of 3 main parts:
 
-1. Main layout - This will consist of two pain parts:
+![](IMG/structure.jpg)
 
-![IMG/1.PNG)
-    + A top navigation bar that will help the user to navigate to the various modules that will be present in the blue area.
-    + An input bar where user can decide for themselves who in GASTech is suspicious.  
-    
-    The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to decide for themselves who they think are the most suspicious. Then at the end (in module 4), we would see the profile of the user’s decision of their most suspected employees.  
+1. A top navigation bar that will help the user to navigate to the various modules that will be present in the blue area.
+2. The main space where the visualization will be. 
+3. An input bar where user can select the names of the GASTech employees whom they decided are suspicious.  
 
-2. First module - What are the employees spending on? We will conduct EDA and inferential analysis on the credit card transaction data. On the side panel, we will have 2 tabs - 1 for EDA (a histogram and a data table) and 1 (a violin plot) for inferential analysis.
+The objective of this layout is when the user switch from one tab to another, based on the visualization and their own analysis, they are able to add or remove the names of the their most suspected employees. Then at the end (in `Module 3`), we would see the profile of the user’s decision of their most suspected employees.
 
-    For each of the tabs, we will include options and filters for user interaction.
+Here are our Modules:
 
-    The filters applicable for interactions for the histogram include:  
-    + Employment type (Security, Executive, Administration...)
-    + Expenditure type (Food, Retail, Company...)
-    + Time category: Weekend vs Weekday
-    + Years of employment
-    + Age
-    
+### Module 1 – What are the employees spending on? 
+We will conduct EDA and inferential analysis on the credit card transaction data. On the top of the main visualization area, we will 2 tabs - 
+
+**EDA** (a histogram and a data table) 
+
 ![](IMG/2.PNG)
-![](IMG/3.PNG)
-    Depending on our selection of the various filters, the visualisations in the main panel will be automatically filtered to represent the data corresponding to the filters. For the purpose of our project, we have excluded anomalous transactions when constucting the violin plots. The full range of transactions can nontheless still be viewed through the histogram and the data table.
 
-2. Second module – What emails do they send? We utilise a Network Graph for this visualisation.There will be a filter for the department that the employee belongs to, with the addition of Email Category (work related vs non-work related).
+**Inferential analysis** (violin plot and ANOVA statistical analysis results)
+
+![](IMG/3.PNG)
+
+For each of the tabs, we will include options and filters for user interaction.
+
+Depending on our selection of the various filters, the visualization in the main panel will be automatically filtered. From the controls on the side panel, we can explore 
+
+### Module 2 – What emails do they send?
+We utilize a Network Graph to visualize the connection between GASTech Employees via their email correspondence. On the top of the main visualization area, we have 2 tabs - 
+
+**Network Visualization** 
 
 ![](IMG/4.PNG)
 
-3. Third module - What is their profile? We utilise a Parallel Plot to profile the employees with 5 degrees of interaction as shown below..  
+**Upload Email Headers**
+
+![](IMG/email_load.JPG)
+
+For the Network Visualization, we included filters for user interaction. The user is also able to download a template of the email headers and key in the email type category themselves to categorize the email headers if they wish to. The Network Visualization would change accordingly from the user's categorization if they uploaded their own version. Otherwise, the app will by default use the categories that has been pre-defined. 
+
+### Module 3 - What is their profile? 
+We utilise a Parallel Set Plot to profile the employees with 5 degrees of interaction as shown below.
 
 ![](IMG/5.PNG)
 
-To facilitate exploration by users, we have created a user guide as well.
+To facilitate exploration by users, we have created a [user guide](https://whoissuspicious.netlify.app/blog/user_guide/) that runs through the App step by step. 
 
 ## Analysis Techniques
 
 ### Histogram
 
-A histogram is a plot that illustrates the underlying frequency distribution of a set of continuous data. This allows the inspection of the data for its underlying distribution (e.g., normal distribution), outliers, skewness, etc
+A histogram is a plot that illustrates the underlying frequency distribution of a set of continuous data. This allows the inspection of the data for its underlying distribution (e.g., normal distribution). In particular it allows us to spot outliers and skewness which will help identify suspicious transactions. 
 
 ### Violin Plot
 
@@ -130,7 +142,7 @@ A violin plot depicts distributions of numeric data for one or more groups using
 
 ### Network Graph
 
-Network graphs show interconnections between a set of entities. Each entity is represented by a Node (or vertice). Connections between nodes are represented through links (or edges). In the context of our shiny app, employees represent the nodes while the links represent the email correspondences.
+Network graphs show interconnections between a set of entities. Each entity is represented by a Node (or vertice). Connections between nodes are represented through links (or edges). In the context of our shiny app, employees represent the nodes while the links represent the email correspondences. It allows us to see the connections between identified suspicious people and find more suspicious employees. 
 
 ### Parallel Set Plot
 
@@ -140,7 +152,7 @@ Parallel Set Plots (ParSet) are a visualization method for the exploration of ca
 
 ## First Look 
 
-From our previous analysis and literature review, we know that these four GAStech employees have familial relationships with members of POK and hence are the most suspicious people in GAStech. 
+From our previous analysis, we know that these four GAStech employees have familial relationships with members of POK and hence are the most suspicious people in GAStech. 
 
 * Hennie Osvaldo 
 * Isia Vann 
@@ -170,6 +182,7 @@ Histogram for Weekend:
 ![](IMG/cc_max_range_weekend.PNG)
 
 We make the following observations: 
+
 * Nils Calixto 
   + Made a purchase of $10,000 at Frydos Autosupply n' More just two days before the kidnapping.
   + Other transactions are charged to the decimal place, but this particular transaction is very neat at $10,000. 
@@ -219,46 +232,24 @@ This paper set out the development of a web application targeted at exploring ho
 
 The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
 
-* Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals. E.g. users could be given the option to highlight certain transactions in the violin plot and that simultaneously triggers the network visualisation tab to showcase any connections between the individual who made that transaction.
+* Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals. E.g. users could be given the option to highlight certain transactions in the violin plot and that simultaneously triggers the network visualization tab to showcase any connections between the individual who made that transaction.
+* The option of filtering transactions of identified suspicious employees to better understand their purchasing behaviour. 
+* Additional analysis on email headers based on who sent and who received could be visualized. E.g. when selecting non-work, there was a network from Mat Bramar who is the assistant to CEO to everyone, this means that the particular email header might have been identified wrongly even though it seemed that the email header is non-work related. 
+* The GPS dataset can be utilized further. An additional tab exploring the daily commutes of the employees could be used to further illustrate the daily routiness and the relationships between the employees.
 
-* The GPS dataset can be utilised further. An additional tab exploring the daily commutes of the employees could be used to further illustrate the daily routiness and the relationships between the employees.
+
+
 
 # References
 
-*Cherie Wong, D. D. (2020). A Visual Exploration of Media Consumption in Singapore. 
-*Hendricksen, J. (2013). Profiler: Deriving a digital profile from open source information. 
-*Tushar Sonawanev, S. S. (2015). Crime Pattern Analysis, Visualization And Prediction Using Data Mining . 
-*Wheeler, A. P. (2017). Crime Data Visualization for the Future. 
+Hendricksen, J. (2013). *Deriving a digital profile from open source information.* Radboud Universitieit Nijimegen.
 
+Lian, J. (2021, July 18). *Visual Analytics: Assignment - MC2.* https://isss608vizanalysis.netlify.app/posts/2021-07-18-assignment-mc2/ 
 
+Ng, Y. N. (2021, July 25). *MC1: Findings and Discoveries.* https://yenngee-dataviz.netlify.app/post/2021-07-16-mc1-findings/#3-connections-and-relationships 
 
----
-references:
-- id: meier2012
-  title: Professinal Android 4 Application Development
-  author: 
-  - family: Meier
-    given: Reto
-  type: book
-  publisher: John Wiley & Sons, Inc.
-  issued:
-    year: 2012
-    month: 5
-- id: fenner2012a
-  title: One-click science marketing
-  author:
-  - family: Fenner
-    given: Martin
-  container-title: Nature Materials
-  volume: 11
-  URL: 'https://doi.org/10.1038/nmat3283'
-  DOI: 10.1038/nmat3283
-  issue: 4
-  publisher: Nature Publishing Group
-  page: 261-263
-  type: article-journal
-  issued:
-    year: 2012
-    month: 3
-...
+Srikanth, H. S. T. (2021). Crime Pattern Analysis, Visualization and Pridiction Using Data Mining. *International Journal for Research in Applied Science and Engineering Technology*, 9(VIII), 397–401. https://doi.org/10.22214/ijraset.2021.37323 
 
+Wheeler, A. P. (2017). *Crime Data Visualization for the Future.* School of Economic, Political, and Policy Sciences -- Criminology Program.  
+
+Wong, C., Dunsford, D. R., & Nair, V. (2020). *A Visual Exploration of Media Consumption in Singapore.* Https://Wiki.Smu.Edu.Sg/1920t2isss608. https://wiki.smu.edu.sg/1920t2isss608/Group02_research_paper 
