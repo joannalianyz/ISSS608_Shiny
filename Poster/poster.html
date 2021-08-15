@@ -22,8 +22,6 @@ Google fonts api stuff
 <title>Who is suspicious?</title>
 
 
-<script src="poster_files/accessible-code-block-0.0.1/empty-anchor.js"></script>
-
 
 
 
@@ -280,7 +278,6 @@ font-size: 20pt;
 <div class="title_container">
 <!-- Left Logo  -->
 <div class="logo_left">
-<img src= 'img/detective_other.png' style="width: 80%">
 </div>
 <!-- Poster Title -->
 <div class= "poster_title">
@@ -290,7 +287,6 @@ font-size: 20pt;
 </div>
 <!-- Right Logo  -->
 <div class="logo_right">
-<img src=img/detective.png style="width: 80%">
 </div>
 </div>
 
@@ -302,36 +298,58 @@ font-size: 20pt;
 </div>
 <div id="motivation" class="section level1">
 <h1>Motivation</h1>
-<p>This project aims to create a data analytics applications to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech.</p>
-<ol style="list-style-type: decimal">
-<li>Easy to use reproducible poster design.</li>
-<li>Integration with R Markdown.</li>
-<li>Easy transition from <code>posterdown</code> to <code>pagedown</code> report or manuscript documents <span class="citation">(Xie et al. 2021)</span>.</li>
-</ol>
+<p>This project is motivated by findings that there were suspicious activities within GAStech itself which were worth investigating. This project aims to create a data analytics application to visualize these suspicious activities and relationships for users to judge, who exactly are the ssuspicious individuals.</p>
 </div>
 <div id="approach" class="section level1">
 <h1>Approach</h1>
-<p>Conducting exploration data analysis and inferential data analysis on
-+ Credit card expenditure data
-+ Email headers data
-+ Employee categories</p>
+<p>We will:
+* Conduct data preparation using dplyr and other R packages.
+* Analyse VAST 21 data set with background research using:
++ Exploratory Data Analysis (EDA) methods in R.
++ Inferential Analysis methods in R.
++ Network Analysis in R.
+* Creating a R shiny dashboard showing our findings/insights and conclusions.</p>
 </div>
 <div id="results" class="section level1">
 <h1>Results</h1>
+<p>We identify four GAStech employees who have familial relationships with members of POK and hence are the most suspicious people in GAStech: <strong>Hennie Osvaldo, Isia Vann, Edvard Vann</strong> and <strong>Loreto Bodrogi</strong>.These four people are observed to have many similarities. They are all males in their twenties and all from the security department. In our subsequent analysis, we scrutinize closely the data with these characteristics.</p>
+<div id="credit-card-expenditure" class="section level3">
+<h3>Credit Card Expenditure</h3>
+<p>Looking at the unfiltered credit card transactions data, we see that there are a few outliers. Looking at statistical analysis confirms that the outliers are worth investigating.
+<img src="poster_files/figure-html/anova_department.JPG" /></p>
+<p>The following are just some suspicious oberservations that we make: Nils Calixto made a purchase of $10,000 at Frydos Autosupply n’ More just two days before the kidnapping, Axel Calzas made a purchase of $1239.41 at Albert’s Fine Clothing just 3 days before the kidnapping, Sten Sanjorge Jr made a purchase of $600 at the Chostus Hotel just 3 nights before the kidnapping incident.</p>
+</div>
+<div id="email-correspondence" class="section level3">
+<h3>Email Correspondence</h3>
+<p>We focused straight into the correspondence within the security team and compare the differences between Work and Non Work correspondences.
+Network Visualization for Security Department - Work Correspondence:</p>
+<p><img src="poster_files/figure-html/networkviz_security_work.JPG" /></p>
+<p>Network Visualization for Security Department - Non-Work Correspondence:</p>
+<p><img src="poster_files/figure-html/networkviz_security_nonwork.JPG" /></p>
+<p>If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. We scrutinize the non work email correspondence of Isia Vann:</p>
+<p><img src="poster_files/figure-html/networkviz_security_iVann.JPG" /></p>
+<p>We find another member closely related to our current suspicious candidates - Inga Ferro who is in correspondance with at least 3 of the original suspicious candidates.As for Axel Calzas, we eliminate him as a suspicious person as he does not have non-work correspondence, and any work related emails are department of company based.</p>
+</div>
 </div>
 <div id="future-work" class="section level1">
 <h1>Future Work</h1>
+<ul>
+<li><p>Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals.</p></li>
+<li><p>The GPS dataset can be utilised further. An additional tab exploring the daily commutes of the employees could be used to further illustrate the daily routiness and the relationships between the employees.</p></li>
+</ul>
 </div>
 <div id="try-out-the-app-yourself" class="section level1">
 <h1>Try out the App yourself!</h1>
+<p>You can access the app <a href="https://whoissuspicious.shinyapps.io/who_is_suspicious/">here</a>.</p>
 </div>
-<div id="references" class="section level1 unnumbered">
+<div id="references" class="section level1">
 <h1>References</h1>
-<div id="refs" class="references">
-<div id="ref-R-pagedown">
-<p>Xie, Yihui, Romain Lesur, Brent Thorne, and Xianying Tan. 2021. <em>Pagedown: Paginate the Html Output of R Markdown with Css for Print</em>. <a href="https://github.com/rstudio/pagedown">https://github.com/rstudio/pagedown</a>.</p>
-</div>
-</div>
+<ul>
+<li>Cherie Wong, D. D. (2020). A Visual Exploration of Media Consumption in Singapore.</li>
+<li>Hendricksen, J. (2013). Profiler: Deriving a digital profile from open source information.</li>
+<li>Tushar Sonawanev, S. S. (2015). Crime Pattern Analysis, Visualization And Prediction Using Data Mining.</li>
+<li>Wheeler, A. P. (2017). Crime Data Visualization for the Future.</li>
+</ul>
 </div>
 </div>
 </div>
