@@ -85,7 +85,9 @@ emailServer <- function(id, email_df) {
         ungroup() %>% 
         rowid_to_column("id")
       
-      visNetwork(selected_nodes, selected_edges, width = "100%", height = "150%") %>%
+      visNetwork(selected_nodes, selected_edges, 
+                 main = paste("Network Visualization on", input$email_type ,"Email Correspondence"), 
+                 width = "100%", height = "150%") %>%
         visIgraphLayout(layout = layout_list[[input$layout]] ) %>%
         visLegend() %>%
         visEdges(smooth = FALSE, arrows = 'to') %>%

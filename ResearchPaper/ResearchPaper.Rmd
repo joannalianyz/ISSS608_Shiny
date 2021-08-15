@@ -123,19 +123,90 @@ A violin plot depicts distributions of numeric data for one or more groups using
 
 Network graphs show interconnections between a set of entities. Each entity is represented by a Node (or vertice). Connections between nodes are represented through links (or edges). In the context of our shiny app, employees represent the nodes while the links represent the email correspondences.
 
-### Parallel Plot
+### Parallel Set Plot
 
-Parallel Plots are a visualization method for the exploration of categorical data. They focus on the data frequencies instead of individual data points. The technique is built on the axis layout of parallel coordinates, with boxes representing the categories of data (e.g. gender, department, spending patterns etc.) and parallelograms between the axes showing the relations between categories. Our app enables the user to interactively remap the data to up to five levels of categorization.  
+Parallel Set Plots (ParSet) are a visualization method for the exploration of categorical data. They focus on the data frequencies instead of individual data points. The technique is built on the axis layout of parallel coordinates, with boxes representing the categories of data (e.g. gender, department, spending patterns etc.) and parallelograms between the axes showing the relations between categories. Our app enables the user to interactively remap the data to up to five levels of categorization.  
 
-# Despcription of Product & Findings
+# Description of Product & Findings
 
-The final interactive plots in the published web application, and an
-illustration of the potentially wide range of insights that can be gleaned
-from the application are briefly described below. libr
+## First Look 
+
+From our previous analysis and literature review, we know that these four GAStech employees have familial relationships with members of POK and hence are the most suspicious people in GAStech. 
+
+* Hennie Osvaldo 
+* Isia Vann 
+* Edvard Vann 
+* Loreto Bodrogi
+
+Hence, this is our starting point. We use the ParSet view to see their profile: 
+
+![](IMG/parset_4peeps.JPG)
+
+From here we can observe that these four people have many similarities. They are all males in their twenties and all from the security department, probably with a lot of drive and impulse to possibly plot an internal kidnapping. In our subsequent analysis, we will scrutinize closely the data with these characteristics. 
+
+## Credit Card Expenditure
+
+Now looking at credit card transactions, we added all of the options so that the data is not filtered and then we sort the data table by price. We can immediately see that there are a few outliers. To ensure that the outliers are worth investigating, we select the `inferential` tab to visualize statistical analysis. 
+
+![](IMG/anova_department.JPG)
+
+When we exclude the outliers, the analysis tells us that there is insufficient statistical evidence to reject the null hypothesis that mean of the transactions between the departments are the same. In fact, the means of the transactions hover between $25-60 which suggests the outliers that we spotted is worth investigating into.
+
+Histogram for Weekday: 
+
+![](IMG/cc_max_range.JPG)
+
+Histogram for Weekend: 
+
+![](IMG/cc_max_range.JPG)
+
+We make the following observations: 
+* Nils Calixto 
+  + Made a purchase of $10,000 at Frydos Autosupply n' More just two days before the kidnapping.
+  + Other transactions are charged to the decimal place, but this particular transaction is very neat at $10,000. 
+  + if we compare to the other purchases within the same cateogory, most transactions fall below $500 
+  + This single transaction make Nils Calixto very suspicious. 
+* Axel Calzas 
+  + Made a purchase of $1239.41 at Albert's Fine Clothing just 3 days before the kidnapping. 
+  + Most purchases made are around $300. It could be that Axel helped pick up for 3-4 person. 
+  + We consider Axel Calzas as suspicious first but we should look into his relationships in more detail. 
+* Sten Sanjorge Jr 
+  + Made a purchase of $600 at the Chostus Hotel just 3 nights before the kidnapping incident. 
+  + Sanjorge Jr was initially counted as one of the kidnapped victims but it turns out that he was just returning to Tethys. (add ref)
+  + The combination of this news and this transaction makes the CEO a suspect as well. 
+  
+## Email Correspondence 
+
+We focused straight into the correspondence within the security team and compare the differences between Work and Non Work below: 
+
+Network Visualization for Security Department - Work Correspondence: 
+
+![](IMG/networkviz_security_work.JPG)
+
+Network Visualization for Security Department - Non-Work Correspondence: 
+
+![](IMG/networkviz_security_nonwork.JPG)
+
+If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team, however if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. There are some members who only receive emails while some members where there are exchange of emails. 
+
+Let us scrutinize the non work email correspondence of Isia Vann with the rest of the organization: 
+
+![](IMG/networkviz_security_iVann.JPG)
+
+We found another member closely related to our current suspicious candidates - Inga Ferro who is in correspondance with at least 3 of the original suspicious candidates which makes this person suspicious as well. 
+
+When we select Axel Calzas, we realize that this person do not have non-work correspondence, and any work related emails are department of company based. This eliminates the suspicious off and we removed the name. 
+
+## Parset Final 
+
+Here is the final profile of our judgement of suspicious employees in GASTech: 
+
+![](IMG/parset_final.JPG)
+
 
 # Conclusion & Further Ideas
 
-This paper set out the development of a web application targeted at exploring how we could use visually motivated tools to  facilitate the profiling process. The project was motivated by our realisation through the VAST 2021 project that there were suspicious behaviours demonstrated by some individuals which were worth investigating.
+This paper set out the development of a web application targeted at exploring how we could use visually motivated tools to  facilitate the profiling process. The project was motivated by our realization through the VAST 2021 project that there were suspicious behaviors demonstrated by some individuals which were worth investigating.
 
 The application was developed using the Shiny architecture on R, supported with a range of statistical packages to provide users with a whole range of techniques to derive insights from the data. Definitely though, the range of techniques and ideas executed in this project is non-exhaustive and We suggest that the below can be explored in the future development of the app:
 

@@ -19,10 +19,19 @@ statplotUI <- function(id) {
     h4(tags$b("Credit card spending patterns of GASTech employees")),    
     sidebarLayout(        
       sidebarPanel(            
-        selectInput(NS(id, "variable"),
-                    label = "Category to compare:",
-                    choices = choices_names,
-                    selected = "Department"),
+        selectInput(
+          NS(id, "variable"),
+          label = "Category to compare:",
+          choices = choices_names,
+          selected = "Department"),
+        
+        sliderInput(
+          NS(id, "price"),
+          label = "Range of Prices:",
+          min = 1,
+          max = max(GasTech_df$Price),
+          value= c(1,600)
+        )
       ),
       
       mainPanel(
@@ -36,13 +45,14 @@ statplotUI <- function(id) {
 statplotServer <- function(id) {
   moduleServer(id, function(input, output, session) {
     
-    Q <- quantile(GasTech_df$Price, probs=c(.25, .75), na.rm = FALSE)
-    iqr <- IQR(GasTech_df$Price)
-    data <- subset(GasTech_df, GasTech_df$Price > (Q[1] - 1.5*iqr) & GasTech_df$Price < (Q[2]+1.5*iqr))
+    # Q <- quantile(GasTech_df$Price, probs=c(.25, .75), na.rm = FALSE)
+    # iqr <- IQR(GasTech_df$Price)
+    # data <- subset(GasTech_df, GasTech_df$Price > (Q[1] - 1.5*iqr) & GasTech_df$Price < (Q[2]+1.5*iqr))
   
     
     output$statplot <- renderPlot({
-      
+      data <- GasTech_df %>%
+        filter(Price >= strtoi(input$price)[1] &  Price <= strtoi(input$price)[2] )
       ggbetweenstats(
         data = data,
         x = !!sym(choices[[input$variable]]),

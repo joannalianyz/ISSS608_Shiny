@@ -61,6 +61,14 @@ histogramUI <- function(id) {
                     value= c(10)
                 ),
                 
+                sliderInput(
+                    NS(id, "price"),
+                    label = "Range of Prices:",
+                    min = 1,
+                    max = max(GasTech_df$Price),
+                    value= c(1,600)
+                ),
+                
                 checkboxInput(
                     NS(id,"showDT"),
                     label = "Show data table",
@@ -86,7 +94,8 @@ histogramServer <- function(id) {
                 filter(Employment_Type %in% input$employment) %>%
                 filter(Category %in% input$category) %>% 
                 filter(EmploymentYears >= strtoi(input$emp_yrs)[1] &  EmploymentYears <= strtoi(input$emp_yrs)[2] ) %>%
-                filter(Age >= strtoi(input$age)[1] &  Age <= strtoi(input$age)[2] )
+                filter(Age >= strtoi(input$age)[1] &  Age <= strtoi(input$age)[2] ) %>%
+                filter(Price >= strtoi(input$price)[1] &  Price <= strtoi(input$price)[2] )
             
             hist(data$Price, 
                  breaks = input$bins, 
@@ -100,7 +109,7 @@ histogramServer <- function(id) {
                 filter(Employment_Type %in% input$employment) %>%
                 filter(Category %in% input$category) %>% 
                 filter(EmploymentYears >= strtoi(input$emp_yrs)[1] &  EmploymentYears <= strtoi(input$emp_yrs)[2] ) %>%
-                filter(Age >= strtoi(input$age)[1] &  Age <= strtoi(input$age)[2] )
+                filter(Price >= strtoi(input$price)[1] &  Price <= strtoi(input$price)[2] )
             
             if(input$showDT){
                 DT::datatable(data = data %>% select(1:10),
