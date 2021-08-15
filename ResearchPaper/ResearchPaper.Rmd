@@ -167,7 +167,7 @@ Histogram for Weekday:
 
 Histogram for Weekend: 
 
-![](IMG/cc_max_range.JPG)
+![](IMG/cc_max_range_weekend.PNG)
 
 We make the following observations: 
 * Nils Calixto 
