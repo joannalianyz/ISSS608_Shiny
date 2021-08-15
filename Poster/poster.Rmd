@@ -1,0 +1,51 @@
+---
+title: Who is suspicious?
+author:
+  - name: Joanna Lian
+    affil: 1
+  - name: Ng Yen Ngee
+    affil: 1
+affiliation:
+  - num: 1
+    address: Singapore Management University
+column_numbers: 3
+output: 
+  posterdown::posterdown_html:
+    self_contained: false
+bibliography: packages.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+In January 2014, the leaders of GAStech are celebrating their new-found fortune as a result of the initial public offering of their very successful company. In the midst of this celebration, several employees of GAStech go missing. An organization known as the Protectors of Kronos (POK) is suspected in the disappearance, but things may not be what they seem. It appears that certain employees of GAStech may be involved in the disappearance. 
+
+# Motivation
+
+This project aims to create a data analytics applications to visualize these suspicious activities and relationships for users to judge, who exactly are the suspicious people in GASTech. 
+
+1. Easy to use reproducible poster design. 
+2. Integration with R Markdown.
+3. Easy transition from `posterdown` to `pagedown` report or manuscript documents [@R-pagedown].
+
+# Approach
+
+Conducting exploration data analysis and inferential data analysis on
+    + Credit card expenditure data
+    + Email headers data
+    + Employee categories 
+
+# Results
+
+
+
+# Future Work
+
+
+
+# Try out the App yourself! 
+
+# References
