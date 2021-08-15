@@ -21,7 +21,9 @@ aboutUI <- function(id) {
         h4(tags$b("Starting point")), 
         "This application features findings from various types of data sources describing credit card transactions, 
         email correspondance and employee records of GASTech Employees. Click through each tab on the Navigation 
-        Panel on top to go through each data set and make your own judgement. When you find someone suspicious, 
+        Panel on top to go through each data set and make your own judgement. For a more detailed user guide,", 
+        tags$a(href="https://suspicious-gastech.netlify.app/blog/user_guide/", "click here"),
+        "When you find someone suspicious, 
         Place their name in the input bar below. After you have completed your analysis, you can click on the tab 
         'What is their profile' to see the suspicious ones characteristics and perhaps discover more from there...", 
         "Good luck, have fun exploring the application!",

@@ -2,17 +2,17 @@ library(tidyverse)
 
 ## Load Data ----
 
-email_headers <- read_csv("data/email/email_headers.csv")
+email_headers <- read_csv("Data/email/email_headers.csv")
 
 # Nodes
-gastech_nodes <- read_rds("data/email/gastech_employees.rds") %>% 
+gastech_nodes <- read_rds("Data/email/gastech_employees.rds") %>% 
   mutate(title = paste(label, CurrentEmploymentTitle,' ')) %>%
   rename(group = CurrentEmploymentType,
          citizenship = CitizenshipCountry) %>% 
   select(id, label, group, title, citizenship)
 
 # Edges 
-gastech_edges <- read_rds("data/email/gastech_emails.rds")%>% 
+gastech_edges <- read_rds("Data/email/gastech_emails.rds")%>% 
   rename(from = source, to = target)  
 
 # layout 
