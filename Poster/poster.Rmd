@@ -35,14 +35,25 @@ We will:
 * Creating a R shiny dashboard showing our findings/insights.
 
 # Results
-We identify four GAStech employees who have familial relationships with members of POK and hence are the most suspicious people in GAStech: **Hennie Osvaldo, Isia Vann, Edvard Vann** and **Loreto Bodrogi**.These four people are observed to have many similarities. They are all males in their twenties and all from the security department. In our subsequent analysis, we scrutinize closely the data with these characteristics. 
+We identify four GAStech employees who have familial relationships with members of POK and hence are the most suspicious people in GAStech: 
+
+* Hennie Osvaldo
+* Isia Vann
+* Edvard Vann
+* Loreto Bodrogi
+
+From here we can observe that these four people have many similarities. They are all males in their twenties and all from the security department, probably with a lot of drive and impulse to possibly plot an internal kidnapping. In our subsequent analysis, we will scrutinize closely the data with these characteristics. 
 
 ### Credit Card Expenditure
 We see from the unfiltered credit card data that there are outliers and statistical analysis confirms these are worth investigating.
 ![](poster_files/figure-html/anova_department.JPG)
 
-The following are just some suspicious oberservations that we make: Nils Calixto made a purchase of $10,000 at Frydos Autosupply n' More just two days before the kidnapping, Axel Calzas made a purchase of $1239.41 at Albert's Fine Clothing just 3 days before the kidnapping, Sten Sanjorge Jr made a purchase of $600 at the Chostus Hotel just 3 nights before the kidnapping incident.
-  
+The following are just some suspicious oberservations that we make: 
+
+* Nils Calixto made a purchase of $10,000 at Frydos Autosupply n' More just two days before the kidnapping. If we compare to the other purchases within the same cateogory, most transactions fall below $500. 
+* Axel Calzas made a purchase of $1239.41 at Albert's Fine Clothing just 3 days before the kidnapping. Most purchases made are around $300.
+* Sten Sanjorge Jr made a purchase of $600 at the Chostus Hotel just 3 nights before the kidnapping incident. He was initially counted as one of the kidnapped victims but it turns out that he was just returning to Tethys. 
+
 ### Email Correspondence 
 We focused straight into the correspondence within the security team and compare the differences between Work and Non Work correspondences.
 Network Visualization for Security Department - Work Correspondence: 
@@ -53,18 +64,18 @@ Network Visualization for Security Department - Non-Work Correspondence:
 
 ![](poster_files/figure-html/networkviz_security_nonwork.JPG)
 
-If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. We scrutinize the non work email correspondence of Isia Vann: 
+If we observe the network of Work Correspondence, we observe that the emails sent are sent rather consistently throughout the team, however if we look at the other visualization we can see quite obviously the imbalance. Isia Vann and Hennie Osvaldo seems to be in the center of all these correspondence. 
+
+Let us scrutinize the non work email correspondence of Isia Vann with the rest of the organization: 
 
 ![](poster_files/figure-html/networkviz_security_iVann.JPG)
 
 We find another member closely related to our current suspicious candidates - Inga Ferro who is in correspondance with at least 3 of the original suspicious candidates.As for Axel Calzas, we eliminate him as a suspicious person as he does not have non-work correspondence, and any work related emails are department of company based. 
 
 # Future Work
-
-* Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals.
+* Additional user interaction features within and between each tab in the app to speed up the detection of suspicious individuals. E.g. users could be given the option to highlight certain transactions in the violin plot and that simultaneously triggers the network visualisation tab to showcase any connections between the individual who made that transaction.
 
 * The GPS dataset can be utilised further. An additional tab exploring the daily commutes of the employees could be used to further illustrate the daily routiness and the relationships between the employees.
-
 
 # Try out the App yourself! 
 
